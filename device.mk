@@ -231,7 +231,8 @@ PRODUCT_PACKAGES += \
     DuchampSettingsOverlay \
     DuchampSettingsProviderOverlayPoco \
     DuchampSettingsProviderOverlayRedmi \
-    DuchampSystemUIOverlay
+    DuchampSystemUIOverlay \
+    DuchampWifiOverlay
 
 PRODUCT_PACKAGES += \
     LineageApertureOverlayDuchamp
