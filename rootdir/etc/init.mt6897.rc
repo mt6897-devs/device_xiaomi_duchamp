@@ -6,6 +6,7 @@ import /vendor/etc/init/hw/init.cgroup.rc
 import /vendor/etc/init/hw/init.modem.rc
 
 on early-init
+    write /sys/module/drm/parameters/vblankoffdelay -1
     # initialize vendor.all.modules.ready to 1 here to prevent NOT GKI project blocked
     setprop vendor.all.modules.ready 1
 
