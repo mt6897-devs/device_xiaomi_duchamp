@@ -167,7 +167,8 @@ PRODUCT_PACKAGES += \
    WifiOverlay
 
 PRODUCT_PACKAGES += \
-   LineageApertureOverlayDuchamp
+   LineageApertureOverlayDuchamp \
+   LineageDialerDuchamp
 
 # Parts
 PRODUCT_PACKAGES += \
