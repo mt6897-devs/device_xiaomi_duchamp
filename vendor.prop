@@ -23,6 +23,9 @@ ro.vendor.dolby.dax.version=DAX3_3.8.5.20_r1
 vendor.audio.dolby.control.support=true
 vendor.audio.dolby.control.tunning.by.volume.support=false
 
+# APK Verity
+ro.apk_verity.mode=2
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
