@@ -97,6 +97,9 @@ ro.vendor.connsys.dedicated.log.port=bt,wifi,ics,btmcu,wifimcu
 ro.vendor.connsys.dedicated.log=1
 vendor.connsys.driver.ready=no
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 debug.mediatek.appgamepq_compress=1
 debug.sf.auto_latch_unsignaled=false
