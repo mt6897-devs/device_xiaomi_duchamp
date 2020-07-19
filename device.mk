@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
