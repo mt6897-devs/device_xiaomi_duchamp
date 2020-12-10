@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Enforce generic ramdisk allow list
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
+
 # A/B
 ifeq ($(WITH_GMS),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
