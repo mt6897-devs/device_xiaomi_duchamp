@@ -19,5 +19,6 @@ android_app {
     static_libs: [
         "SettingsLib",
         "androidx.preference_preference",
+        "org.lineageos.settings.resources",
     ],
 }
