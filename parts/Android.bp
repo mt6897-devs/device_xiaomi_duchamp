@@ -15,6 +15,7 @@ android_app {
         "androidx.core_core",
         "org.lineageos.settings.resources",
         "SettingsLib",
+        "vendor.xiaomi.hw.touchfeature-V1-java"
     ],
     required: [
         "privapp_whitelist_com.xiaomi.settings.xml",
