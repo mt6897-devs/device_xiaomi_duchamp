@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "DuchampSettingsProviderOverlayPoco",
+    manifest: "AndroidManifest-POCO.xml",
+    resource_dirs: ["res-POCO"],
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "DuchampSettingsProviderOverlayRedmi",
+    manifest: "AndroidManifest-Redmi.xml",
+    resource_dirs: ["res-Redmi"],
+    vendor: true,
+}

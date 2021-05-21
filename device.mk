@@ -228,6 +228,8 @@ PRODUCT_PACKAGES += \
     DuchampCarrierConfigOverlay \
     DuchampFrameworksOverlay \
     DuchampSettingsOverlay \
+    DuchampSettingsProviderOverlayPoco \
+    DuchampSettingsProviderOverlayRedmi \
     DuchampSystemUIOverlay
 
 PRODUCT_PACKAGES += \
