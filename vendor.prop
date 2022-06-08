@@ -57,6 +57,7 @@ vendor.connsys.driver.ready=no
 ro.hardware.consumerir=common
 
 # Crypto
+ro.crypto.metadata_init_delete_all_keys.enabled=true
 ro.crypto.volume.options=aes-256-xts:aes-256-hctr2
 
 # Display
