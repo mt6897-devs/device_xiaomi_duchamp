@@ -22,6 +22,7 @@ vendor.audio.dolby.control.support=true
 vendor.audio.dolby.control.tunning.by.volume.support=false
 
 # Bluetooth
+bluetooth.hardware.power.operating_voltage_mv=3300
 bluetooth.profile.a2dp.source.enabled=true
 bluetooth.profile.asha.central.enabled=true
 bluetooth.profile.avrcp.target.enabled=true
