@@ -167,6 +167,9 @@ PRODUCT_PACKAGES += \
    TetheringResOverlayDuchamp \
    WifiOverlay
 
+PRODUCT_PACKAGES += \
+   LineageApertureOverlayDuchamp
+
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
