@@ -219,6 +219,9 @@ PRODUCT_PACKAGES += \
     DuchampSystemUIOverlay
 
 PRODUCT_PACKAGES += \
+    LineageApertureOverlayDuchamp
+
+PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
 # Partitions
