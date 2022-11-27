@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+PRODUCT_VENDOR_PROPERTIES += ro.virtual_ab.compression.threads=true
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
