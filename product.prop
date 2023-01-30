@@ -22,3 +22,6 @@ bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 bluetooth.profile.ccp.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=true
+
+# RKPD
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
