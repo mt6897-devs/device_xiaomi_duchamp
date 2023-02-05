@@ -64,6 +64,9 @@ function blob_fixup {
             ;;
         vendor/lib64/c2.dolby.client.so)
             grep -q "dolbycodec_shim.so" "${2}" || "${PATCHELF}" --add-needed "dolbycodec_shim.so" "${2}"
+	    ;;
+        odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc)
+            sed -i '/seclabel/d' "${2}"
             ;;
     esac
 }
