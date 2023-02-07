@@ -56,6 +56,9 @@ vendor.connsys.driver.ready=no
 # ConsumerIr
 ro.hardware.consumerir=common
 
+# Crypto
+ro.crypto.volume.options=aes-256-xts:aes-256-hctr2
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiagl
