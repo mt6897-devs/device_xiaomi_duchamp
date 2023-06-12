@@ -89,6 +89,31 @@ on post-fs
     symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/fs/h
     symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/hs/h
     symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/ss/h
+    # remove write permissions for 'others'
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/control/header/h/bcdUVC
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/control/header/h/dwClockFrequency
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/function_name
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming_interval
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming_maxburst
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming_maxpacket
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/bmCapabilities
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwDefaultFrameInterval
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwFrameInterval
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMaxBitRate
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMaxVideoFrameBufferSize
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMinBitRate
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wHeight
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wWidth
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/bmCapabilities
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwDefaultFrameInterval
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwFrameInterval
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMaxBitRate
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMaxVideoFrameBufferSize
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMinBitRate
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wHeight
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wWidth
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bDefaultFrameIndex
+    chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bmaControls
 
     # chown file/folder permission
     chown system system /config/usb_gadget/
