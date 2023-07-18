@@ -1,2 +1,3 @@
 on init
     setprop sys.usb.ffs.aio_compat 1
+    setprop sys.usb.configfs 1
