@@ -21,7 +21,7 @@
         <library name="downmix" path="libdownmix.so"/>
         <library name="loudness_enhancer" path="libldnhncr.so"/>
         <library name="dynamics_processing" path="libdynproc.so"/>
-        <library name="pre_processing" path="libaudiopreprocessing_mtk.so"/>
+        <library name="pre_processing" path="libaudiopreprocessing.so"/>
     </libraries>
     <!-- list of effects to load.
          Each "effect" element must contain a "name", "library" and a "uuid" attribute.
