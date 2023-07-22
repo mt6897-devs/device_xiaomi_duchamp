@@ -331,6 +331,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.recovery.mt6897.rc \
     init.sensor_2_0.rc \
+    init.target.rc \
     ueventd.mtk.rc
 
 # Secure Element

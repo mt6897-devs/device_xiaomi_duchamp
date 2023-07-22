@@ -96,6 +96,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
     name: "ueventd.mtk.rc",
     src: "etc/ueventd.mtk.rc",
     filename: "ueventd.rc",
