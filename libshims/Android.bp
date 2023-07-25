@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libshim_sink",
+    srcs: ["libshim_sink.cpp"],
+    compile_multilib: "64",
+    shared_libs: [
+        "libaudioclient",
+    ],
+    header_libs: [
+        "libaudioclient_headers",
+        "libmedia_headers",
+    ],
+}
+
