@@ -242,6 +242,7 @@ ro.vendor.arm.gralloc.shared_access_usage_mask=0x50000000
 
 # DRM
 drm.service.enabled=true
+ro.netflix.bsp_rev=MTK6897-37606-1
 
 # Encryption
 ro.crypto.volume.filenames_mode=aes-256-cts
