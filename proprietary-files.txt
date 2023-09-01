@@ -305,3 +305,13 @@ vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6897.
 vendor/lib64/libhfmanager.so
 vendor/lib64/libksensor.so
 vendor/lib64/libnotifyaudiohal.so
+
+# Sensors (citsensor)
+odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
+odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
+odm/etc/sensors/lightSensorCali.json
+odm/etc/sensors/lightSensorConfig.json
+odm/etc/sensors/lightSensorConfigSec.json
+odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
+vendor/lib64/libhfmanagerwrapper.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
