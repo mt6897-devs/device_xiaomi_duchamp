@@ -34,4 +34,4 @@ allow mi_thermald {
   lnk_file
 } rw_file_perms;
 
-set_prop(mi_thermald, thermal_engine_prop)
+set_prop(mi_thermald, vendor_thermal_engine_prop)

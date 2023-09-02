@@ -1,2 +1,2 @@
 # Thermal
-vendor.sys.thermal.                      u:object_r:thermal_engine_prop:s0
+vendor.sys.thermal.                      u:object_r:vendor_thermal_engine_prop:s0
