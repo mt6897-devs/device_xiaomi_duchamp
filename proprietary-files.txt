@@ -838,9 +838,7 @@ vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal-service.mediatek
 vendor/bin/mi_thermald
-vendor/etc/init/thermal-mediatek.rc
 
 # Thermal (Configs)
 odm/etc/thermal-4k.conf
