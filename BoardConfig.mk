@@ -12,6 +12,10 @@ TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := duchamp
+TARGET_NO_BOOTLOADER := true
+
 # Kernel
 BOARD_DTB_OFFSET := 0x07c88000
 BOARD_KERNEL_BASE := 0x3fff8000
@@ -35,6 +39,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 
 TARGET_KERNEL_CONFIG := duchamp
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6897
+
+# Platform
+TARGET_BOARD_PLATFORM := mt6897
+BOARD_HAS_MTK_HARDWARE := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/duchamp/BoardConfigVendor.mk
