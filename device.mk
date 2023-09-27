@@ -101,6 +101,23 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2023-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level-2023-03-01.xml
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6897 \
+    fstab.mt6897.vendor_ramdisk \
+    init.batterysecret.rc \
+    init.cgroup.rc \
+    init.connectivity.rc \
+    init.insmod.sh \
+    init.mi_thermald.rc \
+    init.modem.rc \
+    init.mt6897.rc \
+    init.mt6897.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    ueventd.mtk.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 

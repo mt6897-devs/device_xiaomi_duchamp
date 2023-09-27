@@ -1,0 +1,10 @@
+service insmod_sh /vendor/bin/init.insmod.sh /vendor/etc/init.insmod.mtk.cfg
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on early-init
+    setprop vendor.all.modules.ready 0
+    start insmod_sh
