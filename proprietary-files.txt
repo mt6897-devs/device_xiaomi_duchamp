@@ -3,6 +3,9 @@
 # AEE
 vendor/lib64/libaedv.so
 
+# ConsumerIr
+vendor/lib64/hw/consumerir.common.so
+
 # Display
 odm/lib64/libclient2slpi.notifier.so
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service

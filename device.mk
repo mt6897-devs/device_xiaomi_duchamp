@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# ConsumerIr
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.example
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek-mali
