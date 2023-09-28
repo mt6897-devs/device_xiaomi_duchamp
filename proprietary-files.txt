@@ -558,6 +558,18 @@ odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
 vendor/lib64/libhfmanagerwrapper.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
 
+# Tether Offload
+vendor/bin/hw/tetheroffloadservice
+vendor/bin/netdagent
+vendor/etc/init/android.hardware.tetheroffload-V1-service.rc
+vendor/etc/init/netdagent.rc
+vendor/etc/vintf/manifest/CommandService.xml
+vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml
+vendor/lib64/libforkexecwrap.so
+vendor/lib64/libifcutils_mtk.so
+vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
+
 # Thermal
 vendor/bin/hw/android.hardware.thermal-service.mediatek
 vendor/bin/mi_thermald
@@ -599,3 +611,15 @@ vendor/etc/thermal/thermal_policy_08.conf
 vendor/etc/thermal/thermal_policy_09.conf
 vendor/etc/thermalbreakboostconfig.xml
 vendor/etc/thermald-devices.conf
+
+# Wi-Fi
+vendor/bin/wlan_assistant
+vendor/etc/init/init.wlan_drv.rc
+vendor/etc/init/wlan_assistant.rc
+vendor/etc/wifi/nvram/wfnv_desc_data_soc70.bin
+vendor/etc/wifi/nvram/wfnv_desc_map_soc70.bin
+vendor/etc/wifi/p2p_supplicant_overlay.conf
+vendor/etc/wifi/wpa_supplicant.conf
+vendor/etc/wifi/wpa_supplicant_overlay.conf
+vendor/firmware/wifi.cfg
+vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
