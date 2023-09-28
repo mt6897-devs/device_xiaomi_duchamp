@@ -3,6 +3,9 @@
 # AEE
 vendor/lib64/libaedv.so
 
+# Batterysecret
+vendor/bin/batterysecret
+
 # Connectivity
 vendor/bin/conninfra_loader
 vendor/firmware/connfem.cfg
@@ -262,6 +265,13 @@ odm/lib64/libgf_hal.so
 vendor/etc/vintf/manifest/fod-aidl.xml
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+
+# Fuelgauge
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/lib64/libfgauge_gm30.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
