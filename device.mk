@@ -88,6 +88,13 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio-V3-ndk.vendor \
+    android.hardware.bluetooth@1.1.vendor \
+    libbluetooth_audio_session
+
 # ConsumerIr
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
