@@ -3,6 +3,15 @@
 # AEE
 vendor/lib64/libaedv.so
 
+# Connectivity
+vendor/bin/conninfra_loader
+vendor/firmware/connfem.cfg
+vendor/firmware/conninfra.cfg
+vendor/firmware/soc7_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin
+vendor/firmware/txpowerctrl.cfg
+
 # ConsumerIr
 vendor/lib64/hw/consumerir.common.so
 
