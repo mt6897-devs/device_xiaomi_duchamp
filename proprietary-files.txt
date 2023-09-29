@@ -255,6 +255,14 @@ vendor/firmware/goodix_firmware_duchamp.bin
 vendor/firmware/st_fts_L11.ftb
 vendor/firmware/st_fts_L11a.ftb
 
+# Fingerprint
+odm/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
+odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+odm/lib64/libgf_hal.so
+vendor/etc/vintf/manifest/fod-aidl.xml
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
 vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc

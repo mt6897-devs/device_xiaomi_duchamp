@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper-V1-ndk.vendor
@@ -190,7 +194,8 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/mediatek
+    hardware/mediatek \
+    hardware/xiaomi
 
 # Thermal
 PRODUCT_PACKAGES += \
