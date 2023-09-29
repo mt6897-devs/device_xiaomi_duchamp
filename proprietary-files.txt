@@ -299,6 +299,29 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
 
+# Perf
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
+vendor/etc/breakwhiteapplist.xml
+vendor/etc/init/mtkpower_applist-mtk-default.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/etc/power_app_cfg.xml
+vendor/etc/powercontable.xml
+vendor/etc/powerscntbl.xml
+vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
+vendor/lib64/lib_power_applist.so
+vendor/lib64/libmtkperf_client_vendor.so
+vendor/lib64/libperfctl_vendor.so
+vendor/lib64/libpower_timer.so
+vendor/lib64/libpowerhal.so
+vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+
 # Sensors
 vendor/etc/elliptic_sensor.xml
 vendor/firmware/remoteproc_scp
