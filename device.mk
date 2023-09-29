@@ -164,6 +164,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
