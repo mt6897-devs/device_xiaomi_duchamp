@@ -1360,6 +1360,12 @@ vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc
 vendor/etc/permissions/android.hardware.identity_credential.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.identity@5.0-service.mitee.xml
 
+# HotwordEnrollment
+product/priv-app/HotwordEnrollmentXGoogleRISCV_WIDEBAND/HotwordEnrollmentXGoogleRISCV_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentYGoogleRISCV_WIDEBAND/HotwordEnrollmentYGoogleRISCV_WIDEBAND.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee
 vendor/etc/init/android.hardware.security.keymint.mitee@3.0-service.rc
