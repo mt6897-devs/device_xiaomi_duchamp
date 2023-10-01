@@ -182,6 +182,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-V1-ndk \
     android.hardware.health@1.0.vendor
 
+# HotwordEnrollement app permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.rkp-V3-ndk.vendor \

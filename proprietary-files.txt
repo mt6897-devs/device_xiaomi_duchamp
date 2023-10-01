@@ -1540,6 +1540,12 @@ vendor/lib64/mt6897/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
 vendor/lib64/vendor.mediatek.hardware.gnss-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
 
+# HotwordEnrollment
+product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
+product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Keymint
 vendor/bin/hw/android.hardware.identity-service.mitee@5.0
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee
