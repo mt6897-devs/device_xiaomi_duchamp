@@ -879,6 +879,9 @@ vendor/etc/thermal/thermal_policy_09.conf
 vendor/etc/thermalbreakboostconfig.xml
 vendor/etc/thermald-devices.conf
 
+# Vibrator
+vendor/firmware/aw8697_haptic.bin
+
 # Wi-Fi
 vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc
