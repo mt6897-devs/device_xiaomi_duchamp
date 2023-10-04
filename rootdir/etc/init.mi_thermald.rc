@@ -5,8 +5,7 @@ on boot
     wait /sys/class/power_supply/usb/type
     start mi_thermald
 
-service mi_thermald /system/vendor/bin/mi_thermald
+service mi_thermald /vendor/bin/mi_thermald
     class main
     user root
     group system
-    seclabel u:r:mi_thermald:s0
