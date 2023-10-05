@@ -77,6 +77,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiDolby
 
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
