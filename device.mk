@@ -209,6 +209,10 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mtk.rc
 
+# Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element-V1-ndk.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
    android.hardware.sensors-service.multihal \

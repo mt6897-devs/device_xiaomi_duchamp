@@ -548,6 +548,10 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 # Radio (IMS-App) - from duchamp_global-user 14 UP1A.230905.011 V816.0.8.0.UNLMIXM release-keys (patched)
 system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|5a9cd0a1b19881f8cdb6531ed557cab1e3351a50
 
+# Secure Element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+
 # Sensors
 vendor/etc/elliptic_sensor.xml
 vendor/firmware/remoteproc_scp
