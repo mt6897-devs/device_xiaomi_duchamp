@@ -81,7 +81,6 @@ system_dlkm                      /system_dlkm           ext4    ro   wait,slotse
 /dev/block/by-name/proinfo       /proinfo               emmc    defaults   defaults
 /dev/block/by-name/protect1      /mnt/vendor/protect_f  ext4    noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
 /dev/block/by-name/protect2      /mnt/vendor/protect_s  ext4    noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
-/dev/block/by-name/rescue        /cache                 ext4    noatime,nosuid,nodev,noauto_da_alloc,discard   wait,check,formattable
 
 # External Storage
 /devices/platform/soc/11201000.usb0/11200000.xhci* auto   vfat   defaults   voldmanaged=usbotg:auto
