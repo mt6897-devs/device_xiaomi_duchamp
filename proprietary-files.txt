@@ -1708,6 +1708,9 @@ vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
+# Public libraries
+vendor/etc/public.libraries.txt
+
 # Radio
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
