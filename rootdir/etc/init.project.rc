@@ -121,3 +121,48 @@ on boot
 on boot && property:ro.product.device=duchamp && property:ro.boot.hwc=GL
     setprop persist.vendor.accelerate.charge false
     setprop persist.vendor.extreme.mode false
+
+on post-fs-data
+    mkdir /data/vendor/misc 01771 system system
+    mkdir /data/vendor/fpc 0770 system system
+    mkdir /data/vendor/fpdump 0770 system system
+    mkdir /data/vendor/gf_data 0770 system system
+    mkdir /data/vendor/goodix 0770 system system
+    mkdir /data/vendor/fingerprint 0770 system system
+    mkdir /mnt/vendor/persist/goodix 0770 system system
+    mkdir /mnt/vendor/persist/fpc 0770 system system
+
+on boot
+    chmod 0666 /dev/goodix_fp
+    chown system system /dev/goodix_fp
+    chown system system /sys/bus/platform/devices/fingerprint/clk_enable
+    chmod 0660 /sys/bus/platform/devices/fingerprint/clk_enable
+    chown system system /sys/bus/platform/devices/fingerprint/power_ctrl
+    chmod 0660 /sys/bus/platform/devices/fingerprint/power_ctrl
+    chown system system /sys/bus/platform/devices/fingerprint/wakeup_enable
+    chmod 0660 /sys/bus/platform/devices/fingerprint/wakeup_enable
+    chown system system /sys/bus/platform/devices/fingerprint/hw_reset
+    chmod 0660 /sys/bus/platform/devices/fingerprint/hw_reset
+    chown system system /sys/bus/platform/devices/fingerprint/screen
+    chmod 0660 /sys/bus/platform/devices/fingerprint/screen
+    chown system system /sys/bus/platform/devices/fingerprint/irq
+    chmod 0660 /sys/bus/platform/devices/fingerprint/irq
+    chown system system /sys/bus/spi/devices/spi1.0/clk_enable
+    chmod 0660 /sys/bus/spi/devices/spi1.0/clk_enable
+    chown system system /sys/bus/spi/devices/spi1.0/wakeup_enable
+    chmod 0660 /sys/bus/spi/devices/spi1.0/wakeup_enable
+    chown system system /sys/bus/spi/devices/spi1.0/hw_reset
+    chmod 0660 /sys/bus/spi/devices/spi1.0/hw_reset
+    chown system system /sys/bus/spi/devices/spi1.0/irq
+    chmod 0660 /sys/bus/spi/devices/spi1.0/irq
+    chown system system /sys/bus/spi/devices/spi1.0/screen
+    chmod 0660 /sys/bus/spi/devices/spi1.0/screen
+    chown system system /sys/bus/spi/devices/spi1.0/power_ctrl
+    chmod 0660 /sys/bus/spi/devices/spi1.0/power_ctrl
+    chown system system /sys/bus/spi/devices/spi1.0/fingerdown_wait
+    chmod 0660 /sys/bus/spi/devices/spi1.0/fingerdown_wait
+    chown system system /sys/bus/spi/devices/spi5.0/authen_fd/performance
+    chmod 0660 /sys/bus/spi/devices/spi5.0/authen_fd/performance
+    chown system system /sys/class/drm/card0-DSI-1/disp_param
+    chmod 0664 /sys/class/drm/card0-DSI-1/disp_param
+    chown system system /sys/bus/platform/devices/fingerprint/fingerdown_wait
