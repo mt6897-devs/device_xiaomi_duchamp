@@ -3,6 +3,8 @@ set_prop(vendor_init, vendor_batterysecret_prop)
 set_prop(vendor_init, vendor_displayfeature_prop)
 set_prop(vendor_init, vendor_fingerprint_prop)
 
+rw_dir_file(vendor_init, sysfs_ged)
+
 # MM
 allow vendor_init proc_percpu_pagelist_high_fraction:file w_file_perms;
 allow vendor_init proc_compaction_proactiveness:file w_file_perms;

@@ -161,6 +161,9 @@ on property:sys.boot_completed=1
     # start cpuqos
     write /sys/devices/system/cpu/cpuqos/cpuqos_boot_complete 1
 
+    # Configure DVFS
+    write /sys/kernel/ged/hal/dvfs_margin_value 130
+
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
