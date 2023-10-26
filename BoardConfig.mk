@@ -160,6 +160,7 @@ VENDOR_SECURITY_PATCH := 2023-10-05
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Touch
 SOONG_CONFIG_NAMESPACES += XIAOMI_TOUCH
