@@ -96,6 +96,7 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.set_touch_timer_ms=1100
 ro.surface_flinger.supports_background_blur=1
 ro.surface_flinger.uclamp.min=120
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.mtk.gpud.mm.fbc.disable=false
 ro.vendor.mtk_ovl_bringup=0
