@@ -114,6 +114,7 @@ debug.sf.late.sf.duration=27600000
 debug.sf.use_phase_offsets_as_durations=1
 persist.sys.sf.color_mode=9
 persist.sys.sf.native_mode=2
+persist.vendor.sys.mtkaal.function=0
 persist.vendor.sys.pq.disp.gamma.silky.brightness=1
 persist.vendor.sys.pq.disp_gamma_silky_brightness_by_hwc=1
 persist.vendor.sys.pq.mtk_disp_clarity_support=0
