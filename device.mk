@@ -320,12 +320,12 @@ PRODUCT_PACKAGES += \
     fstab.mt6897 \
     fstab.mt6897.vendor_ramdisk \
     init.batterysecret.rc \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.insmod.sh \
     init.mi_thermald.rc \
     init.modem.rc \
     init.mt6897.rc \
+    init.mt6897.power.rc \
     init.mt6897.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
