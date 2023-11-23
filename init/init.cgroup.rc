@@ -20,10 +20,6 @@ on init
     write /dev/cpuset/top-app/cpus 0-7
 
 on post-fs-data
-    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy6/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy7/scaling_governor sugov_ext
     write /proc/sys/kernel/sched_pelt_multiplier 4
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
