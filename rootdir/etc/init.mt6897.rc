@@ -913,11 +913,6 @@ on property:ro.boot.slot_suffix=_b
 on property:vendor.mtk.md1.status=reset
     setprop persist.vendor.atm.mdmode normal
 
-# MSYNC Game
-on boot
-    insmod /vendor/lib/modules/msync2_dms.ko
-    insmod /vendor/lib/modules/msync2_frd.ko
-
 # audio SAR support
 on property:vendor.audio.voice.receiver.status=on
     write /sys/class/thermal/thermal_message/voice_receiver_state 10000
