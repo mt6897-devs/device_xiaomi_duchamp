@@ -77,7 +77,6 @@ persist.vendor.accelerate.charge=true
 
 # Chipset
 ro.soc.manufacturer=Mediatek
-ro.soc.model=MT6897
 
 # ConsumerIr
 ro.hardware.consumerir=common

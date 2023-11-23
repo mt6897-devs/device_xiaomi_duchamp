@@ -1201,6 +1201,10 @@ vendor/firmware/txpowerctrl.cfg
 # ConsumerIr
 vendor/lib64/hw/consumerir.common.so
 
+# Chipinfo
+vendor/bin/chipinfo
+vendor/etc/init/chipinfo_init.rc
+
 # Display
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
 vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897;SYMLINK=vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
