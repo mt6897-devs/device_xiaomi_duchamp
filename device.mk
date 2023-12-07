@@ -144,6 +144,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.mt6897 \
