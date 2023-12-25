@@ -26,5 +26,8 @@ bluetooth.profile.vcp.controller.enabled=true
 # F2FS
 persist.fsck.disable_linear_lookup=on
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # RKPD
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
