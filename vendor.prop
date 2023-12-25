@@ -255,6 +255,9 @@ ro.hardware.fp.fod=true
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # GNSS
 ro.vendor.mtk_log_hide_gps=1
 ro.vendor.gps.chrdev=gps_drv_dl_v051
