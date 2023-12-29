@@ -140,6 +140,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0.vendor
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.rkp-V3-ndk.vendor \
