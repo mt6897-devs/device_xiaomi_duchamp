@@ -1,0 +1,20 @@
+# Unpinned blobs from HYPEROS V815.0.8.0.UNLMIXM (duchamp) fastboot package
+
+apusys.img;AB
+audio_dsp.img;AB
+ccu.img;AB
+connsys_bt.img;AB
+connsys_gnss.img;AB
+connsys_wifi.img;AB
+dpm.img;AB
+gpueb.img;AB
+gz.img;AB
+mcf_ota.img;AB
+mcupm.img;AB
+mvpu_algo.img;AB
+pi_img.img;AB
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
+vcp.img;AB
