@@ -270,6 +270,7 @@ persist.vendor.mtk_wfc_support=1
 persist.vendor.vilte_support=1
 persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
+persist.vendor.vonr_setting_support=1
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.mtk_data_config=1
 
