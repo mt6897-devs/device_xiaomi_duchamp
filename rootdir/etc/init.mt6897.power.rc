@@ -12,6 +12,9 @@ on charger
     write /sys/class/devfreq/mtk-dvfsrc-devfreq/userspace/set_freq 0
 
 on init
+    # Set teo as cpu idle governor
+    write /sys/devices/system/cpu/cpuidle/current_governor teo
+
     # update cpus for cpuset cgroup
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7
