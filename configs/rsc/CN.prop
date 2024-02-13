@@ -1,0 +1,10 @@
+ro.vendor.mtk_protocol1_rat_config=N/C/Lf/Lt/W/G
+ro.vendor.mtk_md1_support=25
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_ps1_rat=N/C/Lf/Lt/W/G
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_c2k_support=1
+ro.telephony.default_network=33,33,33,33
+ro.vendor.mediatek.rsc_name=CN
+ro.vendor.sys.current_rsc_path=/system/etc/rsc/CN
+ro.vendor.vnd.current_rsc_path=/vendor/etc/rsc/CN

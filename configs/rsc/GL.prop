@@ -1,0 +1,12 @@
+ro.vendor.mtk_protocol1_rat_config=N/Lf/Lt/W/G
+ro.vendor.mtk_c2k_lte_mode=0
+ro.vendor.mtk_md1_support=22
+ro.vendor.mtk_md3_support=0
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_ps1_rat=N/Lf/Lt/W/G
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_c2k_support=0
+ro.telephony.default_network=32,32,32,32
+ro.vendor.mediatek.rsc_name=GL
+ro.vendor.sys.current_rsc_path=/system/etc/rsc/GL
+ro.vendor.vnd.current_rsc_path=/vendor/etc/rsc/GL

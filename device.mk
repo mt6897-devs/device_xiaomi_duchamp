@@ -335,6 +335,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.sim-V2-ndk.vendor \
     android.hardware.radio.voice-V2-ndk.vendor
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)
+
 # Radio (IMS)
 PRODUCT_BOOT_JARS += \
     mediatek-common \
