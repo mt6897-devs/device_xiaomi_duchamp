@@ -49,6 +49,47 @@ on post-fs
     write /config/usb_gadget/g1/functions/mtk_rndis.gs4/ifname rndis%d
     setprop vendor.usb.rndis.config mtk_rndis.gs4
 
+    # uvc function
+    mkdir /config/usb_gadget/g1/functions/uvc.0
+    write /config/usb_gadget/g1/functions/uvc.0/function_name "Android Webcam"
+    write /config/usb_gadget/g1/functions/uvc.0/streaming_maxpacket 3072
+    # write /config/usb_gadget/g1/functions/uvc.0/streaming_maxburst 5
+    # write /config/usb_gadget/g1/functions/uvc.0/streaming_interval 2
+    # setup control params
+    mkdir /config/usb_gadget/g1/functions/uvc.0/control/header/h
+    symlink /config/usb_gadget/g1/functions/uvc.0/control/header/h /config/usb_gadget/g1/functions/uvc.0/control/class/fs/h
+    symlink /config/usb_gadget/g1/functions/uvc.0/control/header/h /config/usb_gadget/g1/functions/uvc.0/control/class/ss/h
+    # advertise 720p resolution for webcam encoded as mjpeg
+    mkdir /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m
+    mkdir /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wHeight 720
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wWidth 1280
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMaxVideoFrameBufferSize 1843200
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwDefaultFrameInterval 333333
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwFrameInterval "166666
+333333
+416666
+666666"
+
+    # advertise 1080p resolution for webcam encoded as mjpeg
+    mkdir /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wHeight 1080
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wWidth 1920
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMaxVideoFrameBufferSize 4147200
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwDefaultFrameInterval 333333
+    write /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwFrameInterval "166666
+333333
+416666
+666666"
+
+    # TODO: Add uncompressed streams
+    # setup streaming params
+    mkdir /config/usb_gadget/g1/functions/uvc.0/streaming/header/h
+    symlink /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/m
+    symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/fs/h
+    symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/hs/h
+    symlink /config/usb_gadget/g1/functions/uvc.0/streaming/header/h /config/usb_gadget/g1/functions/uvc.0/streaming/class/ss/h
+
     # chown file/folder permission
     chown system system /config/usb_gadget/
     chown system system /config/usb_gadget/g1
@@ -99,6 +140,99 @@ on post-fs
     chown system system /config/usb_gadget/g1/functions/mtk_rndis.gs4/protocol
     chown system system /config/usb_gadget/g1/functions/mtk_rndis.gs4/qmult
     chown system system /config/usb_gadget/g1/functions/mtk_rndis.gs4/subclass
+    chown system system /config/usb_gadget/g1/functions/uvc.0
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/bInterfaceNumber
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/class
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/class/fs
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/class/fs/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/class/ss
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/class/ss/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/header
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/header/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/header/h/bcdUVC
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/header/h/dwClockFrequency
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default/bmControls
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default/bSourceID
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default/bUnitID
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default/iProcessing
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/processing/default/wMaxMultiplier
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/bAssocTerminal
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/bmControls
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/bTerminalID
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/iTerminal
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/wObjectiveFocalLengthMax
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/wObjectiveFocalLengthMin
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/wOcularFocalLength
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/camera/default/wTerminalType
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default/bAssocTerminal
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default/bSourceID
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default/bTerminalID
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default/iTerminal
+    chown system system /config/usb_gadget/g1/functions/uvc.0/control/terminal/output/default/wTerminalType
+    chown system system /config/usb_gadget/g1/functions/uvc.0/function_name
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming_interval
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming_maxburst
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming_maxpacket
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/bInterfaceNumber
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/fs
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/fs/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/hs
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/hs/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/ss
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/class/ss/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/color_matching
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/color_matching/default
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/color_matching/default/bColorPrimaries
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/color_matching/default/bMatrixCoefficients
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/color_matching/default/bTransferCharacteristics
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/bmInfo
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/bStillCaptureMethod
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/bTerminalLink
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/bTriggerSupport
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/bTriggerUsage
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/header/h/m
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/bFrameIndex
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/bmCapabilities
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwDefaultFrameInterval
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwFrameInterval
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMaxBitRate
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMaxVideoFrameBufferSize
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/dwMinBitRate
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wHeight
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/1080p/wWidth
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/bFrameIndex
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/bmCapabilities
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwDefaultFrameInterval
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwFrameInterval
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMaxBitRate
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMaxVideoFrameBufferSize
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/dwMinBitRate
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wHeight
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/720p/wWidth
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bAspectRatioX
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bAspectRatioY
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bDefaultFrameIndex
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bFormatIndex
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bmaControls
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bmFlags
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/mjpeg/m/bmInterlaceFlags
+    chown system system /config/usb_gadget/g1/functions/uvc.0/streaming/uncompressed
     chown system system /config/usb_gadget/g1/functions/ncm.gs9
     chown system system /config/usb_gadget/g1/functions/ncm.gs9/dev_addr
     chown system system /config/usb_gadget/g1/functions/ncm.gs9/host_addr
