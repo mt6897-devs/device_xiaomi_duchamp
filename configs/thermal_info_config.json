@@ -1,0 +1,162 @@
+{
+    "Sensors":[
+        {
+            "Name":"CPU",
+            "Type":"CPU",
+            "ZoneName": "soc_max",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                85.0,
+                90.0,
+                100.0,
+                117.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"GPU",
+            "Type":"GPU",
+            "ZoneName": "soc_max",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                85.0,
+                90.0,
+                100.0,
+                117.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"battery",
+            "Type":"BATTERY",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                50.0,
+                55.0,
+                59.0,
+                60.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"mtktsAP",
+            "Type":"SKIN",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                50.0,
+                70.0,
+                80.0,
+                90.0
+            ],
+            "VrThreshold" :"NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"mtktsbtsnrpa",
+            "Type":"POWER_AMPLIFIER",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                68.0,
+                90.0,
+                100.0,
+                110.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"mtktsbtsmdpa",
+            "Type":"POWER_AMPLIFIER",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                68.0,
+                90.0,
+                100.0,
+                110.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"NPU",
+            "Type":"NPU",
+            "ZoneName": "soc_max",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                85.0,
+                90.0,
+                100.0,
+                117.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"TPU",
+            "Type":"TPU",
+            "ZoneName": "soc_max",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                85.0,
+                90.0,
+                100.0,
+                117.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        },
+        {
+            "Name":"SOC",
+            "Type":"SOC",
+            "ZoneName": "soc_max",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                85.0,
+                90.0,
+                100.0,
+                117.0
+            ],
+            "VrThreshold": "NaN",
+            "Multiplier": 0.001
+        }
+    ],
+    "CoolingDevices":[
+        {
+            "Name":"devfreq-13000000.mali",
+            "Type":"GPU"
+        },
+        {
+            "Name":"charger-cooler",
+            "Type":"BATTERY"
+        },
+        {
+            "Name":"lcd-backlight",
+            "Type":"BATTERY"
+        },
+        {
+            "Name":"flashlight_cooler",
+            "Type":"BATTERY"
+        }
+    ]
+}
