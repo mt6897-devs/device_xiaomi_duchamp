@@ -12,6 +12,9 @@ genfscon sysfs /devices/platform/pd-adapter/Charging_Adapter                    
 # Display
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0                                       u:object_r:vendor_sysfs_displayfeature:s0
 
+# USB
+genfscon sysfs /devices/platform/rt-pd-manager/typec/port0                                               u:object_r:sysfs_usb_nonplat:s0
+
 # Vibrator
 genfscon sysfs /devices/platform/11d00000.i2c/i2c-0/0-005a                                               u:object_r:sysfs_vibrator:s0
 
