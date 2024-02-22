@@ -38,6 +38,10 @@ on charger
     start fuelgauged
     start fuelgauged_nvram
 
+    # Configure default brightness and switch to drm backlight trigger.
+    write /sys/class/leds/lcd-backlight/brightness 1000
+    write /sys/class/leds/lcd-backlight/trigger "backlight-drm"
+
 on fs
     mount_all --early
 

@@ -158,6 +158,7 @@ pwm-mtk-disp.ko
 leds-mtk.ko
 leds-mtk-disp.ko
 leds-mtk-pwm.ko
+ledtrig-backlight-drm.ko
 extcon-mtk-usb.ko
 tcpci_late_sync.ko
 mtk-mbox-mailbox.ko
