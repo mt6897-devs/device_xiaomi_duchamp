@@ -42,6 +42,7 @@ BOARD_INIT_BOOT_HEADER_VERSION := 4
 
 BOARD_KERNEL_CMDLINE += bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += rcupdate.rcu_expedited=1 rcu_nocbs=all rcutree.enable_rcu_lazy
+BOARD_KERNEL_CMDLINE += kasan=off
 BOARD_BOOTCONFIG += androidboot.serialconsole=0
 
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
