@@ -19,10 +19,6 @@ on init
     write /proc/sys/net/core/wmem_max 8388608
     write /proc/sys/net/core/rmem_max 8388608
 
-on late-init
-    # enable rcu_expedited
-    write /sys/kernel/rcu_expedited 1
-
 # mount different fs start
 
 on charger
