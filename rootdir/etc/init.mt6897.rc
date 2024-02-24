@@ -913,26 +913,9 @@ on property:ro.boot.slot_suffix=_b
     # Set SELinux security contexts on upgrade or policy update.
     mount ext4 /dev/block/by-name/mcf_ota_b /mnt/vendor/mdota ro wait noatime
 
-# Battery info
-on property:persist.vendor.mediatek.fg.disable=1
-    write /dev/gauge/FG_daemon_disable 1
-
-on property:persist.vendor.mediatek.fg.force25c=1
-    write /dev/gauge/Battery_Temperature 25 
-
-on property:persist.vendor.mediatek.fg.force25c=0
-    write /dev/gauge/Battery_Temperature 65535
-
-on property:persist.vendor.mediatek.fg.log.enable=1
-    write /dev/gauge/FG_daemon_log_level 7
-
 # reset mdmode when modem crash happens in ATM
 on property:vendor.mtk.md1.status=reset
     setprop persist.vendor.atm.mdmode normal
-
-# MTK fast charging support
-on property:persist.vendor.mediatek.fast_charging.support=*
-    write /sys/devices/platform/charger/fast_chg_indicator ${persist.vendor.mediatek.fast_charging.support}
 
 # MSYNC Game
 on boot
