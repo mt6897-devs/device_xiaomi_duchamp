@@ -110,6 +110,8 @@ BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := erofs
 
 BOARD_EROFS_PCLUSTER_SIZE := 262144
 
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_ODM_DLKM := odm_dlkm
 TARGET_COPY_OUT_PRODUCT := product
