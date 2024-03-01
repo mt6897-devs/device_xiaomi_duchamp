@@ -18,7 +18,7 @@ on post-fs
     mkdir /config/usb_gadget/g1/functions/ffs.ptp
     mkdir /config/usb_gadget/g1/functions/mtk_rndis.gs4
     mkdir /config/usb_gadget/g1/functions/midi.gs5
-    mkdir /config/usb_gadget/g1/functions/ncm.gs6
+    mkdir /config/usb_gadget/g1/functions/ncm.gs9
     mkdir /config/usb_gadget/g1/functions/mass_storage.usb0
     mkdir /config/usb_gadget/g1/functions/hid.gs0
     mkdir /config/usb_gadget/g1/configs/b.1 0770 shell shell
@@ -32,6 +32,11 @@ on post-fs
     mkdir /dev/usb-ffs/ptp 0770 mtp mtp
     mount functionfs mtp /dev/usb-ffs/mtp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
     mount functionfs ptp /dev/usb-ffs/ptp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
+
+    # ncm function
+    mkdir /config/usb_gadget/g1/functions/ncm.gs9
+    write /config/usb_gadget/g1/functions/ncm.gs9/os_desc/interface.ncm/compatible_id WINNCM
+    write /config/usb_gadget/g1/functions/ncm.gs9/ifname ncm%d
 
     # chown file/folder permission
     chown system system /config/usb_gadget/
@@ -83,6 +88,15 @@ on post-fs
     chown system system /config/usb_gadget/g1/functions/rndis.gs4/protocol
     chown system system /config/usb_gadget/g1/functions/rndis.gs4/qmult
     chown system system /config/usb_gadget/g1/functions/rndis.gs4/subclass
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/dev_addr
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/host_addr
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/ifname
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/os_desc
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/os_desc/interface.ncm
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/os_desc/interface.ncm/compatible_id
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/os_desc/interface.ncm/sub_compatible_id
+    chown system system /config/usb_gadget/g1/functions/ncm.gs9/qmult
     chown system system /config/usb_gadget/g1/idProduct
     chown system system /config/usb_gadget/g1/idVendor
     chown system system /config/usb_gadget/g1/max_speed
