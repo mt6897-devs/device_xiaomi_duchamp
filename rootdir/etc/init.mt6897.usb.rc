@@ -34,6 +34,7 @@ on post-fs
     mount functionfs ptp /dev/usb-ffs/ptp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
 
     setprop sys.usb.mtp.device_type 3
+    setprop sys.usb.mtp.batchcancel true
 
     # ncm function
     mkdir /config/usb_gadget/g1/functions/ncm.gs9
