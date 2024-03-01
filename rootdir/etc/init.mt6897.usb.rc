@@ -38,6 +38,14 @@ on post-fs
     write /config/usb_gadget/g1/functions/ncm.gs9/os_desc/interface.ncm/compatible_id WINNCM
     write /config/usb_gadget/g1/functions/ncm.gs9/ifname ncm%d
 
+    # Modify class/subclass/protocol for rndis.gs4
+    # Remote NDIS: Class: Wireless Controller (0xe0), Subclass: 0x1, Protocol: 0x3
+    write /config/usb_gadget/g1/functions/rndis.gs4/class e0
+    write /config/usb_gadget/g1/functions/rndis.gs4/subclass 01
+    write /config/usb_gadget/g1/functions/rndis.gs4/protocol 03
+    write /config/usb_gadget/g1/functions/rndis.gs4/os_desc/interface.ncm/compatible_id RNDIS
+    write /config/usb_gadget/g1/functions/rndis.gs4/ifname rndis%d
+
     # chown file/folder permission
     chown system system /config/usb_gadget/
     chown system system /config/usb_gadget/g1
