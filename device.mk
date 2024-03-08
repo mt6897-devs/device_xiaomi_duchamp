@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.default_recovery
 
 PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
+PRODUCT_PACKAGES += \
     otapreopt_script \
     update_engine \
     update_engine_sideload \
@@ -39,7 +43,8 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/mediatek
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
