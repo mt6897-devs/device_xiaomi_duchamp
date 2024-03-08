@@ -57,8 +57,6 @@ on post-fs-data
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
     # boot perf. tune
-    write /dev/cpuctl/system/cpu.uclamp.min 100
-    write /dev/cpuctl/system/cpu.uclamp.latency_sensitive 1
     write /dev/cpuctl/system-background/cpu.uclamp.min 100
     write /dev/cpuctl/system-background/cpu.uclamp.latency_sensitive 1
     write /dev/cpuctl/foreground/cpu.uclamp.min 100
@@ -92,8 +90,6 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq 0
     write /sys/devices/system/cpu/cpufreq/policy7/scaling_min_freq 0
     write /sys/class/devfreq/mtk-dvfsrc-devfreq/userspace/set_freq 0
-    write /dev/cpuctl/system/cpu.uclamp.min 0
-    write /dev/cpuctl/system/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/system-background/cpu.uclamp.min 0
     write /dev/cpuctl/system-background/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/foreground/cpu.uclamp.min 0
