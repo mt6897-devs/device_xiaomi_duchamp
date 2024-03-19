@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioParameter>
+	<DumpOptions>
+        <Category title="Output">
+            <Option type="SetAudioCommand" cmd="0x63" check="1" uncheck="0">Stream Output Dump</Option>
+            <Option type="SetAudioCommand" cmd="0x69" check="1" uncheck="0">A2DP Stream Output Dump</Option>
+        </Category>
+        <Category title="Input">
+            <Option type="SetAudioCommand" cmd="0x6B" check="1" uncheck="0">Stream Input Dump</Option>
+        </Category>
+        <Category title="AudioMixer">
+            <Option type="SetParameters" cmd="vendor.af.track.pcm" check="1" uncheck="0">Audio Track Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.mixer.pcm" check="1" uncheck="0">Audio Mixer Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.drc.pcm" check="1" uncheck="0">Audio DRC Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.offload.raw" check="1" uncheck="0">Audio Offload Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.resampler.pcm" check="1" uncheck="0">Audio Resampler Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.writer.pcm" check="1" uncheck="0">Audio Writer Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.record.pcm" check="1" uncheck="0">Audio Record Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.effect.pcm" check="1" uncheck="0">Audio Effect Dump</Option>
+            <Option type="SetParameters" cmd="vendor.af.aaudio.pcm" check="1" uncheck="0">AAudio Dump</Option>
+        </Category>
+	</DumpOptions>
+
+    <SetAudioCommand>
+        <Option>0x99, 1</Option>
+        <Option>0x98, 1</Option>
+    </SetAudioCommand>
+
+    <GetAudioCommand>
+        <Option>0x64</Option>
+        <Option>0x66</Option>
+        <Option>0x68</Option>
+    </GetAudioCommand>
+
+    <SetParameters>
+        <Option>TDM_Record=0</Option>
+        <Option>SET_MODE=0</Option>
+        <Option>HAHA=0</Option>
+        <Option>Set_SpeechCall_DL_Mute=0</Option>
+        <Option>SetFmVolume=0</Option>
+        <Option>ANC_CMD=0</Option>
+        <Option>vendor.af.dumplog=1</Option>
+        <Option>LowLatencyDebugEnable=1</Option>
+        <Option>DetectPulseEnable=1</Option>
+    </SetParameters>
+
+    <GetParameters>
+        <Option>GetFmEnable</Option>
+        <Option>DUAL_MIC_GET_GAIN</Option>
+    </GetParameters>
+</AudioParameter>

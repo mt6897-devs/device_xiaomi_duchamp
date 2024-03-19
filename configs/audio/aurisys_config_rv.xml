@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aurisys_config>
+    <!--
+     * =========================================================================
+     *   table of uplink/downlink library mapping for each scenario
+     * =========================================================================
+    -->
+    <aurisys_scenarios>
+        <!-- for aurisys_scene playback with smartpa for all mixed streamout -->
+        <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_DSP_PLAYBACK_SMARTPA">
+            <downlink_library_name_list digital_gain_lib_name="">
+                <library name="smartpa_rt5512"/>
+            </downlink_library_name_list>
+        </aurisys_scenario>
+        <!-- for aurisys_scene phone call -->
+        <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_DSP_PHONE_CALL">
+            <uplink_library_name_list digital_gain_lib_name="mtk_sp">
+                <library name="mtk_sp"/>
+            </uplink_library_name_list>
+            <downlink_library_name_list digital_gain_lib_name="mtk_sp">
+                <library name="mtk_sp"/>
+            </downlink_library_name_list>
+        </aurisys_scenario>
+    </aurisys_scenarios>
+    <!--
+     * =========================================================================
+     *   DSP HAL Librarys
+     * =========================================================================
+    -->
+    <hal_librarys>
+        <!--
+         * =====================================================================
+         *   DEMO
+         * =====================================================================
+        -->
+        <library name="aurisys_demo"
+                 lib_path="/vendor/lib/libaurisysdemo.so"
+                 lib64_path="/vendor/lib64/libaurisysdemo.so"
+                 param_path="/vendor/etc/audio_param"
+                 lib_dump_path="AUTO"
+                 adb_cmd_key="AURISYS_DEMO">
+            <components>
+                <!-- for aurisys_scene playback with smartpa -->
+                <component aurisys_scenario="AURISYS_SCENARIO_DSP_PLAYBACK_SMARTPA"
+                           sample_rate="8000,11025,12000,16000,22050,24000,32000,44100,48000,64000,88200,96000,128000,176400,192000"
+                           audio_format="AUDIO_FORMAT_PCM_8_24_BIT"
+                           frame_size_ms="0"
+                           b_interleave="1"
+                           enable_log="0"
+                           enable_raw_dump="0"
+                           enable_lib_dump="0"
+                           enhancement_mode="0">
+                    <downlink_process>
+                        <buf_in  data_buf_type="DATA_BUF_DOWNLINK_IN"
+                                 num_channels="2"/>
+                        <buf_out data_buf_type="DATA_BUF_DOWNLINK_OUT"
+                                 num_channels="2"/>
+                        <buf_refs>
+                             <buf_ref data_buf_type="DATA_BUF_IV_BUFFER"
+                                     num_channels="2"/>
+                        </buf_refs>
+                    </downlink_process>
+                </component>
+                 <!-- for aurisys_scene call -->
+                <component aurisys_scenario="AURISYS_SCENARIO_DSP_PHONE_CALL"
+                           sample_rate="8000,16000,32000"
+                           audio_format="AUDIO_FORMAT_PCM_16_BIT"
+                           frame_size_ms="20"
+                           b_interleave="0"
+                           enable_log="0"
+                           enable_raw_dump="0"
+                           enable_lib_dump="0"
+                           enhancement_mode="0">
+                    <uplink_process>
+                        <buf_in  data_buf_type="DATA_BUF_UPLINK_IN"
+                                 num_channels="1,2"/>
+                        <buf_out data_buf_type="DATA_BUF_UPLINK_OUT"
+                                 num_channels="1"/>
+                        <buf_refs>
+                            <buf_ref data_buf_type="DATA_BUF_ECHO_REF"
+                                     num_channels="1"/>
+                        </buf_refs>
+                    </uplink_process>
+                    <downlink_process>
+                        <buf_in  data_buf_type="DATA_BUF_DOWNLINK_IN"
+                                 num_channels="1"/>
+                        <buf_out data_buf_type="DATA_BUF_DOWNLINK_OUT"
+                                 num_channels="1"/>
+                    </downlink_process>
+                </component>
+            </components>
+        </library>
+        <!--
+         * =====================================================================
+         *   MTK Speech
+         * =====================================================================
+        -->
+        <library name="mtk_sp"
+                 lib_path="/vendor/lib/libmtkspparser.so"
+                 lib64_path="/vendor/lib64/libmtkspparser.so"
+                 param_path="/vendor/etc/audio_param"
+                 lib_dump_path="AUTO"
+                 adb_cmd_key="MTK_SPH">
+            <components>
+                <!-- for aurisys_scene call -->
+                <component aurisys_scenario="AURISYS_SCENARIO_DSP_PHONE_CALL"
+                           sample_rate="8000,16000,32000"
+                           audio_format="AUDIO_FORMAT_PCM_16_BIT"
+                           frame_size_ms="20"
+                           b_interleave="0"
+                           enable_log="0"
+                           enable_raw_dump="0"
+                           enable_lib_dump="0"
+                           enhancement_mode="0">
+                    <uplink_process>
+                        <buf_in  data_buf_type="DATA_BUF_UPLINK_IN"
+                                 num_channels="1,2"/>
+                        <buf_out data_buf_type="DATA_BUF_UPLINK_OUT"
+                                 num_channels="1"/>
+                        <buf_refs>
+                            <buf_ref data_buf_type="DATA_BUF_ECHO_REF"
+                                     num_channels="1"/>
+                        </buf_refs>
+                    </uplink_process>
+                    <downlink_process>
+                        <buf_in  data_buf_type="DATA_BUF_DOWNLINK_IN"
+                                 num_channels="1"/>
+                        <buf_out data_buf_type="DATA_BUF_DOWNLINK_OUT"
+                                 num_channels="1"/>
+                    </downlink_process>
+                </component>
+            </components>
+        </library>
+        <!--
+         * =====================================================================
+         *   RT5512 smartpa
+         * =====================================================================
+        -->
+        <library name="smartpa_rt5512"
+                 lib_path="/vendor/lib/libaudiosmartpartk.so"
+                 lib64_path="/vendor/lib64/libaudiosmartpartk.so"
+                 param_path="/vendor/etc/smartpa_param/SmartPaVendor1_AudioParam.dat"
+                 lib_dump_path="AUTO"
+                 adb_cmd_key="RT5512">
+            <components>
+                <!-- for aurisys_scene playback with smartpa -->
+                <component aurisys_scenario="AURISYS_SCENARIO_DSP_PLAYBACK_SMARTPA"
+                           sample_rate="48000"
+                           audio_format="AUDIO_FORMAT_PCM_8_24_BIT"
+                           frame_size_ms="0"
+                           b_interleave="1"
+                           enable_log="0"
+                           enable_raw_dump="0"
+                           enable_lib_dump="0"
+                           enhancement_mode="0">
+                    <downlink_process>
+                        <buf_in  data_buf_type="DATA_BUF_DOWNLINK_IN"
+                                 num_channels="2"/>
+                        <buf_out data_buf_type="DATA_BUF_DOWNLINK_OUT"
+                                 num_channels="2"/>
+                        <buf_refs>
+                             <buf_ref data_buf_type="DATA_BUF_IV_BUFFER"
+                                     num_channels="2"/>
+                        </buf_refs>
+                    </downlink_process>
+                </component>
+            </components>
+        </library>
+    </hal_librarys>
+</aurisys_config>
