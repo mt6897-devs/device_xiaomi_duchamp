@@ -136,6 +136,15 @@ odm/etc/n11a_41_02_0b_dsc_vdo_pq.xml
 odm/etc/n11a_42_02_0a_dsc_vdo_cust_silky_brightness.xml
 odm/etc/n11a_42_02_0a_dsc_vdo_pq.xml
 
+# Display Firmware
+vendor/etc/init/init.touch.rc
+vendor/firmware/focaltech_ts_fw.bin
+vendor/firmware/goodix_cfg_group_duchamp.bin
+vendor/firmware/goodix_cfg_group_duchamp_nowater.bin
+vendor/firmware/goodix_firmware_duchamp.bin
+vendor/firmware/st_fts_L11.ftb
+vendor/firmware/st_fts_L11a.ftb
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
 vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
