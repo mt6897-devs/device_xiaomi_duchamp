@@ -3,6 +3,11 @@
 # AEE
 vendor/lib64/libaedv.so
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper-service.mitee
+vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
+vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.mitee.xml
+
 # Keymint
 vendor/bin/hw/android.hardware.identity-service.mitee@5.0
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee

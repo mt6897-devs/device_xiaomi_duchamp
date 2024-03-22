@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper-V1-ndk.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
