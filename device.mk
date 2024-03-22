@@ -19,7 +19,7 @@ PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
 PRODUCT_VIRTUAL_AB_COW_VERSION := 3
 
 PRODUCT_PACKAGES += \
-    android.hardware.boot-service.default \
+    com.android.hardware.boot \
     android.hardware.boot-service.default_recovery
 
 AB_OTA_POSTINSTALL_CONFIG += \
