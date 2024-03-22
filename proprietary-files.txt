@@ -2,3 +2,37 @@
 
 # AEE
 vendor/lib64/libaedv.so
+
+# Keymint
+vendor/bin/hw/android.hardware.identity-service.mitee@5.0
+vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee
+vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc
+vendor/etc/init/android.hardware.security.keymint.mitee@3.0-service.rc
+vendor/etc/vintf/manifest/android.hardware.identity@5.0-service.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
+
+# MiTEE
+vendor/bin/miteelog
+vendor/bin/tee-supplicant
+vendor/etc/init/miteelog.rc
+vendor/etc/init/tee-supplicant.rc
+vendor/lib64/libteecli.so
+vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta
+vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta
+vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta
+vendor/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta
+vendor/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta
+vendor/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta
+vendor/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta
+vendor/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta
+vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta
+vendor/mitee/ta/8aaaf201-2460-0000-7143fe4f7c823c80.ta
+vendor/mitee/ta/9811c1f6-47e3-5cea-ae6ef62ba433c4fd.ta
+vendor/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta
+vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta
+vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
+vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
+vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
+vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta

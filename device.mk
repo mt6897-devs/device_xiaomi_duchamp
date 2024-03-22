@@ -59,6 +59,15 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# Keymint
+PRODUCT_PACKAGES += \
+    android.hardware.security.rkp-V3-ndk.vendor \
+    android.hardware.security.sharedsecret-V1-ndk.vendor \
+    libkeymint.vendor \
+    libtrusty.vendor \
+    libpuresoftkeymasterdevice.vendor \
+    lib_android_keymaster_keymint_utils.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
