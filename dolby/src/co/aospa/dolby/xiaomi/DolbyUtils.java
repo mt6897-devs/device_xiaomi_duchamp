@@ -21,7 +21,6 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 import co.aospa.dolby.xiaomi.DolbyConstants.DsParam;
-import co.aospa.dolby.xiaomi.R;
 
 import java.util.Arrays;
 import java.util.List;

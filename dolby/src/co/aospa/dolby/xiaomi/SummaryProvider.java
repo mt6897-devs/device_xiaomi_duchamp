@@ -15,8 +15,6 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 
-import co.aospa.dolby.xiaomi.R;
-
 import java.util.Arrays;
 import java.util.List;
 
