@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!--
+        List of enabled PowerOffAlarm drivers, initialization is attempted in this order.
+
+        - alarm: /dev/alarm legacy driver with MTK modifications, recommended until including 3.X
+                 but works until 4.19 for most devices
+        - rtc: the method which MTK userspace uses in modern userspace, which cannot properly be
+               checked for presence because the IOCTL definition is in kernel .c file, not
+               exported to userspace. If this is required for proper operation of power off alarm,
+               please overlay this config.
+        - timerfd: exists, appears unused in userspace, but the only thing we can programatically
+                   detect at build time (using device kernel headers), so this is preffered.
+    -->
+    <string name="config_powerOffAlarmDrivers" translatable="false">rtc</string>
+</resources>
