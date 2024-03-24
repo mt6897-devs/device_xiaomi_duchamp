@@ -64,7 +64,7 @@ if [ -z "${ONLY_FIRMWARE}" ]; then
     extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
-if [ -z "${SECTION}" ]; then
+if [ -z "${SECTION}" ] && [ -f "${MY_DIR}/proprietary-firmware.txt" ]; then
     extract_firmware "${MY_DIR}/proprietary-firmware.txt" "${SRC}"
 fi
 
