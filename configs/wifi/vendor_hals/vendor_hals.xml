@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
- <WifiVendorHal version="1">
- <path>/vendor/lib64/libwifi-hal-mtk.so</path>
- <primary>1</primary>
-</WifiVendorHal>
