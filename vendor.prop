@@ -10,6 +10,8 @@ ro.vendor.audio.spatializer.support.speaker=true
 ro.vendor.audio.us.proximity=true
 ro.vendor.audio.us.proximity_waitfornegative_feature=true
 vendor.audio.spkcal.copy.inhal=true
+vendor.audio.usb.super_hifi=true
+vendor.audio.usb.iems.period_us=5000
 vendor.audiohal.telephonytx.type=2
 
 # Audio (Dolby)
