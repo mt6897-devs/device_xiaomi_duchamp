@@ -288,6 +288,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-V1-ndk.vendor
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
