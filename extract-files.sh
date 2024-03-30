@@ -75,6 +75,9 @@ function blob_fixup {
         vendor/lib64/hw/mt6897/android.hardware.camera.provider@2.6-impl-mediatek.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v34.so" "${2}"
             ;;
+        vendor/lib*/hw/audio.primary.mediatek.so)
+            "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils-v34.so" "${2}"
+            ;;
     esac
 }
 

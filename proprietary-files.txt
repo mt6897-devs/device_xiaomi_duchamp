@@ -13,6 +13,7 @@ vendor/lib64/hw/sound_trigger.primary.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
+vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v34.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocloudctrl.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
