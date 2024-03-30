@@ -148,6 +148,16 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mtk.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+   android.hardware.sensors-service.multihal \
+   android.frameworks.sensorservice@1.0.vendor \
+   android.frameworks.sensorservice-V1-ndk.vendor \
+   libsensorndkbridge
+
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 

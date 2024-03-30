@@ -295,3 +295,13 @@ vendor/lib64/libhwm.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
+
+# Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/firmware/remoteproc_scp
+vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+vendor/lib64/hw/sensors.elliptic@2.0.so
+vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6897.so
+vendor/lib64/libhfmanager.so
+vendor/lib64/libksensor.so
+vendor/lib64/libnotifyaudiohal.so
