@@ -17,3 +17,9 @@ cc_library_shared {
     ],
 }
 
+cc_library_shared {
+    name: "dolbycodec_shim",
+    srcs: ["dolbycodec_shim.c"],
+    compile_multilib: "64",
+    vendor: true,
+}
