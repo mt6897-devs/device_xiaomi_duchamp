@@ -177,5 +177,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/mediatek
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-V1-ndk.vendor
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
