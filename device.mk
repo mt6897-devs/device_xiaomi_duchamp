@@ -86,6 +86,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libnbaio_mono
 
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 

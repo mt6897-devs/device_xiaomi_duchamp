@@ -1,0 +1,23 @@
+//
+// Copyright (C) 2017-2021 The LineageOS Project
+//           (C) 2023-24 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "XiaomiDolby",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+
+    overrides: ["MusicFX"],
+    static_libs: [
+        "SettingsLib",
+        "androidx.preference_preference",
+    ],
+}
