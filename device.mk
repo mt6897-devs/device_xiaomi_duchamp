@@ -110,6 +110,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V4-ndk.vendor \
     libdrm.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
