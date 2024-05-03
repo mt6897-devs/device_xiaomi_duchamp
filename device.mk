@@ -50,6 +50,21 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek-mali
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@4.0.vendor \
+    android.hardware.graphics.allocator-V2-ndk.vendor \
+    android.hardware.graphics.composer3-V2-ndk.vendor \
+    android.hardware.graphics.common-V4-ndk.vendor \
+    libdrm.vendor
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
