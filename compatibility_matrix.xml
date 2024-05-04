@@ -1,0 +1,37 @@
+<compatibility-matrix version="7.0" type="device">
+    <hal format="hidl" optional="false">
+        <name>android.frameworks.sensorservice</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.allocator</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.manager</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.memory</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.token</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.mediatek.framework.mtksf_ext</name>
+        <version>2</version>
+        <interface>
+            <name>IMtkSF_ext</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.mediatek.hardware.mbrainj</name>
+        <interface>
+            <name>IMBrainJava</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
