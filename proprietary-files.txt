@@ -472,6 +472,13 @@ vendor/etc/vintf/manifest/fod-aidl.xml
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
+# FM
+vendor/firmware/fm_cust.cfg
+vendor/firmware/mt6635_fm_v1_coeff.bin
+vendor/firmware/mt6635_fm_v1_patch.bin
+vendor/firmware/soc_fm_v1_coeff.bin
+vendor/firmware/soc_fm_v1_patch.bin
+
 # Fuelgauge
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
