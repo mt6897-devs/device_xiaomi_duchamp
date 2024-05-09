@@ -240,8 +240,10 @@ ro.vendor.mtk_nn_quant_preferred=1
 ro.vendor.mtk_nn_support=1
 
 # Radio
+persist.radio.multisim.config=dsds
 persist.vendor.md_c2k_cap_dep_check=0
 persist.vendor.mims_support=2
+persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.mtk.volte.enable=1
 persist.vendor.mtk_ct_volte_support=3
 persist.vendor.radio.flashless.fsm=0
@@ -259,9 +261,15 @@ ro.vendor.md_prop_ver=1
 ro.vendor.mtk_c2k_lte_mode=2
 ro.vendor.mtk_c2k_support=1
 ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_external_sim_support=1
 ro.vendor.mtk_fd_support=1
+ro.vendor.mtk_gwsd_capability=2
 ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_mcf_support=1
+ro.vendor.mtk_md_world_mode_support=1
+ro.vendor.mtk_mipc_support=1
+ro.vendor.mtk_protocol1_rat_config=N/C/Lf/Lt/W/G
 ro.vendor.mtk_ps1_rat=N/C/Lf/Lt/W/G
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_rild_read_imsi=1
