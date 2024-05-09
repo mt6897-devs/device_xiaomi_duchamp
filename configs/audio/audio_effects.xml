@@ -22,6 +22,11 @@
         <library name="loudness_enhancer" path="libldnhncr.so"/>
         <library name="dynamics_processing" path="libdynproc.so"/>
         <library name="pre_processing" path="libaudiopreprocessing.so"/>
+        <library name="dap" path="libswdap.so"/>
+        <library name="dvl" path="libdlbvol.so"/>
+        <library name="spatializer" path="libswspatializer.so"/>
+        <library name="gamedap" path="libswgamedap.so"/>
+        <library name="vqe" path="libswvqe.so"/>
     </libraries>
     <!-- list of effects to load.
          Each "effect" element must contain a "name", "library" and a "uuid" attribute.
@@ -60,7 +65,26 @@
         <effect name="agc" library="pre_processing" uuid="aa8130e0-66fc-11e0-bad0-0002a5d5c51b"/>
         <effect name="aec" library="pre_processing" uuid="bb392ec0-8d4d-11e0-a896-0002a5d5c51b"/>
         <effect name="ns" library="pre_processing" uuid="c06c8400-8e06-11e0-9cb6-0002a5d5c51b"/>
+        <effect name="dap" library="dap" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa"/>
+        <effect name="dlb_music_listener" library="dvl" uuid="40f66c8b-5aa5-4345-8919-53ec431aaa98"/>
+        <effect name="dlb_ring_listener" library="dvl" uuid="21d14087-558a-4f21-94a9-5002dce64bce"/>
+        <effect name="dlb_alarm_listener" library="dvl" uuid="6aff229c-30c6-4cc8-9957-dbfe5c1bd7f6"/>
+        <effect name="dlb_system_listener" library="dvl" uuid="874db4d8-051d-4b7b-bd95-a3bebc837e9e"/>
+        <effect name="spatializer" library="spatializer" uuid="ccd4cf09-a79d-46c2-9aae-06a1698d6c8f"/>
+        <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2"/>
+        <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
     </effects>
+    <postprocess>
+        <stream type="music">
+            <apply effect="dlb_music_listener"/> <!--DOLBY ADD-->
+        </stream>
+        <stream type="ring">
+            <apply effect="dlb_ring_listener"/> <!--DOLBY ADD-->
+        </stream>
+        <stream type="alarm">
+            <apply effect="dlb_alarm_listener"/> <!--DOLBY ADD-->
+        </stream>
+    </postprocess>
     <preprocess>
         <stream type="voice_communication">
             <apply effect="aec"/>

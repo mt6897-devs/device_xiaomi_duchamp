@@ -2,13 +2,24 @@
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
 ro.audio.monitorRotation=true
+ro.audio.spatializer_enabled=true
 ro.config.vc_call_vol_steps=11
 ro.vendor.audio.cloudctrl=false
 ro.vendor.audio.gain.support=true
+ro.vendor.audio.spatializer.support.speaker=true
 ro.vendor.audio.us.proximity=true
 ro.vendor.audio.us.proximity_waitfornegative_feature=true
 vendor.audio.spkcal.copy.inhal=true
 vendor.audiohal.telephonytx.type=2
+
+# Audio (Dolby)
+ro.vendor.audio.device.db=DB_XM
+ro.vendor.audio.device.dbcom=dolby_common
+ro.vendor.audio.dolby.dax.support=true
+ro.vendor.audio.dolby.dax3_3point8=true
+ro.vendor.dolby.dax.version=DAX3_3.8.5.20_r1
+vendor.audio.dolby.control.support=true
+vendor.audio.dolby.control.tunning.by.volume.support=false
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac
