@@ -733,13 +733,17 @@ vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
+vendor/lib64/libgwsdv2-ril.so
+vendor/lib64/libgwsdv3-ril.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmnetlink_v104.so
+vendor/lib64/libmtk-fusion-ril-prop-vsim.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkconfig.so
 vendor/lib64/libmtkconfigutils.so
 vendor/lib64/libmtkcutils.so
 vendor/lib64/libmtkhardware_legacy.so
+vendor/lib64/libmtkmipc-ril.so
 vendor/lib64/libmtknetcap.so
 vendor/lib64/libmtknetutils.so
 vendor/lib64/libmtkproperty.so
@@ -753,6 +757,8 @@ vendor/lib64/librilfusion.so
 vendor/lib64/libstorage_otp.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libtrm.so
+vendor/lib64/libvia-ril.so
+vendor/lib64/libviamipc-ril.so
 vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V1-ndk.so
