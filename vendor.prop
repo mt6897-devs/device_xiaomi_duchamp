@@ -200,6 +200,9 @@ ro.vendor.arm.gralloc.no_afbc_usage_mask=0x1200000000000000
 ro.vendor.arm.gralloc.shared_access_usage_flags=0x10000000
 ro.vendor.arm.gralloc.shared_access_usage_mask=0x50000000
 
+# DRM
+drm.service.enabled=true
+
 # Encryption
 ro.crypto.volume.filenames_mode=aes-256-cts
 

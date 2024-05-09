@@ -464,6 +464,9 @@ vendor/firmware/goodix_firmware_duchamp.bin
 vendor/firmware/st_fts_L11.ftb
 vendor/firmware/st_fts_L11a.ftb
 
+# DRM
+vendor/apex/com.google.android.widevine.nonupdatable.apex
+
 # Fingerprint
 odm/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
 odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
