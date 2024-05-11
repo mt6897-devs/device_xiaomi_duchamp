@@ -710,6 +710,7 @@ vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
 vendor/etc/breakwhiteapplist.xml
+vendor/etc/command.csv
 vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
