@@ -915,6 +915,16 @@ vendor/etc/thermal/thermal_policy_09.conf
 vendor/etc/thermalbreakboostconfig.xml
 vendor/etc/thermald-devices.conf
 
+# TouchFeature
+odm/bin/hw/vendor.xiaomi.hw.touchfeature-service
+odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc
+odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature-service.xml
+vendor/bin/toucheventcheck
+vendor/etc/init.panel_info.sh
+vendor/etc/tp_kmsg_init_duchamp.sh
+vendor/lib64/sensors.touch.detect.so
+vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so
+
 # Vibrator
 vendor/firmware/aw8697_haptic.bin
 

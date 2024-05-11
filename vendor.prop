@@ -300,6 +300,9 @@ persist.vendor.sensor.maxbrightness=8191
 persist.vendor.sensor.powbrightness=400
 ro.vendor.mtk.sensor.support=yes
 
+# TouchFeature
+ro.vendor.touchfeature.type=243
+
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1
 ro.vendor.mtk_mitee_support=1
