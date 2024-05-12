@@ -492,10 +492,15 @@ vendor/firmware/st_fts_L11a.ftb
 vendor/apex/com.google.android.widevine.nonupdatable.apex
 
 # Fingerprint
+odm/bin/hw/vendor.xiaomi.hardware.dtool1-service
+odm/etc/init/vendor.xiaomi.hardware.dtool1.rc
 odm/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
 odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 odm/lib64/libgf_hal.so
 vendor/etc/vintf/manifest/fod-aidl.xml
+vendor/lib64/com.fingerprints.extension3-V1-ndk.so
+vendor/lib64/vendor.xiaomi.hardware.dtool1-V1-ndk.so
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
