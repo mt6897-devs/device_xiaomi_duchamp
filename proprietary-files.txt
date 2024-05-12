@@ -302,8 +302,10 @@ vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_sec.so
 vendor/lib64/libaibld.nn6.so
+vendor/lib64/libappgamepq.so
 vendor/lib64/libcomposer_ext.so
 vendor/lib64/libdfintf.so
+vendor/lib64/libdre.so
 vendor/lib64/libged.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpud.so
@@ -324,6 +326,7 @@ vendor/lib64/libsilkybrightnesscore.so
 vendor/lib64/libudf.so
 vendor/lib64/mt6897/arm.graphics-V4-ndk.so;SYMLINK=vendor/lib64/arm.graphics-V4-ndk.so
 vendor/lib64/mt6897/arm.mali.platform-V2-ndk.so;SYMLINK=vendor/lib64/arm.mali.platform-V2-ndk.so
+vendor/lib64/mt6897/libaal_cust_func.so;SYMLINK=vendor/lib64/libaal_cust_func.so
 vendor/lib64/mt6897/libaalservice.so;SYMLINK=vendor/lib64/libaalservice.so
 vendor/lib64/mt6897/libaiselector.so;SYMLINK=vendor/lib64/libaiselector.so
 vendor/lib64/mt6897/libarm_egl_properties_sysprop.so;SYMLINK=vendor/lib64/libarm_egl_properties_sysprop.so
