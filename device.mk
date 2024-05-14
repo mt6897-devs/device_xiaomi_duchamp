@@ -105,7 +105,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device-V2-ndk.vendor \
     android.hardware.camera.provider-V2-ndk.vendor \
     android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor
+    android.hardware.camera.provider@2.6.vendor \
+    libcamera2ndk_vendor \
+    libultrahdr.vendor
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
@@ -116,7 +118,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek-mali
 
 PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor \
+    android.hardware.graphics.allocator-V1-ndk.vendor \
     android.hardware.graphics.allocator-V2-ndk.vendor \
     android.hardware.graphics.composer3-V2-ndk.vendor \
     android.hardware.graphics.common-V4-ndk.vendor \
@@ -240,7 +244,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek
+    android.hardware.power-service-mediatek \
+    android.hardware.power@1.2.vendor
 
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
