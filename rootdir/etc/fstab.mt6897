@@ -75,6 +75,7 @@ system_dlkm                      /system_dlkm           ext4    ro   wait,slotse
 /dev/block/by-name/frp           /persistent            emmc    defaults   defaults
 /dev/block/by-name/misc          /misc                  emmc    defaults   defaults
 /dev/block/by-name/nvcfg         /mnt/vendor/nvcfg      ext4    noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/nvdata        /mnt/vendor/nvdata     ext4    noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
 /dev/block/by-name/nvram         /nvram                 emmc    defaults   defaults
 /dev/block/by-name/para          /para                  emmc    defaults   defaults
 /dev/block/by-name/persist       /mnt/vendor/persist    ext4    noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
