@@ -1175,7 +1175,7 @@ vendor/etc/camera/af_track_head.dla
 vendor/etc/camera/beauty/libTrueSight.so
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
-vendor/etc/camera/gma_custom.xml
+vendor/etc/camera/gma_custom.xml|0e7d6155f0b328cf6a79eb7e5b0e27e288355877
 vendor/etc/camera/ldc/libalLDC.so
 vendor/etc/camera/mimotion_c1b.bin
 vendor/etc/camera/mimotion_c1w.bin
