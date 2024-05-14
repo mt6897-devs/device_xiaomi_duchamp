@@ -286,6 +286,7 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.rawsuperlight_front.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.skinbeautifier.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.swflip.so
 odm/lib64/libArcNetMtk.so
+odm/lib64/libTrueSight.so
 odm/lib64/libalAILDC.so
 odm/lib64/libalAI_Seg.so
 odm/lib64/libalAI_Seg_CFR.so
@@ -778,6 +779,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
+vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 
