@@ -357,10 +357,12 @@ PRODUCT_PACKAGES += \
     init.mt6897.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
-    init.recovery.mt6897.rc \
     init.sensor_2_0.rc \
     init.target.rc \
     ueventd.mtk.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6897.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6897.rc
 
 # Secure Element
 PRODUCT_PACKAGES += \
