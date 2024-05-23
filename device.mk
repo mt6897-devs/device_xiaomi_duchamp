@@ -109,6 +109,9 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libultrahdr.vendor
 
+PRODUCT_PACKAGES += \
+    libshim_ultrahdr
+
 # ConsumerIr
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example

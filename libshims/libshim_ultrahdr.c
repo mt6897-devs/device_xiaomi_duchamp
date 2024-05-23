@@ -1,0 +1,1 @@
+void _ZN7android8ultrahdr5JpegR11encodeJPEGREPNS0_25jpegr_uncompressed_structES3_PNS0_23jpegr_compressed_structENS0_26ultrahdr_transfer_functionES5_() {}
