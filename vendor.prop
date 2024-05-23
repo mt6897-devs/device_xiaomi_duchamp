@@ -244,6 +244,7 @@ ro.vendor.jpeg_decode_sw_opt=2
 ro.vendor.mtk.c2.vdec.fmt.support.level=2
 ro.vendor.mtk.c2.vdec.vpp.turnkey.memc=1
 ro.vendor.mtk_sec_video_path_support=1
+ro.vendor.mtk_video_hevc_enc_support=1
 vendor.mtk.vdec.waitkeyframeforplay=9
 
 # Neural Networks
