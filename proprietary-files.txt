@@ -592,6 +592,7 @@ vendor/lib64/mt6897/libcameracustom.lens.so;SYMLINK=vendor/lib64/libcameracustom
 vendor/lib64/mt6897/libcameracustom.plugin.so;SYMLINK=vendor/lib64/libcameracustom.plugin.so
 vendor/lib64/mt6897/libcameracustom.so;SYMLINK=vendor/lib64/libcameracustom.so
 vendor/lib64/mt6897/libcameracustom_camera_db_ext.so;SYMLINK=vendor/lib64/libcameracustom_camera_db_ext.so
+vendor/lib64/mt6897/libccd.so;SYMLINK=vendor/lib64/libccd.so
 vendor/lib64/mt6897/libeffecthal.base.so;SYMLINK=vendor/lib64/libeffecthal.base.so
 vendor/lib64/mt6897/libfacerelight.so;SYMLINK=vendor/lib64/libfacerelight.so
 vendor/lib64/mt6897/libfeature.aiseg.so;SYMLINK=vendor/lib64/libfeature.aiseg.so
