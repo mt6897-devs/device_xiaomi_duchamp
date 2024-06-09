@@ -166,6 +166,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek-recovery
 
 PRODUCT_PACKAGES += \
+    android.hardware.health-V1-ndk \
     android.hardware.health@1.0.vendor
 
 # Keymint
@@ -342,6 +343,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.pixel \
     thermal_symlinks
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+    android.hardware.thermal-V1-ndk
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json

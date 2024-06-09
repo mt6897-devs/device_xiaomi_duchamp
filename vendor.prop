@@ -129,6 +129,7 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.uclamp.min=120
 ro.vendor.composer_version=3.2
 ro.vendor.hdr10plus.enable=1
+ro.vendor.magt.mtk_magt_support=1
 ro.vendor.mbrain.mode=mtk
 ro.vendor.mml.mtk_mml_support=1
 ro.vendor.mtk.gpud.mm.fbc.disable=false
