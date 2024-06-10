@@ -8,8 +8,6 @@ package co.aospa.dolby.xiaomi;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.media.AudioAttributes;
-import android.media.AudioDeviceAttributes;
 import android.media.AudioDeviceCallback;
 import android.media.AudioDeviceInfo;
 import android.media.AudioManager;
@@ -31,10 +29,6 @@ public final class DolbyUtils {
     private static final String TAG = "DolbyUtils";
     private static final int EFFECT_PRIORITY = 100;
     private static final int VOLUME_LEVELER_AMOUNT = 2;
-
-    private static final AudioAttributes ATTRIBUTES_MEDIA = new AudioAttributes.Builder()
-            .setUsage(AudioAttributes.USAGE_MEDIA)
-            .build();
 
     private static DolbyUtils mInstance;
     private DolbyAtmos mDolbyAtmos;
@@ -91,19 +85,6 @@ public final class DolbyUtils {
         registerCallbacks(dsOn);
         if (dsOn)
             setCurrentProfile();
-
-        // Restore speaker virtualizer, because for some reason it isn't
-        // enabled automatically at boot.
-        final AudioDeviceAttributes device =
-                mAudioManager.getDevicesForAttributes(ATTRIBUTES_MEDIA).get(0);
-        final boolean isOnSpeaker = (device.getType() == AudioDeviceInfo.TYPE_BUILTIN_SPEAKER);
-        final boolean spkVirtEnabled = getSpeakerVirtualizerEnabled();
-        dlog("isOnSpeaker=" + isOnSpeaker + " spkVirtEnabled=" + spkVirtEnabled);
-        if (isOnSpeaker && spkVirtEnabled) {
-            setSpeakerVirtualizerEnabled(false);
-            setSpeakerVirtualizerEnabled(true);
-            Log.i(TAG, "re-enabled speaker virtualizer");
-        }
     }
 
     private void checkEffect() {
