@@ -118,6 +118,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.hardware.drm.clearkey
 
+PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
+    $(LOCAL_PATH)/configs/linker.config.json
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
