@@ -1453,6 +1453,7 @@ system_ext/lib64/libmagtsync.so
 
 # DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex
+vendor/lib64/liboemcrypto.so
 
 # Fingerprint
 odm/bin/hw/vendor.xiaomi.hardware.dtool1-service
