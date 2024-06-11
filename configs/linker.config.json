@@ -1,0 +1,5 @@
+{
+    "provideLibs": [
+      "liboemcrypto.so"
+    ]
+}
