@@ -101,6 +101,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.audio-V3-ndk.vendor \
     android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth-V1-ndk.vendor \
     libbluetooth_audio_session
 
 # Camera

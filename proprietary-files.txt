@@ -216,9 +216,12 @@ vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 vendor/bin/batterysecret
 
 # Bluetooth
+vendor/bin/hw/android.hardware.bluetooth-service-mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
+vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bt_drv.rc
+vendor/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml
 vendor/firmware/BT_FW.cfg
 vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin
 vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
