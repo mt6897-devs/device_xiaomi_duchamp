@@ -228,6 +228,7 @@ ro.vendor.arm.gralloc.shared_access_usage_mask=0x50000000
 # Display Feature
 persist.vendor.dc_backlight.enable=false
 ro.vendor.bcbc.enable=true
+ro.vendor.cabc.enable=false
 ro.vendor.display.all_modes_support_WCG.enable=true
 ro.vendor.display.support_iqiyi_10bit=true
 ro.vendor.display.type=oled
