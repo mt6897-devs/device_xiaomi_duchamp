@@ -345,7 +345,11 @@ PRODUCT_BOOT_JARS += \
     mediatek-ims-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common
+    mediatek-telephony-common \
+    xiaomi-telephony-stub
+
+PRODUCT_PACKAGES += \
+    xiaomi-telephony-stub
 
 PRODUCT_PACKAGES += \
     libui_shim \
