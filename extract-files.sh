@@ -72,6 +72,9 @@ function blob_fixup {
         odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc)
             sed -i '/seclabel/d' "${2}"
             ;;
+        vendor/lib64/hw/mt6897/android.hardware.camera.provider@2.6-impl-mediatek.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v34.so" "${2}"
+            ;;
     esac
 }
 
