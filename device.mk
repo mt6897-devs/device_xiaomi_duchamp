@@ -140,6 +140,9 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libutilscallstack.vendor
 
+PRODUCT_PACKAGES += \
+    libui_shim.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml
 
