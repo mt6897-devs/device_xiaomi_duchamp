@@ -1453,6 +1453,9 @@ system_ext/etc/init/magt.rc
 system_ext/lib64/libged_sys.so
 system_ext/lib64/libmagt.so
 system_ext/lib64/libmagtsync.so
+system_ext/lib64/libpowerhalwrap.so
+system_ext/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
+system_ext/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 
 # DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex
