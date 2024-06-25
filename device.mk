@@ -73,7 +73,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-V1-ndk.vendor \
     android.hardware.soundtrigger3-V1-ndk.vendor \
-    libaudio_aidl_conversion_common_ndk.vendor
+    libaudio_aidl_conversion_common_ndk.vendor \
+    libsqlite.vendor
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default
@@ -135,7 +136,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator-V2-ndk.vendor \
     android.hardware.graphics.composer3-V2-ndk.vendor \
     android.hardware.graphics.common-V4-ndk.vendor \
-    libdrm.vendor
+    libcurl.vendor \
+    libdrm.vendor \
+    libutilscallstack.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml
@@ -150,7 +153,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper-V1-ndk.vendor
+    android.hardware.gatekeeper-V1-ndk.vendor \
+    libgatekeeper.vendor
 
 # GNSS
 PRODUCT_PACKAGES += \
@@ -190,7 +194,8 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.2.vendor \
     libcodec2_soft_common.vendor \
     libsfplugin_ccodec_utils.vendor \
-    libstagefright_softomx_plugin.vendor
+    libstagefright_softomx_plugin.vendor \
+    libexpat.vendor
 
 PRODUCT_PACKAGES += \
     dolbycodec_shim
