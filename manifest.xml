@@ -93,9 +93,10 @@
         <fqname>ISecureElement/SIM2</fqname>
         <fqname>ISecureElement/eSE1</fqname>
     </hal>
-    <hal format="aidl">
-        <name>android.hardware.soundtrigger3</name>
-        <fqname>ISoundTriggerHw/default</fqname>
+    <hal format="hidl">
+        <name>android.hardware.soundtrigger</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.3::ISoundTriggerHw/default</fqname>
     </hal>
     <hal format="aidl">
         <name>vendor.mediatek.hardware.audio</name>

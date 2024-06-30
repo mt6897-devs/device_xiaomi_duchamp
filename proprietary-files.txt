@@ -14,7 +14,6 @@ vendor/etc/misound_res_spk_power_video.bin
 vendor/etc/misound_res_spk_power_video_powersave.bin
 vendor/etc/smartpa_param/AW_DSP.bin
 vendor/firmware/aw882xx_acf.bin
-vendor/lib64/hw/android.hardware.soundtrigger3-impl.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6897.so
 vendor/lib64/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib64/hw/audio.r_submix.mt6897.so
 vendor/lib64/hw/sound_trigger.primary.default.so
