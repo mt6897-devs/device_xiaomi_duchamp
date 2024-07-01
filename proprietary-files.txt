@@ -1688,6 +1688,8 @@ vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
+vendor/etc/vintf/manifest/power-mediatek.xml
+vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib64/lib_power_applist.so
 vendor/lib64/libmtkperf_client_vendor.so
@@ -1696,6 +1698,9 @@ vendor/lib64/libpower_timer.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so

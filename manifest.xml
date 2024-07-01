@@ -124,10 +124,6 @@
         <fqname>IMMAgent/default</fqname>
     </hal>
     <hal format="aidl">
-        <name>vendor.mediatek.hardware.mtkpower</name>
-        <fqname>IMtkPowerService/default</fqname>
-    </hal>
-    <hal format="aidl">
         <name>vendor.mediatek.hardware.mtkradioex.data</name>
         <version>2</version>
         <fqname>IMtkRadioExData/slot1</fqname>
