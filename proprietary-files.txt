@@ -1687,9 +1687,6 @@ vendor/etc/command.csv
 vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib64/lib_power_applist.so
