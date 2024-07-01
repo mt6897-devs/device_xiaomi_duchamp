@@ -135,6 +135,7 @@ BOARD_HAS_MTK_HARDWARE := true
 BOARD_VENDOR := xiaomi
 
 # Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery

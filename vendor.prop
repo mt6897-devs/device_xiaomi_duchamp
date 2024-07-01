@@ -224,30 +224,6 @@ ro.vendor.arm.gralloc.no_afbc_usage_mask=0x1200000000000000
 ro.vendor.arm.gralloc.shared_access_usage_flags=0x10000000
 ro.vendor.arm.gralloc.shared_access_usage_mask=0x50000000
 
-# Display Feature
-persist.vendor.dc_backlight.enable=false
-ro.vendor.bcbc.enable=true
-ro.vendor.cabc.enable=false
-ro.vendor.display.all_modes_support_WCG.enable=true
-ro.vendor.display.support_iqiyi_10bit=true
-ro.vendor.display.type=oled
-ro.vendor.fps.switch.thermal=true
-ro.vendor.gcp.enable=1
-ro.vendor.hbm_backlight.enable=true
-ro.vendor.histogram.enable=1
-ro.vendor.localhbm.enable=true
-ro.vendor.mi_sf.hdr_enable_flatmode=true
-ro.vendor.mi_sf.highfps_duration_enable=true
-ro.vendor.mtk.pq.aidl=true
-ro.vendor.mtk.pq.odm=true
-ro.vendor.regionpq.by.layer.support=true
-ro.vendor.sdr2hdr.by.layer.support=true
-ro.vendor.sre.enable=false
-ro.vendor.standard.video.enable=true
-ro.vendor.video_box.version=2
-ro.vendor.xiaomi.bl.poll=true
-vendor.displayfeature.entry.enable=true
-
 # DRM
 drm.service.enabled=true
 
@@ -341,9 +317,6 @@ telephony.lteOnCdmaDevice=1
 persist.vendor.sensor.maxbrightness=8191
 persist.vendor.sensor.powbrightness=400
 ro.vendor.mtk.sensor.support=yes
-
-# TouchFeature
-ro.vendor.touchfeature.type=243
 
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1

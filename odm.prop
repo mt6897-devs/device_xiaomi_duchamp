@@ -1,0 +1,29 @@
+# Display Feature
+persist.vendor.dc_backlight.enable=false
+ro.vendor.bcbc.enable=true
+ro.vendor.cabc.enable=false
+ro.vendor.display.type=oled
+ro.vendor.display.all_modes_support_WCG.enable=true
+ro.vendor.display.support_iqiyi_10bit=false
+ro.vendor.display.update_gray_by_temperature=true
+ro.vendor.displayfeature.dump=true
+ro.vendor.fps.switch.thermal=true
+ro.vendor.gcp.enable=1
+ro.vendor.hbm_backlight.enable=true
+ro.vendor.histogram.enable=1
+ro.vendor.localhbm.enable=true
+ro.vendor.mi_sf.p3_wcg=true
+ro.vendor.mi_sf.hdr_enable_flatmode=true
+ro.vendor.mi_sf.highfps_duration_enable=true
+ro.vendor.mtk.pq.aidl=true
+ro.vendor.mtk.pq.odm=true
+ro.vendor.regionpq.by.layer.support=true
+ro.vendor.sdr2hdr.by.layer.support=true
+ro.vendor.sre.enable=false
+ro.vendor.standard.video.enable=true
+ro.vendor.video_box.version=2
+ro.vendor.xiaomi.bl.poll=true
+vendor.displayfeature.entry.enable=true
+
+# TouchFeature
+ro.vendor.touchfeature.type=243
