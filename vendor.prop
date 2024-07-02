@@ -94,6 +94,7 @@ vendor.connsys.driver.ready=no
 
 # Display
 debug.mediatek.appgamepq_compress=1
+debug.mediatek.disp_decompress=1
 debug.sf.auto_latch_unsignaled=false
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000
@@ -131,6 +132,7 @@ ro.vendor.mml.mtk_mml_support=1
 ro.vendor.mtk.gpud.mm.fbc.disable=false
 ro.vendor.mtk_aal_support=1
 ro.vendor.mtk_aod_support=1
+ro.vendor.mtk_backlight_hwc_support=1
 ro.vendor.mtk_cuva_hdr_support=1
 ro.vendor.mtk_hdr10p_adaptive_support=1
 ro.vendor.mtk_hdr_video_support=1
