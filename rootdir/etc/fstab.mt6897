@@ -88,3 +88,6 @@ system_dlkm                      /system_dlkm           ext4    ro   wait,slotse
 /devices/platform/soc/11211000.usb1/11210000.xhci* auto   vfat   defaults   voldmanaged=usbotg:auto
 /devices/platform/soc/11240000.mmc*                auto   auto   defaults   voldmanaged=sdcard1:auto,encryptable=userdata
 /devices/platform/usb_xhci*                        auto   vfat   defaults   voldmanaged=usbotg:auto
+
+# zram
+/dev/block/zram0                                   none   swap   defaults   zramsize=50%

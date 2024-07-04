@@ -904,9 +904,6 @@ service bugreport /system/bin/dumpstate -d -p -B -z \
     oneshot
     keycodes 114 115 116
 
-on property:sys.boot_completed=1
-    swapon_all /vendor/etc/fstab.enableswap
-
 # Mount mdota
 on property:ro.boot.slot_suffix=_a
     # Set SELinux security contexts on upgrade or policy update.
