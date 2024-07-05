@@ -8,7 +8,7 @@
 android_app {
     name: "XiaomiDolby",
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.kt"],
     resource_dirs: ["res"],
     certificate: "platform",
     platform_apis: true,
