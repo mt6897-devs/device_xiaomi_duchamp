@@ -78,7 +78,7 @@ function blob_fixup {
             ;;
         vendor/lib64/c2.dolby.client.so)
             [ "$2" = "" ] && return 0
-            grep -q "dolbycodec_shim.so" "${2}" || "${PATCHELF}" --add-needed "dolbycodec_shim.so" "${2}"
+            grep -q "libshim_codec2_hidl.so" "${2}" || "${PATCHELF}" --add-needed "libshim_codec2_hidl.so" "${2}"
 	    ;;
         odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc)
             [ "$2" = "" ] && return 0

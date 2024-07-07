@@ -18,8 +18,11 @@ cc_library_shared {
 }
 
 cc_library_shared {
-    name: "dolbycodec_shim",
-    srcs: ["dolbycodec_shim.c"],
+    name: "libshim_codec2_hidl",
+    srcs: ["libshim_codec2_hidl.cpp"],
     compile_multilib: "64",
+    shared_libs: [
+        "libcodec2_hidl@1.0",
+    ],
     vendor: true,
 }
