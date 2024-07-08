@@ -111,7 +111,7 @@
         <Compare>more</Compare>
         <MaxValue>100</MaxValue>
         <MinValue>0</MinValue>
-        <DefaultValue>0</DefaultValue>
+        <DefaultValue>10</DefaultValue>
     </CMD>
     <CMD name="PERF_RES_SCHED_UCLAMP_MIN_RT" id="0x01408400">
         <Entry path="/dev/cpuctl/rt/cpu.uclamp.min"></Entry>
