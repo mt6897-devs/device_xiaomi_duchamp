@@ -5,7 +5,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2200000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="2200000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="3"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data>
@@ -19,7 +18,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2200000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="2200000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="3"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="500"></data>
@@ -35,7 +33,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2200000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="2200000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="3"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>             
@@ -65,14 +62,12 @@
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="3"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="34"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_WHITELIST_LAUNCH">
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
     </scenario>
@@ -81,7 +76,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
     </scenario>
@@ -90,7 +84,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3200000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="2"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data>
@@ -106,7 +99,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
     </scenario>
@@ -115,7 +107,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_FG" param1="96"></data>
@@ -173,27 +164,18 @@
         <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_GAME_MODE">
-        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FSTBV2_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_RESCUE_SECOND_ENABLE_BY_PID" param1="1"></data>
-        <data cmd="PERF_RES_FRS_ENABLE" param1="0"></data>
-        <data cmd="PERF_RES_FRS_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FRS_TZ_INDEX" param1="56"></data>
-        <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="47000"></data>
-        <data cmd="PERF_RES_FRS_MIN_FPS" param1="5"></data>
         <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
         <data cmd="PERF_RES_FPS_FBT_RESCUE_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_FILTER_FRAME_ENABLE_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_BOOST_AFFINITY_BY_PID" param1="2"></data>
         <data cmd="PERF_RES_FPS_FBT_BOOST_LR_BY_PID" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_SPID" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_EMA2_ENABLE" param1="1"></data>
         <data cmd="PERF_RES_NET_BT_AUDIO_LOW_LATENCY" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P_BY_PID" param1="0"></data>
         <data cmd="PERF_RES_FPS_FBT_CHECK_BUFFER_QUOTA_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_GCC_ENABLE_BY_PID" param1="2"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_FORCE_NO_SUB_QUE_DEQUE_PERIOD" param1="1"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_UX_SCROLLING_COMMON">
         <data cmd="PERF_RES_SCHED_TA_MASK" param1="0xf0"></data>
@@ -207,7 +189,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="2000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2850000"></data>
         <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="96"></data>
         <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
@@ -225,9 +206,6 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3350000"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_CAMERA_MODE">
-        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_BY_PID" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_BYPASS_NONSF_BY_PID" param1="0"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_API_MASK_BY_PID" param1="6"></data>
         <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_GCC_ENABLE_BY_PID" param1="2"></data>
         <data cmd="PERF_RES_FPS_FBT_EXPECTED_FPS_MARGIN_BY_PID" param1="-5"></data>
@@ -243,6 +221,5 @@
         <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
         <data cmd="PERF_RES_POWERHAL_PRIORITY" param1="1"></data>
         <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
-        <data cmd="PERF_RES_FPS_FPSGO_SPID" param1="1"></data>
     </scenario>
 </SCNTABLE>
