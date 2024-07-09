@@ -21,7 +21,8 @@
     <string name="dolby_category_settings">Settings</string>
     <string name="dolby_bass_enhancer">Bass enhancer</string>
     <string name="dolby_dialogue_enhancer">Dialogue enhancer</string>
-    <string name="dolby_virtualizer">Surround virtualizer</string>
+    <string name="dolby_spk_virtualizer">Speaker virtualization</string>
+    <string name="dolby_hp_virtualizer">Headphone virtualization</string>
     <string name="dolby_stereo_widening">Stereo widening</string>
     <string name="dolby_volume_leveler">Volume leveler</string>
     <string name="dolby_connect_headphones">Connect headphones</string>

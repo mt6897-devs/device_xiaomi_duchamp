@@ -31,12 +31,23 @@ class DolbyConstants {
         const val PREF_ENABLE = "dolby_enable"
         const val PREF_PROFILE = "dolby_profile"
         const val PREF_PRESET = "dolby_preset"
-        const val PREF_VIRTUALIZER = "dolby_virtualizer"
+        const val PREF_HP_VIRTUALIZER = "dolby_virtualizer"
+        const val PREF_SPK_VIRTUALIZER = "dolby_spk_virtualizer"
         const val PREF_STEREO = "dolby_stereo"
         const val PREF_DIALOGUE = "dolby_dialogue"
         const val PREF_BASS = "dolby_bass"
         const val PREF_VOLUME = "dolby_volume"
         const val PREF_RESET = "dolby_reset"
+
+        val PROFILE_SPECIFIC_PREFS = setOf(
+            PREF_PRESET,
+            PREF_HP_VIRTUALIZER,
+            PREF_SPK_VIRTUALIZER,
+            PREF_STEREO,
+            PREF_DIALOGUE,
+            PREF_BASS,
+            PREF_VOLUME
+        )
 
         fun dlog(tag: String, msg: String) {
             if (Log.isLoggable(TAG, Log.DEBUG)) {

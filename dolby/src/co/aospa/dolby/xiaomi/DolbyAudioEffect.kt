@@ -46,7 +46,7 @@ class DolbyAudioEffect(priority: Int, audioSession: Int) : AudioEffect(
         }
     }
 
-    fun resetProfileSpecificSettings() {
+    fun resetProfileSpecificSettings(profile: Int = this.profile) {
         dlog(TAG, "resetProfileSpecificSettings: profile=$profile")
         setIntParam(EFFECT_PARAM_RESET_PROFILE_SETTINGS, profile)
     }
