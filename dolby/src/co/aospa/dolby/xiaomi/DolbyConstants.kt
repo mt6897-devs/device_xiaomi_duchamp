@@ -18,8 +18,7 @@ class DolbyConstants {
         DIALOGUE_ENHANCER_AMOUNT(108),
         GEQ_BAND_GAINS(110, 20),
         BASS_ENHANCER_ENABLE(111),
-        STEREO_WIDENING_AMOUNT(113),
-        VOLUME_LEVELER_AMOUNT(116);
+        STEREO_WIDENING_AMOUNT(113);
 
         override fun toString(): String {
             return "${name}(${id})"
