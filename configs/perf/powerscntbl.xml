@@ -41,9 +41,9 @@
         <data cmd="PERF_RES_GPU_GED_LOADING_BASE_DVFS_STEP" param1="771"></data>
     </scenario>
     <scenario powerhint="INTERACTION">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="800000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="800000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1400000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1400000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="1200000"></data>
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
