@@ -1210,7 +1210,6 @@ odm/lib64/libclient2slpi.notifier.so
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
 vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897;SYMLINK=vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
 vendor/bin/hw/mt6897/arm.mali.platform-service.mediatek.mt6897;SYMLINK=vendor/bin/hw/arm.mali.platform-service.mediatek
-vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
 vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
@@ -1222,21 +1221,14 @@ vendor/etc/gralloc/vpu.xml
 vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
 vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc
 vendor/etc/init/arm.mali.platform-mediatek.rc
-vendor/etc/init/mbrain-mtk-default.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
 vendor/etc/mali_platform.config
-vendor/etc/mbrain/mbrain_runtime_config.bin
-vendor/etc/mbrain/mbrain_runtime_game_config.bin
-vendor/etc/mbrain/mbrain_runtime_pivm_config.bin
-vendor/etc/mbrain/mbrain_runtime_video_config.bin
-vendor/etc/mbrain/mbrain_static_config.bin
 vendor/etc/pq_flag.xml
 vendor/etc/vintf/manifest/arm.mali.platform-mediatek.xml
 vendor/etc/vintf/manifest/manifest_allocator.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
-vendor/etc/vintf/manifest/manifest_mbrain.xml
 vendor/etc/vintf/manifest/manifest_mmlpq.xml
 vendor/etc/vintf/manifest/mapper.mediatek.xml
 vendor/firmware/mali_csffw.bin
@@ -1248,7 +1240,6 @@ vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/egl/mt6897/libGLES_mali.so;SYMLINK=vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
-vendor/lib64/hw/libmbrainImpl.so
 vendor/lib64/hw/mt6897/android.hardware.graphics.allocator-V2-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so
 vendor/lib64/hw/mt6897/android.hardware.graphics.mapper@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6897/mapper.mediatek.so;SYMLINK=vendor/lib64/hw/mapper.mediatek.so
@@ -1275,7 +1266,6 @@ vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libhdrvideo.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
-vendor/lib64/libmbrainSDKv.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqhdrmetaparser.so
 vendor/lib64/libpqsharememory.so
@@ -1301,11 +1291,8 @@ vendor/lib64/mt6897/libpq_cust_base.so;SYMLINK=vendor/lib64/libpq_cust_base.so
 vendor/lib64/mt6897/libpq_sec.so;SYMLINK=vendor/lib64/libpq_sec.so
 vendor/lib64/mt6897/libpqconfig.so;SYMLINK=vendor/lib64/libpqconfig.so
 vendor/lib64/mt6897/libpqparamparser.so;SYMLINK=vendor/lib64/libpqparamparser.so
-vendor/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.mbrainj-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
@@ -1546,6 +1533,21 @@ vendor/etc/vintf/manifest/android.hardware.identity@5.0-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
+
+# MBrain
+vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek
+vendor/etc/init/mbrain-mtk-default.rc
+vendor/etc/mbrain/mbrain_runtime_config.bin
+vendor/etc/mbrain/mbrain_runtime_game_config.bin
+vendor/etc/mbrain/mbrain_runtime_pivm_config.bin
+vendor/etc/mbrain/mbrain_runtime_video_config.bin
+vendor/etc/mbrain/mbrain_static_config.bin
+vendor/etc/vintf/manifest/manifest_mbrain.xml
+vendor/lib64/hw/libmbrainImpl.so
+vendor/lib64/libmbrainSDKv.so
+vendor/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
+vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.mbrainj-V1-ndk.so
 
 # Media (Configs)
 vendor/etc/mtk_platform_codecs_config.xml
