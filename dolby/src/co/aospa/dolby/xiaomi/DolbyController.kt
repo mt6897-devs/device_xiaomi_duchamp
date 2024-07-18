@@ -100,7 +100,6 @@ internal class DolbyController private constructor(
         // Restore our main settings
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
         dsOn = prefs.getBoolean(DolbyConstants.PREF_ENABLE, true)
-        setCurrentProfile()
 
         context.resources.getStringArray(R.array.dolby_profile_values)
                 .map { it.toInt() }
@@ -110,6 +109,9 @@ internal class DolbyController private constructor(
                     // Now restore our profile-specific settings
                     restoreSettings(profile)
                 }
+
+        // Finally restore the current profile.
+        setCurrentProfile()
     }
 
     private fun restoreSettings(profile: Int) {
