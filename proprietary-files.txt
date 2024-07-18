@@ -1438,6 +1438,7 @@ vendor/firmware/st_fts_L11a.ftb
 # DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex
 vendor/lib64/liboemcrypto.so
+vendor/lib64/libwvkeybox.so
 
 # Fingerprint
 odm/bin/hw/vendor.xiaomi.hardware.dtool1-service
