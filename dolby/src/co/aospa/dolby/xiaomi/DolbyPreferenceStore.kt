@@ -39,24 +39,24 @@ class DolbyPreferenceStore(
 
     override fun putBoolean(key: String, value: Boolean) =
         getSharedPreferences(key).edit()
-                .putBoolean(key, value)
-                .apply()
+            .putBoolean(key, value)
+            .apply()
 
     override fun getBoolean(key: String, defValue: Boolean) =
         getSharedPreferences(key).getBoolean(key, defValue)
 
     override fun putInt(key: String, value: Int) =
         getSharedPreferences(key).edit()
-                .putInt(key, value)
-                .apply()
+            .putInt(key, value)
+            .apply()
 
     override fun getInt(key: String, defValue: Int) =
         getSharedPreferences(key).getInt(key, defValue)
 
     override fun putString(key: String, value: String?) =
         getSharedPreferences(key).edit()
-                .putString(key, value)
-                .apply()
+            .putString(key, value)
+            .apply()
 
     override fun getString(key: String, defValue: String?) =
         getSharedPreferences(key).getString(key, defValue)

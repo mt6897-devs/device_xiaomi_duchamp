@@ -125,14 +125,14 @@ class DolbySettingsFragment : PreferenceFragment(),
             true
         }
 
-        audioManager.registerAudioDeviceCallback(audioDeviceCallback, handler)
+        audioManager!!.registerAudioDeviceCallback(audioDeviceCallback, handler)
         updateSpeakerState()
         updateProfileSpecificPrefs()
     }
 
     override fun onDestroyView() {
         dlog(TAG, "onDestroyView")
-        audioManager.unregisterAudioDeviceCallback(audioDeviceCallback)
+        audioManager!!.unregisterAudioDeviceCallback(audioDeviceCallback)
         super.onDestroyView()
     }
 
@@ -187,7 +187,7 @@ class DolbySettingsFragment : PreferenceFragment(),
     }
 
     private fun updateSpeakerState() {
-        val device = audioManager.getDevicesForAttributes(ATTRIBUTES_MEDIA)[0]
+        val device = audioManager!!.getDevicesForAttributes(ATTRIBUTES_MEDIA)[0]
         isOnSpeaker = (device.type == AudioDeviceInfo.TYPE_BUILTIN_SPEAKER)
     }
 
@@ -269,7 +269,7 @@ class DolbySettingsFragment : PreferenceFragment(),
     companion object {
         private const val TAG = "DolbySettingsFragment"
         private val ATTRIBUTES_MEDIA = AudioAttributes.Builder()
-                .setUsage(AudioAttributes.USAGE_MEDIA)
-                .build()
+            .setUsage(AudioAttributes.USAGE_MEDIA)
+            .build()
     }
 }
