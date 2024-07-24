@@ -20,4 +20,8 @@ cc_binary {
         "libutils",
         "android.frameworks.sensorservice@1.0",
     ],
+
+    header_libs: [
+        "generated_kernel_headers",
+    ],
 }

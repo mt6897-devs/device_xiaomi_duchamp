@@ -13,7 +13,7 @@
 #include <poll.h>
 #include <sys/ioctl.h>
 
-#include "xiaomi_touch.h"
+#include <linux/xiaomi_touch.h>
 
 #define SENSOR_NAME_XIAOMI_SENSOR_NONUI "xiaomi.sensor.nonui"
 
@@ -30,9 +30,6 @@ using android::hardware::sensors::V1_0::SensorInfo;
 using android::hardware::sensors::V1_0::SensorType;
 
 #define TOUCH_DEV_PATH "/dev/xiaomi-touch"
-#define TOUCH_MAGIC 'T'
-#define TOUCH_IOC_SET_CUR_VALUE _IO(TOUCH_MAGIC, SET_CUR_VALUE)
-#define TOUCH_IOC_GET_CUR_VALUE _IO(TOUCH_MAGIC, GET_CUR_VALUE)
 
 namespace {
 
