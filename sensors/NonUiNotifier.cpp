@@ -78,11 +78,29 @@ int main() {
         return EXIT_FAILURE;
     }
 
+    std::vector<SensorInfo> sensorList;
+    manager->getSensorList([&sensorList, &res](const auto& l, auto r) {
+        sensorList = l;
+        res = r;
+    });
+    if (res != Result::OK) {
+        LOG(ERROR) << "failed to get getSensorList";
+        return EXIT_FAILURE;
+    }
+    auto it = std::find_if(sensorList.begin(), sensorList.end(), [](const SensorInfo& sensor) {
+        return (sensor.typeAsString == SENSOR_NAME_XIAOMI_SENSOR_NONUI) &&
+               (sensor.flags & SensorFlagBits::WAKE_UP);
+    });
+
     int32_t sensorHandle = -1;
-    manager->getDefaultSensor(static_cast<SensorType>(SENSOR_TYPE_XIAOMI_SENSOR_NONUI),
-                              [&sensorHandle](const auto& info, auto r) {
-                                    sensorHandle = info.sensorHandle;
-                              });
+    if (it != sensorList.end()) {
+        sensorHandle = it->sensorHandle;
+    } else {
+        LOG(ERROR) << "failed to get wake-up version of nonui sensor";
+        return EXIT_FAILURE;
+    }
+
+    sensorList.clear();
 
     manager->createEventQueue(new NonUiSensorCallback(), [&queue, &res](const auto& q, auto r) {
         queue = q;
