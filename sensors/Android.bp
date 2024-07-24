@@ -16,14 +16,8 @@ cc_binary {
 
     shared_libs: [
         "libbase",
-        "libcutils",
         "libhidlbase",
         "libutils",
         "android.frameworks.sensorservice@1.0",
-        "android.hardware.sensors@1.0",
-    ],
-
-    header_libs: [
-        "generated_kernel_headers",
     ],
 }
