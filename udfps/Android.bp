@@ -15,6 +15,7 @@ cc_library {
         "android.hardware.biometrics.fingerprint-V4-ndk",
     ],
     header_libs: [
+        "generated_kernel_headers",
         "//hardware/xiaomi:xiaomifingerprint_headers",
     ],
     defaults: ["xiaomi_hardware_biometrics_config_default"],
