@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-service vendor.nonui-notifier /vendor/bin/nonui-notifier
+service vendor.sensor-notifier /vendor/bin/sensor-notifier
    class main
    user system
    group system

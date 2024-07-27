@@ -31,7 +31,7 @@
 # Sensors
 /dev/elliptic0                                                                                         u:object_r:sensors_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal                     u:object_r:hal_sensors_default_exec:s0
-/(vendor|system/vendor)/bin/nonui-notifier                                                             u:object_r:vendor_nonui_notifier_exec:s0
+/(vendor|system/vendor)/bin/sensor-notifier                                                            u:object_r:vendor_sensor_notifier_exec:s0
 /(odm|vendor/odm|system/vendor)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl                      u:object_r:hal_sensors_default_exec:s0
 
 # Touch

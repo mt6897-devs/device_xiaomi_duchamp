@@ -1,0 +1,17 @@
+type vendor_sensor_notifier, domain;
+type vendor_sensor_notifier_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(vendor_sensor_notifier)
+
+hwbinder_use(vendor_sensor_notifier)
+
+# for sensor callbacks
+binder_use(vendor_sensor_notifier)
+binder_call(vendor_sensor_notifier, system_server)
+binder_call(system_server, vendor_sensor_notifier)
+
+allow vendor_sensor_notifier fwk_sensor_hwservice:hwservice_manager find;
+allow vendor_sensor_notifier touchfeature_device:chr_file rw_file_perms;
+allow vendor_sensor_notifier vendor_sysfs_touch:file r_file_perms;
+
+get_prop(vendor_sensor_notifier, hwservicemanager_prop)
