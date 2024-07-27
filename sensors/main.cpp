@@ -9,6 +9,7 @@
 #include <android-base/logging.h>
 #include <android-base/properties.h>
 
+#include "notifiers/AodNotifier.h"
 #include "notifiers/NonUiNotifier.h"
 
 int main() {
@@ -19,6 +20,7 @@ int main() {
     }
 
     std::vector<std::unique_ptr<SensorNotifier>> notifiers;
+    notifiers.push_back(std::make_unique<AodNotifier>(manager));
     notifiers.push_back(std::make_unique<NonUiNotifier>(manager));
     for (const auto& notifier : notifiers) {
         notifier->activate();
