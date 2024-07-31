@@ -23,6 +23,7 @@ ro.vendor.sre.enable=false
 ro.vendor.standard.video.enable=true
 ro.vendor.video_box.version=2
 ro.vendor.xiaomi.bl.poll=true
+sys.displayfeature_hidl=false
 vendor.displayfeature.entry.enable=true
 
 # TouchFeature
