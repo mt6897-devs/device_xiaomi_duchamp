@@ -23,10 +23,3 @@ cc_library_shared {
     compile_multilib: "64",
     vendor: true,
 }
-
-cc_library_shared {
-    name: "libshim_ultrahdr",
-    srcs: ["libshim_ultrahdr.c"],
-    compile_multilib: "64",
-    vendor: true,
-}

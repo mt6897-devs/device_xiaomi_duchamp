@@ -119,11 +119,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider-V2-ndk.vendor \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.6.vendor \
-    libcamera2ndk_vendor \
-    libultrahdr.vendor
-
-PRODUCT_PACKAGES += \
-    libshim_ultrahdr
+    libcamera2ndk_vendor
 
 # ConsumerIr
 PRODUCT_PACKAGES += \

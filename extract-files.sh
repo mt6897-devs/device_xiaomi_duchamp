@@ -72,9 +72,6 @@ function blob_fixup {
         odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc)
             sed -i '/seclabel/d' "${2}"
             ;;
-        vendor/lib64/mt6897/libmtkcam_hwnode.jpegnode.so)
-            grep -q "libshim_ultrahdr.so" "${2}" || "${PATCHELF}" --add-needed "libshim_ultrahdr.so" "${2}"
-	    ;;
     esac
 }
 
