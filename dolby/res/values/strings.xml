@@ -9,7 +9,7 @@
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_enable">Use Dolby Atmos</string>
     <string name="dolby_profile_title">Choose a profile</string>
-    <string name="dolby_preset">Equalizer preset</string>
+    <string name="dolby_preset">Graphic equalizer</string>
     <string name="dolby_off">Off</string>
     <string name="dolby_on">On</string>
     <string name="dolby_low">Low</string>
@@ -36,7 +36,7 @@
     <string name="dolby_profile_voice">Voice</string>
 
     <!-- Dolby equalizer presets -->
-    <string name="dolby_preset_default">Default</string>
+    <string name="dolby_preset_default">Flat</string>
     <string name="dolby_preset_rock">Rock</string>
     <string name="dolby_preset_jazz">Jazz</string>
     <string name="dolby_preset_pop">Pop</string>
@@ -47,5 +47,18 @@
     <string name="dolby_preset_country">Country</string>
     <string name="dolby_preset_dance">Dance</string>
     <string name="dolby_preset_metal">Metal</string>
+
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">Gain</string>
+    <string name="dolby_geq_preset">Preset</string>
+    <string name="dolby_geq_preset_name">Preset name</string>
+    <string name="dolby_geq_new_preset">New preset</string>
+    <string name="dolby_geq_rename_preset">Rename preset</string>
+    <string name="dolby_geq_delete_preset">Delete preset</string>
+    <string name="dolby_geq_delete_preset_prompt">Do you want to delete this preset?</string>
+    <string name="dolby_geq_reset_gains">Reset gains</string>
+    <string name="dolby_geq_reset_gains_prompt">Do you want to reset this preset to defaults?</string>
+    <string name="dolby_geq_preset_name_exists">Preset name already exists!</string>
+    <string name="dolby_geq_preset_name_too_long">Preset name is too long!</string>
 
 </resources>

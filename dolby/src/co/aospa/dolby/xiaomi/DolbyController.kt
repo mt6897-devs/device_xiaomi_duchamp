@@ -200,6 +200,18 @@ internal class DolbyController private constructor(
         dolbyEffect.setDapParameter(DsParam.GEQ_BAND_GAINS, gains, profile)
     }
 
+    fun getPresetName(): String {
+        val presets = context.resources.getStringArray(R.array.dolby_preset_values)
+        val presetIndex = presets.indexOf(getPreset())
+        return if (presetIndex == -1) {
+            "Custom"
+        } else {
+            context.resources.getStringArray(
+                R.array.dolby_preset_entries
+            )[presetIndex]
+        }
+    }
+
     fun getHeadphoneVirtEnabled(profile: Int = this.profile) =
         dolbyEffect.getDapParameterBool(DsParam.HEADPHONE_VIRTUALIZER, profile).also {
             dlog(TAG, "getHeadphoneVirtEnabled: $it")
