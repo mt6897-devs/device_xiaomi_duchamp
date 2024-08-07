@@ -369,7 +369,7 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.mediatek-musb \
+    android.hardware.usb-service.mediatek \
     android.hardware.usb.gadget-service.mediatek
 
 # Vendor service manager
