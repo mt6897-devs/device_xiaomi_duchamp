@@ -248,6 +248,15 @@ ro.netflix.bsp_rev=MTK6897-37606-1
 # Encryption
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Fingerprint
+persist.vendor.sys.fp.expolevel=0x88
+persist.vendor.sys.fp.fod.location.X_Y=504,2332
+persist.vendor.sys.fp.fod.size.width_height=210,210
+persist.vendor.sys.fp.fp_anti_mistouch=true
+ro.hardware.fp.fod.location=low
+ro.hardware.fp.fod.touch.ctl.version=2.0
+ro.hardware.fp.fod=true
+
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
 

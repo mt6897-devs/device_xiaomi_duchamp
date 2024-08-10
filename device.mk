@@ -154,6 +154,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.common.thread \
+    android.hardware.biometrics.common.util \
+    android.hardware.biometrics.fingerprint-V3-ndk.vendor
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper-V1-ndk.vendor \

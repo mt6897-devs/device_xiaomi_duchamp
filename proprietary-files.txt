@@ -1425,11 +1425,15 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvkeybox.so
 
 # Fingerprint
+odm/app/goodix_sz_duchamp/goodix_sz_duchamp.apk
 odm/bin/hw/vendor.xiaomi.hardware.dtool1-service
 odm/etc/init/vendor.xiaomi.hardware.dtool1.rc
-odm/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
-odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+odm/lib64/hw/fingerprint.fpc_fod.so
+odm/lib64/hw/fingerprint.goodix_fod.so
 odm/lib64/libgf_hal.so
+vendor/bin/hw/mfp-daemon
+vendor/etc/init/init.mfp-daemon.aidl.rc
+vendor/etc/vintf/manifest/AHBF-V3-service.xml
 vendor/etc/vintf/manifest/fod-aidl.xml
 vendor/lib64/com.fingerprints.extension3-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.dtool1-V1-ndk.so
