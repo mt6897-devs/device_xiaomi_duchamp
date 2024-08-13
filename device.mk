@@ -250,6 +250,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayDuchamp \
    FrameworksResOverlayDuchamp \
+   SettingsProviderOverlayDuchampPOCO \
+   SettingsProviderOverlayDuchampRedmi \
    SettingsResOverlayDuchamp \
    SystemUIOverlayDuchamp \
    TelephonyResOverlayDuchamp \
@@ -314,6 +316,10 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
+
+# SKU
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/sku/,$(TARGET_COPY_OUT_ODM)/etc)
 
 # Radio
 PRODUCT_PACKAGES += \

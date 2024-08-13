@@ -17,14 +17,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_duchamp
 PRODUCT_DEVICE := duchamp
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K70E
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := 2311DRK48G
 PRODUCT_SYSTEM_NAME := duchamp_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="duchamp-user 14 UP1A.230905.011 V816.0.7.0.UNLMIXM release-keys" \
+    PRIVATE_BUILD_DESC="duchamp_global-user 14 UP1A.230905.011 V816.0.9.0.UNLMIXM release-keys" \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := Redmi/duchamp/duchamp:14/UP1A.230905.011/V816.0.7.0.UNLMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/duchamp_global/duchamp:14/UP1A.230905.011/V816.0.9.0.UNLMIXM:user/release-keys
