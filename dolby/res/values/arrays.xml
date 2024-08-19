@@ -29,6 +29,7 @@
         <item>@string/dolby_preset_hiphop</item>
         <item>@string/dolby_preset_blues</item>
         <item>@string/dolby_preset_electronic</item>
+        <item>@string/dolby_preset_country</item>
         <item>@string/dolby_preset_metal</item>
     </string-array>
 
@@ -52,6 +53,7 @@
         <item>52,28,4,-20,-44,-24,-4,-4,-4,-24,-44,-24,-4,0,4,4,4,20,36,36</item>
         <item>28,28,28,-36,-100,-68,-36,4,44,28,12,4,-4,4,12,4,-4,12,28,28</item>
         <item>50,34,18,2,-14,-6,2,-2,-6,-26,-46,-26,-6,-2,2,2,2,2,2,2</item>
+        <item>30,-1,11,-25,-21,-29,3,11,19,19,19,15,11,-9,-29,-4,15,18,24,50</item>
         <item>40,24,8,8,8,-4,-16,-12,-8,-32,-56,-24,8,8,8,8,8,8,8,8</item>
     </string-array>
 
