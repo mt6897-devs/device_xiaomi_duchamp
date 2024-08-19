@@ -36,7 +36,7 @@
     <string name="dolby_profile_voice">Voice</string>
 
     <!-- Dolby equalizer presets -->
-    <string name="dolby_preset_default">Flat</string>
+    <string name="dolby_preset_default">Default</string>
     <string name="dolby_preset_rock">Rock</string>
     <string name="dolby_preset_jazz">Jazz</string>
     <string name="dolby_preset_pop">Pop</string>

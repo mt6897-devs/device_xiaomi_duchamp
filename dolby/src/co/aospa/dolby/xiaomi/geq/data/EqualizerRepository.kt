@@ -42,31 +42,32 @@ class EqualizerRepository(
         )
     }
 
+    val dolbyPresetDefault = context.getString(R.string.dolby_preset_default)
+
     val defaultPreset = Preset(
-        name = "Flat",
+        name = dolbyPresetDefault,
         bandGains = List<BandGain>(10) { index ->
             BandGain(band = tenBandFreqs[index])
         }
     )
 
     val builtInPresets: List<Preset> by lazy {
-        val names = context.resources.getStringArray(
-            R.array.dolby_preset_entries
-        )
-        val presets = context.resources.getStringArray(
-            R.array.dolby_preset_values
-        )
-        List(names.size + 1) { index ->
-            if (index == 0) {
-                defaultPreset
-            } else {
-                Preset(
-                    name = names[index - 1],
-                    bandGains = deserializeGains(presets[index - 1]),
+        val names = context.resources.getStringArray(R.array.dolby_preset_entries)
+        val presets = context.resources.getStringArray(R.array.dolby_preset_values)
+        val presetList = mutableListOf<Preset>()
+
+        // Add other presets, excluding the default preset
+        for (i in names.indices) {
+            if (names[i] != dolbyPresetDefault) {
+                presetList.add(
+                Preset(name = names[i],
+                bandGains = deserializeGains(presets[i]),
+                      )
                 )
             }
         }
-    }
+        presetList
+   }
 
     // User defined presets are stored in a SharedPreferences as
     // key - preset name
@@ -157,7 +158,7 @@ class EqualizerRepository(
                 }.onFailure { exception ->
                     Log.e(TAG, "Failed to parse preset", exception)
                 }.getOrDefault(
-                    // fallback to flat
+                    // fallback to Default
                     List<Int>(10) { 0 }
                 )
             return List(10) { index ->
