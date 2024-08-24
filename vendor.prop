@@ -299,6 +299,9 @@ ro.vendor.mtk_nn_baseline_support=1
 ro.vendor.mtk_nn_quant_preferred=1
 ro.vendor.mtk_nn_support=1
 
+# Perf
+vendor.boostfwk.version=3
+
 # Platform
 ro.vendor.mediatek.platform=MT6897
 ro.vendor.mediatek.version.release=alps-mp-u0.mp1.tc8sp1-V1
