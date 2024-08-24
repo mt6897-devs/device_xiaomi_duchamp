@@ -102,7 +102,6 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 debug.mediatek.appgamepq_compress=1
-debug.sf.auto_latch_unsignaled=false
 debug.sf.early.app.duration=16600000
 debug.sf.early.sf.duration=16600000
 debug.sf.earlyGl.app.duration=16600000
