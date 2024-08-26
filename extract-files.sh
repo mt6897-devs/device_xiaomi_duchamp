@@ -67,6 +67,10 @@ fi
 
 function blob_fixup {
     case "$1" in
+        system_ext/priv-app/ImsService/ImsService.apk)
+            [ "$2" = "" ] && return 0
+            apktool_patch "${2}" "${MY_DIR}/blob-patches/ImsService.patch" -r
+            ;;
         system_ext/lib64/libsink.so)
             [ "$2" = "" ] && return 0
             grep -q libshim_sink.so "${2}" || "${PATCHELF}" --add-needed "libshim_sink.so" "$2"
