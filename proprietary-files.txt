@@ -1425,6 +1425,13 @@ vendor/apex/com.google.android.widevine.nonupdatable.apex
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvkeybox.so
 
+# Fido
+odm/bin/fidoca_mitee
+odm/etc/init/vendor.xiaomi.hardware.mfidoca-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
+odm/lib64/libmfido_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.mfidoca-V1-ndk.so
+
 # Fingerprint
 odm/app/goodix_sz_duchamp/goodix_sz_duchamp.apk
 odm/bin/hw/vendor.xiaomi.hardware.dtool1-service
@@ -1539,6 +1546,13 @@ vendor/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mbrainj-V1-ndk.so
 
+# Mlipay
+odm/bin/mlipayd_mitee
+odm/etc/init/vendor.xiaomi.hardware.mlipay-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+odm/lib64/libmlipay_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk.so
+
 # Media (Configs)
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
@@ -1584,29 +1598,12 @@ vendor/lib64/libcodec2_store_dolby.so
 vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libeglcore.so
 
-# MiTEE
-vendor/bin/miteelog
-vendor/bin/tee-supplicant
-vendor/etc/init/miteelog.rc
-vendor/etc/init/tee-supplicant.rc
-vendor/lib64/libteecli.so
-vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta
-vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta
-vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta
-vendor/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta
-vendor/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta
-vendor/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta
-vendor/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta
-vendor/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta
-vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta
-vendor/mitee/ta/8aaaf201-2460-0000-7143fe4f7c823c80.ta
-vendor/mitee/ta/9811c1f6-47e3-5cea-ae6ef62ba433c4fd.ta
-vendor/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta
-vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta
-vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
-vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
-vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
-vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta
+# Mtdservice
+odm/bin/mtd_mitee
+odm/etc/init/vendor.xiaomi.hardware.aidl.mtdservice-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.aidl.mtdservice.xml
+odm/lib64/libmt_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk.so
 
 # Neural Networks
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
@@ -1816,7 +1813,10 @@ system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsServ
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/etc/init/secure_element-service.rc
+vendor/lib64/libmigpese@2.0.so
 
 # Sensors
 vendor/etc/elliptic_sensor.xml
@@ -1900,6 +1900,30 @@ vendor/etc/init.panel_info.sh
 vendor/etc/tp_kmsg_init_duchamp.sh
 vendor/lib64/sensors.touch.detect.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so
+
+# Trusted Execution Environment (TEE)
+vendor/bin/miteelog
+vendor/bin/tee-supplicant
+vendor/etc/init/miteelog.rc
+vendor/etc/init/tee-supplicant.rc
+vendor/lib64/libteecli.so
+vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta
+vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta
+vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta
+vendor/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta
+vendor/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta
+vendor/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta
+vendor/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta
+vendor/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta
+vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta
+vendor/mitee/ta/8aaaf201-2460-0000-7143fe4f7c823c80.ta
+vendor/mitee/ta/9811c1f6-47e3-5cea-ae6ef62ba433c4fd.ta
+vendor/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta
+vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta
+vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
+vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
+vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
+vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta
 
 # Vibrator
 vendor/firmware/aw8697_haptic.bin

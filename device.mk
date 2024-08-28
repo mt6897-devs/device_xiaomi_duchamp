@@ -201,10 +201,13 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     android.hardware.security.rkp-V3-ndk.vendor \
     android.hardware.security.sharedsecret-V1-ndk.vendor \
+    lib_android_keymaster_keymint_utils.vendor \
+    libkeymaster4support.vendor \
     libkeymint.vendor \
-    libtrusty.vendor \
+    libkeymint_remote_prov_support.vendor \
+    libkeymint_support.vendor \
     libpuresoftkeymasterdevice.vendor \
-    lib_android_keymaster_keymint_utils.vendor
+    libtrusty.vendor
 
 # Media
 PRODUCT_PACKAGES += \
@@ -381,6 +384,7 @@ PRODUCT_COPY_FILES += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor \
     android.hardware.secure_element-V1-ndk.vendor
 
 # Sensors
