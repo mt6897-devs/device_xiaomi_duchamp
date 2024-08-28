@@ -374,6 +374,7 @@ vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libdeflicker.so
 vendor/lib64/libfeature.hdr10.so
 vendor/lib64/libfeaturepolicy.so
+vendor/lib64/libgz_uree.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhis_face_tracking.so
 vendor/lib64/libhis_motion_tracker.so
