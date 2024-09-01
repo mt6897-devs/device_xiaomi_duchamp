@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Kasutage Dolby Atmost</string>
+  <string name="dolby_profile_title">Valige profiil</string>
+  <string name="dolby_preset">Graafiline ekvalaiser</string>
+  <string name="dolby_off">Väljas</string>
+  <string name="dolby_on">Sees</string>
+  <string name="dolby_low">Madal</string>
+  <string name="dolby_medium">Keskmine</string>
+  <string name="dolby_high">Kõrge</string>
+  <string name="dolby_max">Max</string>
+  <string name="dolby_unknown">Tundmatu</string>
+  <string name="dolby_on_with_profile">Sees (%1$s)</string>
+  <string name="dolby_category_settings">Seaded</string>
+  <string name="dolby_bass_enhancer">Bassi võimendaja</string>
+  <string name="dolby_dialogue_enhancer">Dialoogi tugevdaja</string>
+  <string name="dolby_spk_virtualizer">Kõlari virtualiseerimine</string>
+  <string name="dolby_hp_virtualizer">Kõrvaklappide virtualiseerimine</string>
+  <string name="dolby_stereo_widening">Stereo laiendus</string>
+  <string name="dolby_volume_leveler">Helitugevuse reguleerija</string>
+  <string name="dolby_connect_headphones">Ühendage kõrvaklapid</string>
+  <string name="dolby_reset_profile">Lähtestage vaikeseadetele</string>
+  <string name="dolby_reset_profile_toast">Profiili %1$s seadete lähtestamine õnnestus</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dünaamiline</string>
+  <string name="dolby_profile_video">Film/video</string>
+  <string name="dolby_profile_music">Muusika</string>
+  <string name="dolby_profile_voice">Hääl</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Vaikimisi</string>
+  <string name="dolby_preset_rock">Kivi</string>
+  <string name="dolby_preset_jazz">Džäss</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klassikaline</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Bluus</string>
+  <string name="dolby_preset_electronic">Elektrooniline</string>
+  <string name="dolby_preset_country">Riik</string>
+  <string name="dolby_preset_dance">Tants</string>
+  <string name="dolby_preset_metal">Metral</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Kasu</string>
+  <string name="dolby_geq_preset">Eelseadistatud</string>
+  <string name="dolby_geq_preset_name">Eelseadistatud nimi</string>
+  <string name="dolby_geq_new_preset">Uus eelseadistus</string>
+  <string name="dolby_geq_rename_preset">Eelseade ümbernimetamine</string>
+  <string name="dolby_geq_delete_preset">Kustuta eelseade</string>
+  <string name="dolby_geq_delete_preset_prompt">Kas soovite selle eelseadistuse kustutada?</string>
+  <string name="dolby_geq_reset_gains">Lähtestage kasumid</string>
+  <string name="dolby_geq_reset_gains_prompt">Kas soovite selle eelseadistuse vaikeseadetele lähtestada?</string>
+  <string name="dolby_geq_preset_name_exists">Eelseadistatud nimi on juba olemas!</string>
+  <string name="dolby_geq_preset_name_too_long">Eelseadistatud nimi on liiga pikk!</string>
+</resources>

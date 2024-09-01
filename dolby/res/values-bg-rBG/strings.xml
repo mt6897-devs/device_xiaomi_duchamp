@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Използвайте Dolby Atmos</string>
+  <string name="dolby_profile_title">Изберете профил</string>
+  <string name="dolby_preset">Графичен еквалайзер</string>
+  <string name="dolby_off">Изкл</string>
+  <string name="dolby_on">включено</string>
+  <string name="dolby_low">ниско</string>
+  <string name="dolby_medium">Среден</string>
+  <string name="dolby_high">високо</string>
+  <string name="dolby_max">Макс</string>
+  <string name="dolby_unknown">неизвестен</string>
+  <string name="dolby_on_with_profile">Включено (%1$s)</string>
+  <string name="dolby_category_settings">Настройки</string>
+  <string name="dolby_bass_enhancer">Усилвател на басите</string>
+  <string name="dolby_dialogue_enhancer">Подобрител на диалога</string>
+  <string name="dolby_spk_virtualizer">Виртуализация на високоговорителя</string>
+  <string name="dolby_hp_virtualizer">Виртуализация на слушалки</string>
+  <string name="dolby_stereo_widening">Стерео разширяване</string>
+  <string name="dolby_volume_leveler">Регулатор на звука</string>
+  <string name="dolby_connect_headphones">Свържете слушалки</string>
+  <string name="dolby_reset_profile">Възстановяване на настройките по подразбиране</string>
+  <string name="dolby_reset_profile_toast">Успешно нулиране на настройките за %1$s профил</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Динамичен</string>
+  <string name="dolby_profile_video">Филм/Видео</string>
+  <string name="dolby_profile_music">Музика</string>
+  <string name="dolby_profile_voice">глас</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">По подразбиране</string>
+  <string name="dolby_preset_rock">Рок</string>
+  <string name="dolby_preset_jazz">Джаз</string>
+  <string name="dolby_preset_pop">Поп</string>
+  <string name="dolby_preset_classical">Класика</string>
+  <string name="dolby_preset_hiphop">Хип-Хоп</string>
+  <string name="dolby_preset_blues">Блус</string>
+  <string name="dolby_preset_electronic">Електронна</string>
+  <string name="dolby_preset_country">Кънтри</string>
+  <string name="dolby_preset_dance">Танцувална</string>
+  <string name="dolby_preset_metal">Метъл</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Печалба</string>
+  <string name="dolby_geq_preset">Предварителна настройка</string>
+  <string name="dolby_geq_preset_name">Предварително зададено име</string>
+  <string name="dolby_geq_new_preset">Нова предварителна настройка</string>
+  <string name="dolby_geq_rename_preset">Преименуване на предварителна настройка</string>
+  <string name="dolby_geq_delete_preset">Изтриване на предварителна настройка</string>
+  <string name="dolby_geq_delete_preset_prompt">Искате ли да изтриете тази предварителна настройка?</string>
+  <string name="dolby_geq_reset_gains">Нулиране на печалбите</string>
+  <string name="dolby_geq_reset_gains_prompt">Искате ли да нулирате тази предварителна настройка до стойностите по подразбиране?</string>
+  <string name="dolby_geq_preset_name_exists">Предварително зададеното име вече съществува!</string>
+  <string name="dolby_geq_preset_name_too_long">Предварително зададеното име е твърде дълго!</string>
+</resources>

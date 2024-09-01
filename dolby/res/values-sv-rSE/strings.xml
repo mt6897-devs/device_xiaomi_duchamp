@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Använd Dolby Atmos</string>
+  <string name="dolby_profile_title">Välj en profil</string>
+  <string name="dolby_preset">Grafisk equalizer</string>
+  <string name="dolby_off">Av</string>
+  <string name="dolby_on">På</string>
+  <string name="dolby_low">Låg</string>
+  <string name="dolby_medium">Medium</string>
+  <string name="dolby_high">Hög</string>
+  <string name="dolby_max">Max</string>
+  <string name="dolby_unknown">Okänd</string>
+  <string name="dolby_on_with_profile">På (%1$s)</string>
+  <string name="dolby_category_settings">Inställningar</string>
+  <string name="dolby_bass_enhancer">Basförstärkare</string>
+  <string name="dolby_dialogue_enhancer">Dialogförstärkare</string>
+  <string name="dolby_spk_virtualizer">Högtalarvirtualisering</string>
+  <string name="dolby_hp_virtualizer">Hörlursvirtualisering</string>
+  <string name="dolby_stereo_widening">Stereobreddning</string>
+  <string name="dolby_volume_leveler">Volymreglerare</string>
+  <string name="dolby_connect_headphones">Anslut hörlurar</string>
+  <string name="dolby_reset_profile">Återställ till standardinställningar</string>
+  <string name="dolby_reset_profile_toast">Återställ inställningarna för %1$s profil</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dynamisk</string>
+  <string name="dolby_profile_video">Film/video</string>
+  <string name="dolby_profile_music">Musik</string>
+  <string name="dolby_profile_voice">Röst</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Standard</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klassisk</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Elektroniskt</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dansa</string>
+  <string name="dolby_preset_metal">Metall</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Få</string>
+  <string name="dolby_geq_preset">Förinställa</string>
+  <string name="dolby_geq_preset_name">Förinställt namn</string>
+  <string name="dolby_geq_new_preset">Ny förinställning</string>
+  <string name="dolby_geq_rename_preset">Byt namn på förinställning</string>
+  <string name="dolby_geq_delete_preset">Ta bort förinställning</string>
+  <string name="dolby_geq_delete_preset_prompt">Vill du ta bort denna förinställning?</string>
+  <string name="dolby_geq_reset_gains">Återställ vinster</string>
+  <string name="dolby_geq_reset_gains_prompt">Vill du återställa denna förinställning till standardinställningarna?</string>
+  <string name="dolby_geq_preset_name_exists">Förinställt namn finns redan!</string>
+  <string name="dolby_geq_preset_name_too_long">Det förinställda namnet är för långt!</string>
+</resources>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Dolby Atmos használata</string>
+  <string name="dolby_profile_title">Válasszon egy profilt</string>
+  <string name="dolby_preset">Grafikus hangszínszabályzó</string>
+  <string name="dolby_off">Le</string>
+  <string name="dolby_on">On</string>
+  <string name="dolby_low">Alacsony</string>
+  <string name="dolby_medium">Közepes</string>
+  <string name="dolby_high">Magas</string>
+  <string name="dolby_max">Max</string>
+  <string name="dolby_unknown">Ismeretlen</string>
+  <string name="dolby_on_with_profile">Be (%1$s)</string>
+  <string name="dolby_category_settings">Beállítások elemre</string>
+  <string name="dolby_bass_enhancer">Basszusfokozó</string>
+  <string name="dolby_dialogue_enhancer">Párbeszéd fokozó</string>
+  <string name="dolby_spk_virtualizer">Hangszóró virtualizáció</string>
+  <string name="dolby_hp_virtualizer">Fejhallgató virtualizáció</string>
+  <string name="dolby_stereo_widening">Sztereó szélesítés</string>
+  <string name="dolby_volume_leveler">Hangerőszabályzó</string>
+  <string name="dolby_connect_headphones">Csatlakoztassa a fejhallgatót</string>
+  <string name="dolby_reset_profile">Állítsa vissza az alapértelmezett értékeket</string>
+  <string name="dolby_reset_profile_toast">Sikeresen visszaállította %1$s profil beállításait</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinamikus</string>
+  <string name="dolby_profile_video">Film/Videó</string>
+  <string name="dolby_profile_music">Zene</string>
+  <string name="dolby_profile_voice">Hang</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Alapértelmezett</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klasszikus</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Elektronikus</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dance</string>
+  <string name="dolby_preset_metal">Metál</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Nyereség</string>
+  <string name="dolby_geq_preset">Előre beállított</string>
+  <string name="dolby_geq_preset_name">Előre beállított név</string>
+  <string name="dolby_geq_new_preset">Új előbeállítás</string>
+  <string name="dolby_geq_rename_preset">Preset átnevezése</string>
+  <string name="dolby_geq_delete_preset">Előbeállítás törlése</string>
+  <string name="dolby_geq_delete_preset_prompt">Törli ezt az előre beállított beállítást?</string>
+  <string name="dolby_geq_reset_gains">Nyereség visszaállítása</string>
+  <string name="dolby_geq_reset_gains_prompt">Vissza szeretné állítani ezt az előre beállított értéket az alapértelmezett értékekre?</string>
+  <string name="dolby_geq_preset_name_exists">Az előre beállított név már létezik!</string>
+  <string name="dolby_geq_preset_name_too_long">Az előre beállított név túl hosszú!</string>
+</resources>

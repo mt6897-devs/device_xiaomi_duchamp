@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">ڈولبی ایٹموس</string>
+  <string name="dolby_enable">Dolby Atmos استعمال کریں۔</string>
+  <string name="dolby_profile_title">پروفائل کا انتخاب کریں۔</string>
+  <string name="dolby_preset">گرافک برابری کرنے والا</string>
+  <string name="dolby_off">آف</string>
+  <string name="dolby_on">پر</string>
+  <string name="dolby_low">کم</string>
+  <string name="dolby_medium">درمیانہ</string>
+  <string name="dolby_high">اعلی</string>
+  <string name="dolby_max">زیادہ سے زیادہ</string>
+  <string name="dolby_unknown">نامعلوم</string>
+  <string name="dolby_on_with_profile">آن (%1$s)</string>
+  <string name="dolby_category_settings">ترتیبات</string>
+  <string name="dolby_bass_enhancer">باس بڑھانے والا</string>
+  <string name="dolby_dialogue_enhancer">مکالمہ بڑھانے والا</string>
+  <string name="dolby_spk_virtualizer">اسپیکر ورچوئلائزیشن</string>
+  <string name="dolby_hp_virtualizer">ہیڈ فون ورچوئلائزیشن</string>
+  <string name="dolby_stereo_widening">سٹیریو وسیع کرنا</string>
+  <string name="dolby_volume_leveler">والیوم لیولر</string>
+  <string name="dolby_connect_headphones">ہیڈ فون جوڑیں۔</string>
+  <string name="dolby_reset_profile">ڈیفالٹس پر ری سیٹ کریں۔</string>
+  <string name="dolby_reset_profile_toast">%1$s پروفائل کے لیے سیٹنگز کو کامیابی سے ری سیٹ کر دیا گیا۔</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">متحرک</string>
+  <string name="dolby_profile_video">فلم/ویڈیو</string>
+  <string name="dolby_profile_music">موسیقی</string>
+  <string name="dolby_profile_voice">آواز</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">ڈیفالٹ</string>
+  <string name="dolby_preset_rock">راک</string>
+  <string name="dolby_preset_jazz">جاز</string>
+  <string name="dolby_preset_pop">پاپ</string>
+  <string name="dolby_preset_classical">کلاسیکی</string>
+  <string name="dolby_preset_hiphop">ہِپ ہاپ</string>
+  <string name="dolby_preset_blues">بلیوز</string>
+  <string name="dolby_preset_electronic">الیکٹرونک</string>
+  <string name="dolby_preset_country">ملک</string>
+  <string name="dolby_preset_dance">رقص</string>
+  <string name="dolby_preset_metal">دھات</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">حاصل کرنا</string>
+  <string name="dolby_geq_preset">پیش سیٹ</string>
+  <string name="dolby_geq_preset_name">پیش سیٹ نام</string>
+  <string name="dolby_geq_new_preset">نیا پیش سیٹ</string>
+  <string name="dolby_geq_rename_preset">پیش سیٹ کا نام تبدیل کریں۔</string>
+  <string name="dolby_geq_delete_preset">پیش سیٹ کو حذف کریں۔</string>
+  <string name="dolby_geq_delete_preset_prompt">کیا آپ اس پیش سیٹ کو حذف کرنا چاہتے ہیں؟</string>
+  <string name="dolby_geq_reset_gains">فوائد کو دوبارہ ترتیب دیں۔</string>
+  <string name="dolby_geq_reset_gains_prompt">کیا آپ اس پیش سیٹ کو ڈیفالٹس پر دوبارہ ترتیب دینا چاہتے ہیں؟</string>
+  <string name="dolby_geq_preset_name_exists">پیش سیٹ نام پہلے سے موجود ہے!</string>
+  <string name="dolby_geq_preset_name_too_long">پیش سیٹ نام بہت لمبا ہے!</string>
+</resources>

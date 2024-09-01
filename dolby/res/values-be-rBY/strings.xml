@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Выкарыстоўвайце Dolby Atmos</string>
+  <string name="dolby_profile_title">Выберыце профіль</string>
+  <string name="dolby_preset">Графічны эквалайзер</string>
+  <string name="dolby_off">Выкл</string>
+  <string name="dolby_on">Укл</string>
+  <string name="dolby_low">Нізкі</string>
+  <string name="dolby_medium">Сярэдні</string>
+  <string name="dolby_high">Высокі</string>
+  <string name="dolby_max">Макс</string>
+  <string name="dolby_unknown">Невядомы</string>
+  <string name="dolby_on_with_profile">Уключана (%1$s)</string>
+  <string name="dolby_category_settings">Налады</string>
+  <string name="dolby_bass_enhancer">Ўзмацняльнік басоў</string>
+  <string name="dolby_dialogue_enhancer">Узмацняльнік дыялогу</string>
+  <string name="dolby_spk_virtualizer">Віртуалізацыя дынамікаў</string>
+  <string name="dolby_hp_virtualizer">Віртуалізацыя навушнікаў</string>
+  <string name="dolby_stereo_widening">Пашырэнне стэрэа</string>
+  <string name="dolby_volume_leveler">Выраўноўвальнік гучнасці</string>
+  <string name="dolby_connect_headphones">Падключыце навушнікі</string>
+  <string name="dolby_reset_profile">Скінуць да налад па змаўчанні</string>
+  <string name="dolby_reset_profile_toast">Паспяхова скінуты налады для профілю %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Дынамічны</string>
+  <string name="dolby_profile_video">Фільм/Відэа</string>
+  <string name="dolby_profile_music">Музыка</string>
+  <string name="dolby_profile_voice">Голас</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Па змаўчанні</string>
+  <string name="dolby_preset_rock">Рок</string>
+  <string name="dolby_preset_jazz">Джаз</string>
+  <string name="dolby_preset_pop">Поп</string>
+  <string name="dolby_preset_classical">Класіка</string>
+  <string name="dolby_preset_hiphop">Хіп-хоп</string>
+  <string name="dolby_preset_blues">Блюз</string>
+  <string name="dolby_preset_electronic">Электра</string>
+  <string name="dolby_preset_country">Кантры</string>
+  <string name="dolby_preset_dance">Танцавальная</string>
+  <string name="dolby_preset_metal">Метал</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Узмацненне</string>
+  <string name="dolby_geq_preset">Прадусталяваная</string>
+  <string name="dolby_geq_preset_name">Зададзенае імя</string>
+  <string name="dolby_geq_new_preset">Новая налада</string>
+  <string name="dolby_geq_rename_preset">Перайменаваць налад</string>
+  <string name="dolby_geq_delete_preset">Выдаліць перадусталёўку</string>
+  <string name="dolby_geq_delete_preset_prompt">Вы хочаце выдаліць гэты набор?</string>
+  <string name="dolby_geq_reset_gains">Скінуць прыбыткі</string>
+  <string name="dolby_geq_reset_gains_prompt">Вы жадаеце скінуць гэту наладу да значэнняў па змаўчанні?</string>
+  <string name="dolby_geq_preset_name_exists">Зададзенае імя ўжо існуе!</string>
+  <string name="dolby_geq_preset_name_too_long">Зададзенае імя занадта доўгае!</string>
+</resources>

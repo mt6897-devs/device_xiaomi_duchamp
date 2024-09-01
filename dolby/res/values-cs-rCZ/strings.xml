@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Použijte Dolby Atmos</string>
+  <string name="dolby_profile_title">Vyberte profil</string>
+  <string name="dolby_preset">Grafický ekvalizér</string>
+  <string name="dolby_off">Vypnuto</string>
+  <string name="dolby_on">Na</string>
+  <string name="dolby_low">Nízký</string>
+  <string name="dolby_medium">Střední</string>
+  <string name="dolby_high">Vysoký</string>
+  <string name="dolby_max">Max</string>
+  <string name="dolby_unknown">Neznámý</string>
+  <string name="dolby_on_with_profile">Zapnuto (%1$s)</string>
+  <string name="dolby_category_settings">Nastavení</string>
+  <string name="dolby_bass_enhancer">Zvýrazňovač basů</string>
+  <string name="dolby_dialogue_enhancer">Posilovač dialogu</string>
+  <string name="dolby_spk_virtualizer">Virtualizace reproduktorů</string>
+  <string name="dolby_hp_virtualizer">Virtualizace sluchátek</string>
+  <string name="dolby_stereo_widening">Stereo rozšíření</string>
+  <string name="dolby_volume_leveler">Vyrovnávač hlasitosti</string>
+  <string name="dolby_connect_headphones">Připojte sluchátka</string>
+  <string name="dolby_reset_profile">Obnovit výchozí nastavení</string>
+  <string name="dolby_reset_profile_toast">Nastavení profilu %1$s bylo úspěšně resetováno</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dynamický</string>
+  <string name="dolby_profile_video">Film/Video</string>
+  <string name="dolby_profile_music">Hudba</string>
+  <string name="dolby_profile_voice">Hlas</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Výchozí</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klasická</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Elektronická</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Taneční</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Získat</string>
+  <string name="dolby_geq_preset">Přednastaveno</string>
+  <string name="dolby_geq_preset_name">Název předvolby</string>
+  <string name="dolby_geq_new_preset">Nová předvolba</string>
+  <string name="dolby_geq_rename_preset">Přejmenovat předvolbu</string>
+  <string name="dolby_geq_delete_preset">Smazat předvolbu</string>
+  <string name="dolby_geq_delete_preset_prompt">Chcete tuto předvolbu smazat?</string>
+  <string name="dolby_geq_reset_gains">Resetovat zisky</string>
+  <string name="dolby_geq_reset_gains_prompt">Chcete obnovit výchozí nastavení této předvolby?</string>
+  <string name="dolby_geq_preset_name_exists">Název předvolby již existuje!</string>
+  <string name="dolby_geq_preset_name_too_long">Název předvolby je příliš dlouhý!</string>
+</resources>

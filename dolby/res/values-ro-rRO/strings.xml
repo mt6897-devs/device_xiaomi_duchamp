@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Utilizați Dolby Atmos</string>
+  <string name="dolby_profile_title">Alegeți un profil</string>
+  <string name="dolby_preset">Egalizator grafic</string>
+  <string name="dolby_off">Off</string>
+  <string name="dolby_on">Pe</string>
+  <string name="dolby_low">Scăzut</string>
+  <string name="dolby_medium">Mediu</string>
+  <string name="dolby_high">Ridicat</string>
+  <string name="dolby_max">Max</string>
+  <string name="dolby_unknown">Necunoscut</string>
+  <string name="dolby_on_with_profile">Activat (%1$s)</string>
+  <string name="dolby_category_settings">Setări</string>
+  <string name="dolby_bass_enhancer">Amplificator de bas</string>
+  <string name="dolby_dialogue_enhancer">Amplificator de dialog</string>
+  <string name="dolby_spk_virtualizer">Virtualizarea difuzoarelor</string>
+  <string name="dolby_hp_virtualizer">Virtualizarea căștilor</string>
+  <string name="dolby_stereo_widening">Lărgirea stereo</string>
+  <string name="dolby_volume_leveler">Nivelator de volum</string>
+  <string name="dolby_connect_headphones">Conectați căștile</string>
+  <string name="dolby_reset_profile">Resetați la valorile implicite</string>
+  <string name="dolby_reset_profile_toast">Resetați cu succes setările pentru profilul %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinamic</string>
+  <string name="dolby_profile_video">Film/Video</string>
+  <string name="dolby_profile_music">Muzică</string>
+  <string name="dolby_profile_voice">Voce</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Implicit</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Clasic</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Electronic</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dance</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Câştig</string>
+  <string name="dolby_geq_preset">Presetat</string>
+  <string name="dolby_geq_preset_name">Nume presetat</string>
+  <string name="dolby_geq_new_preset">Presetare nouă</string>
+  <string name="dolby_geq_rename_preset">Redenumiți presetarea</string>
+  <string name="dolby_geq_delete_preset">Ștergeți presetarea</string>
+  <string name="dolby_geq_delete_preset_prompt">Doriți să ștergeți această presetare?</string>
+  <string name="dolby_geq_reset_gains">Resetați câștigurile</string>
+  <string name="dolby_geq_reset_gains_prompt">Doriți să resetați această presetare la valorile implicite?</string>
+  <string name="dolby_geq_preset_name_exists">Numele presetat există deja!</string>
+  <string name="dolby_geq_preset_name_too_long">Numele presetat este prea lung!</string>
+</resources>

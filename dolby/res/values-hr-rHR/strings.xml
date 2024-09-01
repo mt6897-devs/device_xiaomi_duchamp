@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Koristite Dolby Atmos</string>
+  <string name="dolby_profile_title">Odaberite profil</string>
+  <string name="dolby_preset">Grafički ekvilajzer</string>
+  <string name="dolby_off">Isključeno</string>
+  <string name="dolby_on">Na</string>
+  <string name="dolby_low">Niska</string>
+  <string name="dolby_medium">srednje</string>
+  <string name="dolby_high">visoko</string>
+  <string name="dolby_max">Maks</string>
+  <string name="dolby_unknown">Nepoznato</string>
+  <string name="dolby_on_with_profile">Uključeno (%1$s)</string>
+  <string name="dolby_category_settings">postavke</string>
+  <string name="dolby_bass_enhancer">Pojačivač basa</string>
+  <string name="dolby_dialogue_enhancer">Pojačivač dijaloga</string>
+  <string name="dolby_spk_virtualizer">Virtualizacija zvučnika</string>
+  <string name="dolby_hp_virtualizer">Virtualizacija slušalica</string>
+  <string name="dolby_stereo_widening">Stereo proširenje</string>
+  <string name="dolby_volume_leveler">Izravnavač glasnoće</string>
+  <string name="dolby_connect_headphones">Spojite slušalice</string>
+  <string name="dolby_reset_profile">Vrati na zadane postavke</string>
+  <string name="dolby_reset_profile_toast">Uspješno resetirane postavke za %1$s profil</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinamičan</string>
+  <string name="dolby_profile_video">Film/Video</string>
+  <string name="dolby_profile_music">Glazba</string>
+  <string name="dolby_profile_voice">Glas</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Zadano</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Classical</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Electronic</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dance</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">dobitak</string>
+  <string name="dolby_geq_preset">Unaprijed postavljeno</string>
+  <string name="dolby_geq_preset_name">Unaprijed postavljen naziv</string>
+  <string name="dolby_geq_new_preset">Nova unaprijed postavljena postava</string>
+  <string name="dolby_geq_rename_preset">Preimenuj unaprijed postavljeno</string>
+  <string name="dolby_geq_delete_preset">Izbriši unaprijed postavljeno</string>
+  <string name="dolby_geq_delete_preset_prompt">Želite li izbrisati ovu unaprijed postavljenu postavku?</string>
+  <string name="dolby_geq_reset_gains">Resetiraj dobitke</string>
+  <string name="dolby_geq_reset_gains_prompt">Želite li ovu unaprijed postavljenu postavku vratiti na zadane?</string>
+  <string name="dolby_geq_preset_name_exists">Unaprijed postavljeni naziv već postoji!</string>
+  <string name="dolby_geq_preset_name_too_long">Unaprijed postavljeno ime je predugačko!</string>
+</resources>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Sử dụng Dolby Atmos</string>
+  <string name="dolby_profile_title">Chọn một hồ sơ</string>
+  <string name="dolby_preset">Bộ cân bằng đồ họa</string>
+  <string name="dolby_off">Tắt</string>
+  <string name="dolby_on">TRÊN</string>
+  <string name="dolby_low">Thấp</string>
+  <string name="dolby_medium">Trung bình</string>
+  <string name="dolby_high">Cao</string>
+  <string name="dolby_max">Tối đa</string>
+  <string name="dolby_unknown">Không xác định</string>
+  <string name="dolby_on_with_profile">Bật (%1$s)</string>
+  <string name="dolby_category_settings">Cài đặt</string>
+  <string name="dolby_bass_enhancer">Tăng cường âm trầm</string>
+  <string name="dolby_dialogue_enhancer">Tăng cường đối thoại</string>
+  <string name="dolby_spk_virtualizer">Ảo hóa loa</string>
+  <string name="dolby_hp_virtualizer">Ảo hóa tai nghe</string>
+  <string name="dolby_stereo_widening">Mở rộng âm thanh nổi</string>
+  <string name="dolby_volume_leveler">Bộ điều chỉnh âm lượng</string>
+  <string name="dolby_connect_headphones">Kết nối tai nghe</string>
+  <string name="dolby_reset_profile">Đặt lại về mặc định</string>
+  <string name="dolby_reset_profile_toast">Đặt lại thành công cài đặt cho hồ sơ %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Năng động</string>
+  <string name="dolby_profile_video">Phim/Video</string>
+  <string name="dolby_profile_music">Âm nhạc</string>
+  <string name="dolby_profile_voice">Tiếng nói</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Mặc định</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Cổ điển</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blue</string>
+  <string name="dolby_preset_electronic">Điện tử</string>
+  <string name="dolby_preset_country">Quê hương</string>
+  <string name="dolby_preset_dance">Khiêu vũ</string>
+  <string name="dolby_preset_metal">Kim loại</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Nhận được</string>
+  <string name="dolby_geq_preset">cài sẵn</string>
+  <string name="dolby_geq_preset_name">Tên đặt trước</string>
+  <string name="dolby_geq_new_preset">Cài đặt trước mới</string>
+  <string name="dolby_geq_rename_preset">Đổi tên giá trị đặt trước</string>
+  <string name="dolby_geq_delete_preset">Xóa giá trị đặt trước</string>
+  <string name="dolby_geq_delete_preset_prompt">Bạn có muốn xóa cài đặt trước này không?</string>
+  <string name="dolby_geq_reset_gains">Đặt lại mức tăng</string>
+  <string name="dolby_geq_reset_gains_prompt">Bạn có muốn đặt lại cài đặt trước này về mặc định không?</string>
+  <string name="dolby_geq_preset_name_exists">Tên đặt trước đã tồn tại!</string>
+  <string name="dolby_geq_preset_name_too_long">Tên đặt trước quá dài!</string>
+</resources>

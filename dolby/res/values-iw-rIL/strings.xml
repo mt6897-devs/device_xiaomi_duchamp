@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">השתמש ב-Dolby Atmos</string>
+  <string name="dolby_profile_title">בחר פרופיל</string>
+  <string name="dolby_preset">אקולייזר גרפי</string>
+  <string name="dolby_off">כבוי</string>
+  <string name="dolby_on">עַל</string>
+  <string name="dolby_low">נָמוּך</string>
+  <string name="dolby_medium">בֵּינוֹנִי</string>
+  <string name="dolby_high">גָבוֹהַ</string>
+  <string name="dolby_max">מקסימום</string>
+  <string name="dolby_unknown">לֹא יְדוּעַ</string>
+  <string name="dolby_on_with_profile">פועל (%1$s)</string>
+  <string name="dolby_category_settings">הגדרות</string>
+  <string name="dolby_bass_enhancer">משפר בס</string>
+  <string name="dolby_dialogue_enhancer">משפר דיאלוג</string>
+  <string name="dolby_spk_virtualizer">וירטואליזציה של רמקולים</string>
+  <string name="dolby_hp_virtualizer">וירטואליזציה של אוזניות</string>
+  <string name="dolby_stereo_widening">הרחבת סטריאו</string>
+  <string name="dolby_volume_leveler">מפלס עוצמת הקול</string>
+  <string name="dolby_connect_headphones">חבר אוזניות</string>
+  <string name="dolby_reset_profile">אפס לברירות המחדל</string>
+  <string name="dolby_reset_profile_toast">אפס בהצלחה את ההגדרות עבור פרופיל %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">דִינָמִי</string>
+  <string name="dolby_profile_video">סרט/וידאו</string>
+  <string name="dolby_profile_music">מוּסִיקָה</string>
+  <string name="dolby_profile_voice">קוֹל</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">ברירת מחדל</string>
+  <string name="dolby_preset_rock">רוק</string>
+  <string name="dolby_preset_jazz">ג\'אז</string>
+  <string name="dolby_preset_pop">פופ</string>
+  <string name="dolby_preset_classical">קלאסית</string>
+  <string name="dolby_preset_hiphop">היפ הופ</string>
+  <string name="dolby_preset_blues">בלוז</string>
+  <string name="dolby_preset_electronic">אלקטרונית</string>
+  <string name="dolby_preset_country">קאנטרי</string>
+  <string name="dolby_preset_dance">דאנס</string>
+  <string name="dolby_preset_metal">מטאל</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">לְהַשִׂיג</string>
+  <string name="dolby_geq_preset">מוגדר מראש</string>
+  <string name="dolby_geq_preset_name">שם מוגדר מראש</string>
+  <string name="dolby_geq_new_preset">הגדרה חדשה מראש</string>
+  <string name="dolby_geq_rename_preset">שנה שם מוגדר מראש</string>
+  <string name="dolby_geq_delete_preset">מחק הגדרה מראש</string>
+  <string name="dolby_geq_delete_preset_prompt">האם ברצונך למחוק את הקביעה המוגדרת מראש הזו?</string>
+  <string name="dolby_geq_reset_gains">אפס רווחים</string>
+  <string name="dolby_geq_reset_gains_prompt">האם ברצונך לאפס את ההגדרה המוגדרת מראש זו לברירות המחדל?</string>
+  <string name="dolby_geq_preset_name_exists">שם מוגדר מראש כבר קיים!</string>
+  <string name="dolby_geq_preset_name_too_long">השם המוגדר מראש ארוך מדי!</string>
+</resources>

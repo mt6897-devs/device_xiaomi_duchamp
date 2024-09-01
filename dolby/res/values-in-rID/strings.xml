@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Gunakan Dolby Atmos</string>
+  <string name="dolby_profile_title">Pilih profil</string>
+  <string name="dolby_preset">Equalizer grafis</string>
+  <string name="dolby_off">Mati</string>
+  <string name="dolby_on">Pada</string>
+  <string name="dolby_low">Rendah</string>
+  <string name="dolby_medium">Sedang</string>
+  <string name="dolby_high">Tinggi</string>
+  <string name="dolby_max">Maks</string>
+  <string name="dolby_unknown">Tidak dikenal</string>
+  <string name="dolby_on_with_profile">Aktif (%1$s)</string>
+  <string name="dolby_category_settings">Pengaturan</string>
+  <string name="dolby_bass_enhancer">Penambah bass</string>
+  <string name="dolby_dialogue_enhancer">Penambah dialog</string>
+  <string name="dolby_spk_virtualizer">Virtualisasi pembicara</string>
+  <string name="dolby_hp_virtualizer">Virtualisasi headphone</string>
+  <string name="dolby_stereo_widening">Pelebaran stereo</string>
+  <string name="dolby_volume_leveler">Perata volume</string>
+  <string name="dolby_connect_headphones">Hubungkan headphone</string>
+  <string name="dolby_reset_profile">Atur ulang ke default</string>
+  <string name="dolby_reset_profile_toast">Berhasil menyetel ulang setelan untuk profil %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinamis</string>
+  <string name="dolby_profile_video">Film/Video</string>
+  <string name="dolby_profile_music">Musik</string>
+  <string name="dolby_profile_voice">Suara</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Bawaan</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klasik</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Elektronik</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dance</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Memperoleh</string>
+  <string name="dolby_geq_preset">Prasetel</string>
+  <string name="dolby_geq_preset_name">Nama yang telah ditetapkan</string>
+  <string name="dolby_geq_new_preset">Prasetel baru</string>
+  <string name="dolby_geq_rename_preset">Ganti nama prasetel</string>
+  <string name="dolby_geq_delete_preset">Hapus preset</string>
+  <string name="dolby_geq_delete_preset_prompt">Apakah Anda ingin menghapus preset ini?</string>
+  <string name="dolby_geq_reset_gains">Atur ulang perolehan</string>
+  <string name="dolby_geq_reset_gains_prompt">Apakah Anda ingin mengatur ulang preset ini ke default?</string>
+  <string name="dolby_geq_preset_name_exists">Nama preset sudah ada!</string>
+  <string name="dolby_geq_preset_name_too_long">Nama preset terlalu panjang!</string>
+</resources>

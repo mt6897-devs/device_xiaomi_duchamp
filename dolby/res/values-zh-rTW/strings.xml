@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">杜比全景聲</string>
+  <string name="dolby_enable">使用杜比全景聲</string>
+  <string name="dolby_profile_title">選擇個人資料</string>
+  <string name="dolby_preset">圖形等化器</string>
+  <string name="dolby_off">離開</string>
+  <string name="dolby_on">在</string>
+  <string name="dolby_low">低的</string>
+  <string name="dolby_medium">中等的</string>
+  <string name="dolby_high">高的</string>
+  <string name="dolby_max">最大限度</string>
+  <string name="dolby_unknown">未知</string>
+  <string name="dolby_on_with_profile">開啟 (%1$s)</string>
+  <string name="dolby_category_settings">設定</string>
+  <string name="dolby_bass_enhancer">低音增強器</string>
+  <string name="dolby_dialogue_enhancer">對話增強器</string>
+  <string name="dolby_spk_virtualizer">揚聲器虛擬化</string>
+  <string name="dolby_hp_virtualizer">耳機虛擬化</string>
+  <string name="dolby_stereo_widening">立體聲擴寬</string>
+  <string name="dolby_volume_leveler">音量調整器</string>
+  <string name="dolby_connect_headphones">連接耳機</string>
+  <string name="dolby_reset_profile">重設為預設值</string>
+  <string name="dolby_reset_profile_toast">成功重置 %1$s 設定檔的設置</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">動態的</string>
+  <string name="dolby_profile_video">電影/影片</string>
+  <string name="dolby_profile_music">音樂</string>
+  <string name="dolby_profile_voice">嗓音</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">無</string>
+  <string name="dolby_preset_rock">搖滾</string>
+  <string name="dolby_preset_jazz">爵士</string>
+  <string name="dolby_preset_pop">流行</string>
+  <string name="dolby_preset_classical">古典</string>
+  <string name="dolby_preset_hiphop">嘻哈</string>
+  <string name="dolby_preset_blues">布魯斯</string>
+  <string name="dolby_preset_electronic">電子音樂</string>
+  <string name="dolby_preset_country">鄉村</string>
+  <string name="dolby_preset_dance">舞曲</string>
+  <string name="dolby_preset_metal">金屬</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">獲得</string>
+  <string name="dolby_geq_preset">預設</string>
+  <string name="dolby_geq_preset_name">預設名稱</string>
+  <string name="dolby_geq_new_preset">新預設</string>
+  <string name="dolby_geq_rename_preset">重新命名預設</string>
+  <string name="dolby_geq_delete_preset">刪除預設</string>
+  <string name="dolby_geq_delete_preset_prompt">您要刪除該預設嗎？</string>
+  <string name="dolby_geq_reset_gains">重置增益</string>
+  <string name="dolby_geq_reset_gains_prompt">您想將此預設重設為預設值嗎？</string>
+  <string name="dolby_geq_preset_name_exists">預設名稱已存在！</string>
+  <string name="dolby_geq_preset_name_too_long">預設名稱太長！</string>
+</resources>

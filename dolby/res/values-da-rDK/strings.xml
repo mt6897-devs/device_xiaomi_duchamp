@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Brug Dolby Atmos</string>
+  <string name="dolby_profile_title">Vælg en profil</string>
+  <string name="dolby_preset">Grafisk equalizer</string>
+  <string name="dolby_off">Slukket</string>
+  <string name="dolby_on">På</string>
+  <string name="dolby_low">Lav</string>
+  <string name="dolby_medium">Medium</string>
+  <string name="dolby_high">Høj</string>
+  <string name="dolby_max">Maks</string>
+  <string name="dolby_unknown">Ukendt</string>
+  <string name="dolby_on_with_profile">Til (%1$s)</string>
+  <string name="dolby_category_settings">Indstillinger</string>
+  <string name="dolby_bass_enhancer">Basforstærker</string>
+  <string name="dolby_dialogue_enhancer">Dialogforstærker</string>
+  <string name="dolby_spk_virtualizer">Højttalervirtualisering</string>
+  <string name="dolby_hp_virtualizer">Hovedtelefonvirtualisering</string>
+  <string name="dolby_stereo_widening">Stereo udvidelse</string>
+  <string name="dolby_volume_leveler">Lydstyrkeregulering</string>
+  <string name="dolby_connect_headphones">Tilslut hovedtelefoner</string>
+  <string name="dolby_reset_profile">Nulstil til standardindstillinger</string>
+  <string name="dolby_reset_profile_toast">Indstillingerne for %1$s profil blev nulstillet</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dynamisk</string>
+  <string name="dolby_profile_video">Film/video</string>
+  <string name="dolby_profile_music">Musik</string>
+  <string name="dolby_profile_voice">Stemme</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Standard</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klassisk</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Elektronisk</string>
+  <string name="dolby_preset_country">Countrymusik</string>
+  <string name="dolby_preset_dance">Dans</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Gevinst</string>
+  <string name="dolby_geq_preset">Forudindstillet</string>
+  <string name="dolby_geq_preset_name">Forudindstillet navn</string>
+  <string name="dolby_geq_new_preset">Ny forudindstilling</string>
+  <string name="dolby_geq_rename_preset">Omdøb forudindstilling</string>
+  <string name="dolby_geq_delete_preset">Slet forudindstilling</string>
+  <string name="dolby_geq_delete_preset_prompt">Vil du slette denne forudindstilling?</string>
+  <string name="dolby_geq_reset_gains">Nulstil gevinster</string>
+  <string name="dolby_geq_reset_gains_prompt">Vil du nulstille denne forudindstilling til standardindstillingerne?</string>
+  <string name="dolby_geq_preset_name_exists">Forudindstillet navn findes allerede!</string>
+  <string name="dolby_geq_preset_name_too_long">Det forudindstillede navn er for langt!</string>
+</resources>

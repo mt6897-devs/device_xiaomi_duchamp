@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Utilitzeu Dolby Atmos</string>
+  <string name="dolby_profile_title">Trieu un perfil</string>
+  <string name="dolby_preset">Equalitzador gràfic</string>
+  <string name="dolby_off">Apagat</string>
+  <string name="dolby_on">Encès</string>
+  <string name="dolby_low">Baixa</string>
+  <string name="dolby_medium">Mitjana</string>
+  <string name="dolby_high">Alt</string>
+  <string name="dolby_max">Màx</string>
+  <string name="dolby_unknown">Desconegut</string>
+  <string name="dolby_on_with_profile">Activat (%1$s)</string>
+  <string name="dolby_category_settings">Configuració</string>
+  <string name="dolby_bass_enhancer">Potenciador de baix</string>
+  <string name="dolby_dialogue_enhancer">Potenciador del diàleg</string>
+  <string name="dolby_spk_virtualizer">Virtualització dels altaveus</string>
+  <string name="dolby_hp_virtualizer">Virtualització d\'auriculars</string>
+  <string name="dolby_stereo_widening">Ampliació estèreo</string>
+  <string name="dolby_volume_leveler">Nivelador de volum</string>
+  <string name="dolby_connect_headphones">Connecteu els auriculars</string>
+  <string name="dolby_reset_profile">Restableix els valors predeterminats</string>
+  <string name="dolby_reset_profile_toast">S\'ha restablert correctament la configuració del perfil %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinàmic</string>
+  <string name="dolby_profile_video">Pel·lícula/vídeo</string>
+  <string name="dolby_profile_music">Música</string>
+  <string name="dolby_profile_voice">Veu</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Per defecte</string>
+  <string name="dolby_preset_rock">Rock</string>
+  <string name="dolby_preset_jazz">Jazz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Clàssica</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blues</string>
+  <string name="dolby_preset_electronic">Electrònica</string>
+  <string name="dolby_preset_country">Country</string>
+  <string name="dolby_preset_dance">Dance</string>
+  <string name="dolby_preset_metal">Metall</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Guanyar</string>
+  <string name="dolby_geq_preset">Preestablert</string>
+  <string name="dolby_geq_preset_name">Nom preestablert</string>
+  <string name="dolby_geq_new_preset">Nou preajust</string>
+  <string name="dolby_geq_rename_preset">Canvia el nom del valor predefinit</string>
+  <string name="dolby_geq_delete_preset">Suprimeix el valor predefinit</string>
+  <string name="dolby_geq_delete_preset_prompt">Voleu suprimir aquest valor predefinit?</string>
+  <string name="dolby_geq_reset_gains">Restableix els guanys</string>
+  <string name="dolby_geq_reset_gains_prompt">Voleu restablir aquesta configuració predeterminada als valors predeterminats?</string>
+  <string name="dolby_geq_preset_name_exists">El nom predefinit ja existeix!</string>
+  <string name="dolby_geq_preset_name_too_long">El nom predefinit és massa llarg!</string>
+</resources>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">டால்பி அட்மோஸ்</string>
+  <string name="dolby_enable">டால்பி அட்மாஸ் பயன்படுத்தவும்</string>
+  <string name="dolby_profile_title">சுயவிவரத்தைத் தேர்ந்தெடுக்கவும்</string>
+  <string name="dolby_preset">கிராஃபிக் சமநிலைப்படுத்தி</string>
+  <string name="dolby_off">ஆஃப்</string>
+  <string name="dolby_on">அன்று</string>
+  <string name="dolby_low">குறைந்த</string>
+  <string name="dolby_medium">நடுத்தர</string>
+  <string name="dolby_high">உயர்</string>
+  <string name="dolby_max">அதிகபட்சம்</string>
+  <string name="dolby_unknown">தெரியவில்லை</string>
+  <string name="dolby_on_with_profile">அன்று (%1$s)</string>
+  <string name="dolby_category_settings">அமைப்புகள்</string>
+  <string name="dolby_bass_enhancer">பாஸ் மேம்பாட்டாளர்</string>
+  <string name="dolby_dialogue_enhancer">உரையாடலை மேம்படுத்துபவர்</string>
+  <string name="dolby_spk_virtualizer">பேச்சாளர் மெய்நிகராக்கம்</string>
+  <string name="dolby_hp_virtualizer">ஹெட்ஃபோன் மெய்நிகராக்கம்</string>
+  <string name="dolby_stereo_widening">ஸ்டீரியோ அகலப்படுத்துதல்</string>
+  <string name="dolby_volume_leveler">வால்யூம் லெவலர்</string>
+  <string name="dolby_connect_headphones">ஹெட்ஃபோன்களை இணைக்கவும்</string>
+  <string name="dolby_reset_profile">இயல்புநிலைக்கு மீட்டமைக்கவும்</string>
+  <string name="dolby_reset_profile_toast">%1$s சுயவிவரத்திற்கான அமைப்புகளை மீட்டமைக்க முடிந்தது</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">டைனமிக்</string>
+  <string name="dolby_profile_video">திரைப்படம்/வீடியோ</string>
+  <string name="dolby_profile_music">இசை</string>
+  <string name="dolby_profile_voice">குரல்</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">இயல்புநிலை</string>
+  <string name="dolby_preset_rock">ராக்</string>
+  <string name="dolby_preset_jazz">ஜாஸ்</string>
+  <string name="dolby_preset_pop">பாப்</string>
+  <string name="dolby_preset_classical">கிளாசிக்கல்</string>
+  <string name="dolby_preset_hiphop">ஹிப் ஹாப்</string>
+  <string name="dolby_preset_blues">ப்ளூஸ்</string>
+  <string name="dolby_preset_electronic">எலக்ட்ரானிக்</string>
+  <string name="dolby_preset_country">கண்ட்ரி</string>
+  <string name="dolby_preset_dance">நடனம்</string>
+  <string name="dolby_preset_metal">மெட்டல்</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">ஆதாயம்</string>
+  <string name="dolby_geq_preset">முன்னமைவு</string>
+  <string name="dolby_geq_preset_name">முன்னமைக்கப்பட்ட பெயர்</string>
+  <string name="dolby_geq_new_preset">புதிய முன்னமைவு</string>
+  <string name="dolby_geq_rename_preset">முன்னமைவை மறுபெயரிடவும்</string>
+  <string name="dolby_geq_delete_preset">முன்னமைவை நீக்கு</string>
+  <string name="dolby_geq_delete_preset_prompt">இந்த முன்னமைவை நீக்க வேண்டுமா?</string>
+  <string name="dolby_geq_reset_gains">ஆதாயங்களை மீட்டமைக்கவும்</string>
+  <string name="dolby_geq_reset_gains_prompt">இந்த முன்னமைவை இயல்புநிலைக்கு மீட்டமைக்க விரும்புகிறீர்களா?</string>
+  <string name="dolby_geq_preset_name_exists">முன்னமைக்கப்பட்ட பெயர் ஏற்கனவே உள்ளது!</string>
+  <string name="dolby_geq_preset_name_too_long">முன்னமைக்கப்பட்ட பெயர் மிக நீளமாக உள்ளது!</string>
+</resources>

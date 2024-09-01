@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Χρησιμοποιήστε Dolby Atmos</string>
+  <string name="dolby_profile_title">Επιλέξτε ένα προφίλ</string>
+  <string name="dolby_preset">Γραφικός ισοσταθμιστής</string>
+  <string name="dolby_off">Μακριά από</string>
+  <string name="dolby_on">Επί</string>
+  <string name="dolby_low">Χαμηλός</string>
+  <string name="dolby_medium">Μέσον</string>
+  <string name="dolby_high">Ψηλά</string>
+  <string name="dolby_max">Μέγ</string>
+  <string name="dolby_unknown">Αγνωστος</string>
+  <string name="dolby_on_with_profile">Ενεργό (%1$s)</string>
+  <string name="dolby_category_settings">Ρυθμίσεις</string>
+  <string name="dolby_bass_enhancer">Ενισχυτικό μπάσων</string>
+  <string name="dolby_dialogue_enhancer">Ενισχυτικό διαλόγου</string>
+  <string name="dolby_spk_virtualizer">Εικονικοποίηση ηχείων</string>
+  <string name="dolby_hp_virtualizer">Εικονικοποίηση ακουστικών</string>
+  <string name="dolby_stereo_widening">Στερεοφωνική διεύρυνση</string>
+  <string name="dolby_volume_leveler">Ρυθμιστής έντασης</string>
+  <string name="dolby_connect_headphones">Συνδέστε ακουστικά</string>
+  <string name="dolby_reset_profile">Επαναφορά στις προεπιλογές</string>
+  <string name="dolby_reset_profile_toast">Επιτυχής επαναφορά των ρυθμίσεων για το προφίλ %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Δυναμικός</string>
+  <string name="dolby_profile_video">Ταινία/Βίντεο</string>
+  <string name="dolby_profile_music">Μουσική</string>
+  <string name="dolby_profile_voice">Φωνή</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Προεπιλογή</string>
+  <string name="dolby_preset_rock">Ροκ</string>
+  <string name="dolby_preset_jazz">Τζάζ</string>
+  <string name="dolby_preset_pop">Ποπ</string>
+  <string name="dolby_preset_classical">Κλασσική</string>
+  <string name="dolby_preset_hiphop">Χιπ Χοπ</string>
+  <string name="dolby_preset_blues">Μπλουζ</string>
+  <string name="dolby_preset_electronic">Ηλεκτρόνικ</string>
+  <string name="dolby_preset_country">Κάντρι</string>
+  <string name="dolby_preset_dance">Χορός</string>
+  <string name="dolby_preset_metal">Μέταλ</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Κέρδος</string>
+  <string name="dolby_geq_preset">Προκαθορισμένη</string>
+  <string name="dolby_geq_preset_name">Προκαθορισμένο όνομα</string>
+  <string name="dolby_geq_new_preset">Νέα προεπιλογή</string>
+  <string name="dolby_geq_rename_preset">Μετονομασία προεπιλογής</string>
+  <string name="dolby_geq_delete_preset">Διαγραφή προεπιλογής</string>
+  <string name="dolby_geq_delete_preset_prompt">Θέλετε να διαγράψετε αυτήν την προεπιλογή;</string>
+  <string name="dolby_geq_reset_gains">Επαναφορά κερδών</string>
+  <string name="dolby_geq_reset_gains_prompt">Θέλετε να επαναφέρετε αυτήν την προεπιλογή στις προεπιλογές;</string>
+  <string name="dolby_geq_preset_name_exists">Το προκαθορισμένο όνομα υπάρχει ήδη!</string>
+  <string name="dolby_geq_preset_name_too_long">Το προκαθορισμένο όνομα είναι πολύ μεγάλο!</string>
+</resources>

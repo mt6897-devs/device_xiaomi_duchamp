@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="dolby_enable">Dolby Atmos istifadə edin</string>
+  <string name="dolby_profile_title">Profil seçin</string>
+  <string name="dolby_preset">Qrafik ekvalayzer</string>
+  <string name="dolby_off">Söndür</string>
+  <string name="dolby_on">Aktiv</string>
+  <string name="dolby_low">Aşağı</string>
+  <string name="dolby_medium">Orta</string>
+  <string name="dolby_high">Yüksək</string>
+  <string name="dolby_max">Maks</string>
+  <string name="dolby_unknown">Naməlum</string>
+  <string name="dolby_on_with_profile">Aktivdir (%1$s)</string>
+  <string name="dolby_category_settings">Parametrlər</string>
+  <string name="dolby_bass_enhancer">Bas gücləndirici</string>
+  <string name="dolby_dialogue_enhancer">Dialoq gücləndiricisi</string>
+  <string name="dolby_spk_virtualizer">Dinamikin virtuallaşdırılması</string>
+  <string name="dolby_hp_virtualizer">Qulaqlıqların virtuallaşdırılması</string>
+  <string name="dolby_stereo_widening">Stereo genişləndirilməsi</string>
+  <string name="dolby_volume_leveler">Səs səviyyəsini düzəldən</string>
+  <string name="dolby_connect_headphones">Qulaqlıqları birləşdirin</string>
+  <string name="dolby_reset_profile">Defoltlara sıfırlayın</string>
+  <string name="dolby_reset_profile_toast">%1$s profili üçün parametrləri uğurla sıfırlayın</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">Dinamik</string>
+  <string name="dolby_profile_video">Film/Video</string>
+  <string name="dolby_profile_music">Musiqi</string>
+  <string name="dolby_profile_voice">Səs</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">Varsayılan</string>
+  <string name="dolby_preset_rock">Rok</string>
+  <string name="dolby_preset_jazz">Caz</string>
+  <string name="dolby_preset_pop">Pop</string>
+  <string name="dolby_preset_classical">Klassik</string>
+  <string name="dolby_preset_hiphop">Hip Hop</string>
+  <string name="dolby_preset_blues">Blyuz</string>
+  <string name="dolby_preset_electronic">Elektronik</string>
+  <string name="dolby_preset_country">Kantri</string>
+  <string name="dolby_preset_dance">Rəqs</string>
+  <string name="dolby_preset_metal">Metal</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Qazanc</string>
+  <string name="dolby_geq_preset">Əvvəlcədən təyin</string>
+  <string name="dolby_geq_preset_name">Əvvəlcədən təyin edilmiş ad</string>
+  <string name="dolby_geq_new_preset">Yeni əvvəlcədən təyin</string>
+  <string name="dolby_geq_rename_preset">Əvvəlcədən adlandırın</string>
+  <string name="dolby_geq_delete_preset">Əvvəlcədən sil</string>
+  <string name="dolby_geq_delete_preset_prompt">Bu əvvəlcədən təyinatı silmək istəyirsiniz?</string>
+  <string name="dolby_geq_reset_gains">Qazancları sıfırlayın</string>
+  <string name="dolby_geq_reset_gains_prompt">Bu ilkin təyinatı defoltlara sıfırlamaq istəyirsiniz?</string>
+  <string name="dolby_geq_preset_name_exists">Əvvəlcədən təyin edilmiş ad artıq mövcuddur!</string>
+  <string name="dolby_geq_preset_name_too_long">Əvvəlcədən təyin edilmiş ad çox uzundur!</string>
+</resources>

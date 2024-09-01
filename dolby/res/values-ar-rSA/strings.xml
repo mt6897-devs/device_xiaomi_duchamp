@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dolby Atmos -->
+  <string name="dolby_title">دولبي أتموس</string>
+  <string name="dolby_enable">استخدم دولبي أتموس</string>
+  <string name="dolby_profile_title">اختر ملفًا شخصيًا</string>
+  <string name="dolby_preset">المعادل الرسومي</string>
+  <string name="dolby_off">عن</string>
+  <string name="dolby_on">على</string>
+  <string name="dolby_low">قليل</string>
+  <string name="dolby_medium">واسطة</string>
+  <string name="dolby_high">عالي</string>
+  <string name="dolby_max">الأعلى</string>
+  <string name="dolby_unknown">مجهول</string>
+  <string name="dolby_on_with_profile">على (%1$s)</string>
+  <string name="dolby_category_settings">إعدادات</string>
+  <string name="dolby_bass_enhancer">محسن الجهير</string>
+  <string name="dolby_dialogue_enhancer">محسن الحوار</string>
+  <string name="dolby_spk_virtualizer">المحاكاة الافتراضية للمتكلم</string>
+  <string name="dolby_hp_virtualizer">المحاكاة الافتراضية لسماعات الرأس</string>
+  <string name="dolby_stereo_widening">توسيع ستيريو</string>
+  <string name="dolby_volume_leveler">مستوي الصوت</string>
+  <string name="dolby_connect_headphones">قم بتوصيل سماعات الرأس</string>
+  <string name="dolby_reset_profile">إعادة التعيين إلى الإعدادات الافتراضية</string>
+  <string name="dolby_reset_profile_toast">تمت إعادة تعيين الإعدادات بنجاح لملف تعريف %1$s</string>
+  <!-- Dolby profiles -->
+  <string name="dolby_profile_dynamic">متحرك</string>
+  <string name="dolby_profile_video">فيلم/فيديو</string>
+  <string name="dolby_profile_music">موسيقى</string>
+  <string name="dolby_profile_voice">صوت</string>
+  <!-- Dolby equalizer presets -->
+  <string name="dolby_preset_default">الافتراضي</string>
+  <string name="dolby_preset_rock">روك</string>
+  <string name="dolby_preset_jazz">جاز</string>
+  <string name="dolby_preset_pop">بوب</string>
+  <string name="dolby_preset_classical">كلاسيك</string>
+  <string name="dolby_preset_hiphop">هيب هوب</string>
+  <string name="dolby_preset_blues">إيقاع</string>
+  <string name="dolby_preset_electronic">الكتروني</string>
+  <string name="dolby_preset_country">الريف</string>
+  <string name="dolby_preset_dance">رقص</string>
+  <string name="dolby_preset_metal">معدن</string>
+  <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">يكسب</string>
+  <string name="dolby_geq_preset">محددة مسبقا</string>
+  <string name="dolby_geq_preset_name">اسم محدد مسبقًا</string>
+  <string name="dolby_geq_new_preset">إعداد مسبق جديد</string>
+  <string name="dolby_geq_rename_preset">إعادة تسمية الإعداد المسبق</string>
+  <string name="dolby_geq_delete_preset">حذف الإعداد المسبق</string>
+  <string name="dolby_geq_delete_preset_prompt">هل تريد حذف هذا الإعداد المسبق؟</string>
+  <string name="dolby_geq_reset_gains">إعادة تعيين المكاسب</string>
+  <string name="dolby_geq_reset_gains_prompt">هل تريد إعادة تعيين هذا الإعداد المسبق إلى الإعدادات الافتراضية؟</string>
+  <string name="dolby_geq_preset_name_exists">الاسم المحدد مسبقًا موجود بالفعل!</string>
+  <string name="dolby_geq_preset_name_too_long">الاسم المحدد مسبقًا طويل جدًا!</string>
+</resources>
