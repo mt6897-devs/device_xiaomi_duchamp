@@ -1,22 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2023-24 Paranoid Android
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Dolby Atmos -->
-  <string name="dolby_title">Долби Атмос</string>
+
+    <!-- Dolby Atmos -->
+  <string name="dolby_title">Dolby Atmos</string>
   <string name="dolby_enable">Используйте Dolby Atmos</string>
   <string name="dolby_profile_title">Выберите профиль</string>
   <string name="dolby_preset">Графический эквалайзер</string>
-  <string name="dolby_off">Выключенный</string>
-  <string name="dolby_on">На</string>
+  <string name="dolby_off">Выключено</string>
+  <string name="dolby_on">Включено</string>
   <string name="dolby_low">Низкий</string>
-  <string name="dolby_medium">Середина</string>
+  <string name="dolby_medium">Средний</string>
   <string name="dolby_high">Высокий</string>
-  <string name="dolby_max">Макс</string>
-  <string name="dolby_unknown">Неизвестный</string>
-  <string name="dolby_on_with_profile">Включено (%1$s)</string>
+  <string name="dolby_max">Максимальный</string>
+  <string name="dolby_unknown">Неизвестно</string>
+  <string name="dolby_on_with_profile">Включен (%1$s)</string>
   <string name="dolby_category_settings">Настройки</string>
   <string name="dolby_bass_enhancer">Усилитель басов</string>
   <string name="dolby_dialogue_enhancer">Усилитель диалогов</string>
@@ -25,14 +26,16 @@
   <string name="dolby_stereo_widening">Стерео расширение</string>
   <string name="dolby_volume_leveler">Регулятор громкости</string>
   <string name="dolby_connect_headphones">Подключите наушники</string>
-  <string name="dolby_reset_profile">Сбросить настройки по умолчанию</string>
-  <string name="dolby_reset_profile_toast">Успешный сброс настроек для профиля %1$s.</string>
-  <!-- Dolby profiles -->
+  <string name="dolby_reset_profile">Сбросить настройки</string>
+  <string name="dolby_reset_profile_toast">Настройки профиля %1$s сброшены</string>
+
+    <!-- Dolby profiles -->
   <string name="dolby_profile_dynamic">Динамический</string>
   <string name="dolby_profile_video">Фильм/Видео</string>
   <string name="dolby_profile_music">Музыка</string>
   <string name="dolby_profile_voice">Голос</string>
-  <!-- Dolby equalizer presets -->
+
+    <!-- Dolby equalizer presets -->
   <string name="dolby_preset_default">По умолчанию</string>
   <string name="dolby_preset_rock">Рок</string>
   <string name="dolby_preset_jazz">Джаз</string>
@@ -44,16 +47,18 @@
   <string name="dolby_preset_country">Кантри</string>
   <string name="dolby_preset_dance">Танцевальная</string>
   <string name="dolby_preset_metal">Металл</string>
-  <!-- Dolby equalizer UI -->
-  <string name="dolby_geq_slider_label_gain">Прирост</string>
-  <string name="dolby_geq_preset">Предустановка</string>
-  <string name="dolby_geq_preset_name">Имя предустановки</string>
+
+    <!-- Dolby equalizer UI -->
+  <string name="dolby_geq_slider_label_gain">Усиление</string>
+  <string name="dolby_geq_preset">Пресет</string>
+  <string name="dolby_geq_preset_name">Название пресета</string>
   <string name="dolby_geq_new_preset">Новый пресет</string>
-  <string name="dolby_geq_rename_preset">Переименование пресета</string>
+  <string name="dolby_geq_rename_preset">Переименовать пресет</string>
   <string name="dolby_geq_delete_preset">Удалить пресет</string>
   <string name="dolby_geq_delete_preset_prompt">Вы хотите удалить этот пресет?</string>
-  <string name="dolby_geq_reset_gains">Сбросить прибыль</string>
-  <string name="dolby_geq_reset_gains_prompt">Вы хотите сбросить эту предустановку к настройкам по умолчанию?</string>
-  <string name="dolby_geq_preset_name_exists">Предустановленное имя уже существует!</string>
-  <string name="dolby_geq_preset_name_too_long">Предустановленное имя слишком длинное!</string>
+  <string name="dolby_geq_reset_gains">Сбросить усиления</string>
+  <string name="dolby_geq_reset_gains_prompt">Вы хотите сбросить настройки пресета?</string>
+  <string name="dolby_geq_preset_name_exists">Пресет с таким названием уже существует!</string>
+  <string name="dolby_geq_preset_name_too_long">Название пресета слишком длинное!</string>
+
 </resources>
