@@ -72,19 +72,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common-V1-ndk.vendor \
-    android.hardware.soundtrigger3-V1-ndk.vendor \
-    libaudio_aidl_conversion_common_ndk.vendor \
-    libsqlite.vendor
-
-PRODUCT_PACKAGES += \
     audio.bluetooth.default
-
-PRODUCT_PACKAGES += \
-    libalsautils \
-    libtinyalsa.vendor \
-    libtinycompress \
-    libnbaio_mono
 
 PRODUCT_PACKAGES += \
     XiaomiDolby
@@ -103,25 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth.audio-V3-ndk.vendor \
-    android.hardware.bluetooth@1.1.vendor \
-    android.hardware.bluetooth-V1-ndk.vendor \
-    libbluetooth_audio_session
-
-# Camera
-PRODUCT_PACKAGES += \
-    android.frameworks.cameraservice.common-V1-ndk.vendor \
-    android.frameworks.cameraservice.device-V1-ndk.vendor \
-    android.frameworks.cameraservice.service-V1-ndk.vendor \
-    android.hardware.camera.common-V2-ndk.vendor \
-    android.hardware.camera.device-V2-ndk.vendor \
-    android.hardware.camera.provider-V2-ndk.vendor \
-    android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor \
-    libcamera2ndk_vendor \
-    libjpeg.vendor \
-    libutils-v34
+    android.hardware.bluetooth.audio-impl
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
@@ -130,20 +100,6 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek-mali
-
-PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0.vendor \
-    android.hardware.graphics.allocator@4.0.vendor \
-    android.hardware.graphics.allocator-V1-ndk.vendor \
-    android.hardware.graphics.allocator-V2-ndk.vendor \
-    android.hardware.graphics.composer3-V2-ndk.vendor \
-    android.hardware.graphics.common-V4-ndk.vendor \
-    libcurl.vendor \
-    libdrm.vendor \
-    libutilscallstack.vendor
-
-PRODUCT_PACKAGES += \
-    libui_shim.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml
@@ -156,38 +112,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.common.thread \
-    android.hardware.biometrics.common.util \
-    android.hardware.biometrics.fingerprint-V3-ndk.vendor
-
-# Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper-V1-ndk.vendor \
-    libgatekeeper.vendor
-
-# GNSS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss.measurement_corrections@1.1.vendor \
-    android.hardware.gnss.visibility_control@1.0.vendor \
-    android.hardware.gnss-V3-ndk.vendor \
-    android.hardware.gnss@2.1.vendor
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.allocator@1.0.vendor \
-    libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder.vendor
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
-
-PRODUCT_PACKAGES += \
-    android.hardware.health@1.0.vendor
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
@@ -197,30 +125,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/configs/linker.config.json
 
-# Keymint
-PRODUCT_PACKAGES += \
-    android.hardware.security.rkp-V3-ndk.vendor \
-    android.hardware.security.sharedsecret-V1-ndk.vendor \
-    lib_android_keymaster_keymint_utils.vendor \
-    libkeymaster4support.vendor \
-    libkeymint.vendor \
-    libkeymint_remote_prov_support.vendor \
-    libkeymint_support.vendor \
-    libpuresoftkeymasterdevice.vendor \
-    libtrusty.vendor
-
 # Media
-PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
-    libcodec2_hidl@1.2.vendor \
-    libcodec2_soft_common.vendor \
-    libsfplugin_ccodec_utils.vendor \
-    libstagefright_softomx_plugin.vendor \
-    libexpat.vendor
-
-PRODUCT_PACKAGES += \
-    dolbycodec_shim
-
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
@@ -311,10 +216,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2023-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level-2023-03-01.xml
 
 # Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2.vendor \
-    android.hardware.power-V4-ndk.vendor
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
@@ -326,17 +227,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/sku/,$(TARGET_COPY_OUT_ODM)/etc)
 
 # Radio
-PRODUCT_PACKAGES += \
-    android.hardware.radio-V2-ndk.vendor \
-    android.hardware.radio.data-V2-ndk.vendor \
-    android.hardware.radio.ims-V1-ndk.vendor \
-    android.hardware.radio.messaging-V2-ndk.vendor \
-    android.hardware.radio.modem-V2-ndk.vendor \
-    android.hardware.radio.network-V2-ndk.vendor \
-    android.hardware.radio.sap-V1-ndk.vendor \
-    android.hardware.radio.sim-V2-ndk.vendor \
-    android.hardware.radio.voice-V2-ndk.vendor
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)
 
@@ -353,10 +243,6 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_PACKAGES += \
     xiaomi-telephony-stub
-
-PRODUCT_PACKAGES += \
-    libui_shim \
-    libshim_sink
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
@@ -382,17 +268,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6897.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6897.rc
 
-# Secure Element
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor \
-    android.hardware.secure_element-V1-ndk.vendor
-
 # Sensors
 PRODUCT_PACKAGES += \
-   android.hardware.sensors-service.multihal \
-   android.frameworks.sensorservice@1.0.vendor \
-   android.frameworks.sensorservice-V1-ndk.vendor \
-   libsensorndkbridge
+   android.hardware.sensors-service.multihal
 
 PRODUCT_PACKAGES += \
    sensors.dynamic_sensor_hal
@@ -445,9 +323,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-wrapper \
     wpa_supplicant
-
-PRODUCT_PACKAGES += \
-    android.hardware.tetheroffload-V1-ndk.vendor
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
