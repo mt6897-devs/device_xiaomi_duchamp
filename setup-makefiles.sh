@@ -25,6 +25,14 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function vendor_imports() {
+        cat <<EOF >>"$1"
+                "device/xiaomi/duchamp",
+                "hardware/mediatek",
+                "hardware/xiaomi",
+EOF
+}
+
 function lib_to_package_fixup_vendor_variants() {
     if [ "$2" != "vendor" ]; then
         return 1
