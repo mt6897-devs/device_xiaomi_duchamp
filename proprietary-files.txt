@@ -387,9 +387,9 @@ vendor/lib64/libjpegencoder.so
 vendor/lib64/libmiSAT.so
 vendor/lib64/libmiSATTranslate.so
 vendor/lib64/libmialgo_ai_vision.so
-vendor/lib64/libmialgo_aio_seg.so
+vendor/lib64/libmialgo_aio_seg.so;MODULE=libmialgo_aio_seg-vendor
 vendor/lib64/libmialgo_sd.so
-vendor/lib64/libmialgo_utils.so
+vendor/lib64/libmialgo_utils.so;MODULE=libmialgo_utils-vendor
 vendor/lib64/libmialgo_video_seg_depth.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgoenginecustom.so
@@ -1691,10 +1691,10 @@ vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpower_timer.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so;MODULE=vendor.mediatek.hardware.mtkpower-V1-ndk-vendor
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MODULE=vendor.mediatek.hardware.mtkpower@1.0-vendor
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MODULE=vendor.mediatek.hardware.mtkpower@1.1-vendor
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MODULE=vendor.mediatek.hardware.mtkpower@1.2-vendor
 vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
@@ -1777,7 +1777,7 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
 vendor/bin/hw/vtservice_aidl
 vendor/etc/init/init.vtservice_aidl.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE=vendor.mediatek.hardware.videotelephony-V1-ndk-vendor
 
 # Radio (System-IMS)
 system_ext/bin/vtservice
