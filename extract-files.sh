@@ -90,6 +90,11 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils-v34.so" "${2}"
             ;;
+        vendor/lib64/mt6897/lib3a.ae.stat.so|\
+        vendor/lib64/libarmnn_ndk.mtk.vndk.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "liblog.so" "${2}"
+            ;;
         *)
             return 1
             ;;
