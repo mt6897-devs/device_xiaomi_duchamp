@@ -307,7 +307,6 @@ odm/lib64/libmialgo_utils.so
 odm/lib64/libmiphone_capture_bokeh.so
 odm/lib64/libmiphone_capture_depth.so
 odm/lib64/libomp.so
-odm/lib64/temp/mt6897/libmtkcam_metadata.so;SYMLINK=odm/lib64/temp/libmtkcam_metadata.so
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db
 vendor/bin/hw/mt6897/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
@@ -774,7 +773,6 @@ vendor/lib64/mt6897/libmtkcm_ipc_dummy.so;SYMLINK=vendor/lib64/libmtkcm_ipc_dumm
 vendor/lib64/mt6897/libpda_usdriver.so;SYMLINK=vendor/lib64/libpda_usdriver.so
 vendor/lib64/mt6897/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6897/mtk000_mipi_raw_tuning.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_tuning.so
-vendor/lib64/temp/mt6897/libmtkcam_ulog.so;SYMLINK=vendor/lib64/temp/libmtkcam_ulog.so
 vendor/lib64/vendor.mediatek.hardware.camera.aovservice-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
