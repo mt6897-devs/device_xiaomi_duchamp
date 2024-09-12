@@ -88,6 +88,7 @@ function blob_fixup {
             ;;
         vendor/lib*/hw/audio.primary.mediatek.so)
             [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.audio.common-V1-ndk.so" "android.hardware.audio.common-V2-ndk.so" "${2}"
             "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils-v34.so" "${2}"
             ;;
         vendor/lib64/mt6897/lib3a.ae.stat.so|\
@@ -103,6 +104,43 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libjpegdecoder.so" "libjpegdecoder_prebuilt.so" "${2}"
             "${PATCHELF}" --replace-needed "libjpegencoder.so" "libjpegencoder_prebuilt.so" "${2}"
+            ;;
+        vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.audio.common-V1-ndk.so" "android.hardware.audio.common-V2-ndk.so" "${2}"
+            ;;
+        vendor/bin/hw/mfp-daemon)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.biometrics.common-V3-ndk.so" "android.hardware.biometrics.common-V4-ndk.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hardware.biometrics.fingerprint-V3-ndk.so" "android.hardware.biometrics.fingerprint-V4-ndk.so" "${2}"
+            ;;
+        vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897|\
+        vendor/lib64/egl/mt6897/libGLES_mali.so|\
+        vendor/lib64/hw/mt6897/android.hardware.graphics.allocator-V2-mediatek.so|\
+        vendor/lib64/hw/mt6897/android.hardware.graphics.mapper@4.0-impl-mediatek.so|\
+        vendor/lib64/hw/mt6897/mapper.mediatek.so|\
+        vendor/lib64/libaimemc.so|\
+        vendor/lib64/libcodec2_fsr.so|\
+        vendor/lib64/libcodec2_vpp_AIMEMC_plugin.so|\
+        vendor/lib64/libcodec2_vpp_AISR_plugin.so|\
+        vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so|\
+        vendor/lib64/vendor.mediatek.hardware.pq_aidl-V*.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.graphics.common-V4-ndk.so" "android.hardware.graphics.common-V5-ndk.so" "${2}"
+            ;;
+        vendor/lib64/mt6897/libmtkcam_hal_aidl_common.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.camera.common-V2-ndk.so" "android.hardware.camera.common-V1-ndk.so" "${2}"
+            ;;
+        vendor/lib64/mt6897/libmtkcam_grallocutils.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.graphics.allocator-V1-ndk.so" "android.hardware.graphics.allocator-V2-ndk.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hardware.graphics.common-V4-ndk.so" "android.hardware.graphics.common-V5-ndk.so" "${2}"
+            ;;
+        vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.graphics.allocator-V1-ndk.so" "android.hardware.graphics.allocator-V2-ndk.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hardware.graphics.common-V4-ndk.so" "android.hardware.graphics.common-V5-ndk.so" "${2}"
             ;;
         *)
             return 1
