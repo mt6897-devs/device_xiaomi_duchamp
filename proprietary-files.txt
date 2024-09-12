@@ -378,7 +378,6 @@ vendor/lib64/libgz_uree.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhis_face_tracking.so
 vendor/lib64/libhis_motion_tracker.so
-vendor/lib64/libimage_io.so
 vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
@@ -1339,7 +1338,6 @@ vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature_aidl-service.xml
 vendor/lib64/libdisplayfeature.so
 vendor/lib64/libdisplayfeatureservice.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so
 
 # Display Feature (Configs)
@@ -1445,9 +1443,7 @@ vendor/etc/vintf/manifest/AHBF-V3-service.xml
 vendor/etc/vintf/manifest/fod-aidl.xml
 vendor/lib64/com.fingerprints.extension3-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.dtool1-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # FM
 vendor/firmware/fm_cust.cfg
@@ -1903,7 +1899,6 @@ vendor/bin/toucheventcheck
 vendor/etc/init.panel_info.sh
 vendor/etc/tp_kmsg_init_duchamp.sh
 vendor/lib64/sensors.touch.detect.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so
 
 # Trusted Execution Environment (TEE)
 vendor/bin/miteelog
