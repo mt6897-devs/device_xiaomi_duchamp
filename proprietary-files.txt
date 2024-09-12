@@ -307,6 +307,7 @@ odm/lib64/libmialgo_utils.so
 odm/lib64/libmiphone_capture_bokeh.so
 odm/lib64/libmiphone_capture_depth.so
 odm/lib64/libomp.so
+system/lib64/libutils.so:vendor/lib64/libutils-v34.so;FIX_SONAME
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db
 vendor/bin/hw/mt6897/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
