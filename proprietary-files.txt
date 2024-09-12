@@ -381,8 +381,8 @@ vendor/lib64/libhis_motion_tracker.so
 vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
-vendor/lib64/libjpegdecoder.so
-vendor/lib64/libjpegencoder.so
+vendor/lib64/libjpegdecoder.so:vendor/lib64/libjpegdecoder_prebuilt.so;FIX_SONAME
+vendor/lib64/libjpegencoder.so:vendor/lib64/libjpegencoder_prebuilt.so;FIX_SONAME
 vendor/lib64/libmiSAT.so
 vendor/lib64/libmiSATTranslate.so
 vendor/lib64/libmialgo_ai_vision.so
@@ -416,7 +416,7 @@ vendor/lib64/libn3d_tuning.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/librfs_warp.so
-vendor/lib64/libultrahdr.so
+vendor/lib64/libultrahdr.so:vendor/lib64/libultrahdr_prebuilt.so;FIX_SONAME
 vendor/lib64/libvideoBokeh.so
 vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/duchampgc16b3front_mipi_raw_IdxMgr.so
 vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_tuning.so;SYMLINK=vendor/lib64/duchampgc16b3front_mipi_raw_tuning.so

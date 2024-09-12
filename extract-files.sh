@@ -95,6 +95,15 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "liblog.so" "${2}"
             ;;
+        vendor/lib64/mt6897/libmtkcam_hwnode.jpegnode.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libultrahdr.so" "libultrahdr_prebuilt.so" "${2}"
+            ;;
+        vendor/lib64/libultrahdr_prebuilt.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libjpegdecoder.so" "libjpegdecoder_prebuilt.so" "${2}"
+            "${PATCHELF}" --replace-needed "libjpegencoder.so" "libjpegencoder_prebuilt.so" "${2}"
+            ;;
         *)
             return 1
             ;;
