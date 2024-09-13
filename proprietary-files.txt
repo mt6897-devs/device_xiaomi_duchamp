@@ -1652,7 +1652,7 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 # NFC
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
-odm/etc/libnfc-nxp_RF.conf
+odm/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 vendor/lib64/libsn100u_fw.so
 
 # NVRAM
