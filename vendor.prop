@@ -272,6 +272,9 @@ ro.vendor.gps.chrdev=gps_drv_dl_v051
 debug.hwui.skia_atrace_enabled=false
 
 # IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 persist.vendor.ims_support=1
 persist.vendor.mtk.volte.enable=1
 persist.vendor.mtk_ct_volte_support=3
