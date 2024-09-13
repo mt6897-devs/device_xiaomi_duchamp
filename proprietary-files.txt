@@ -1899,6 +1899,7 @@ vendor/bin/toucheventcheck
 vendor/etc/init.panel_info.sh
 vendor/etc/tp_kmsg_init_duchamp.sh
 vendor/lib64/sensors.touch.detect.so
+vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # Trusted Execution Environment (TEE)
 vendor/bin/miteelog
