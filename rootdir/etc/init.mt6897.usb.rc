@@ -158,16 +158,17 @@ on boot
     write /sys/module/block/parameters/events_dfl_poll_msecs 1000
 
     # Set permissions for USB service
-    chown root system /sys/class/typec/port0/power_role
-    chown root system /sys/class/typec/port0/data_role
-    chown root system /sys/class/typec/port0/port_type
-    chown root system /sys/class/udc/${sys.usb.controller}/device/mode
-    chown root system /sys/class/udc/${sys.usb.controller}/device/saving
+    chown system system /sys/class/typec/port0/power_role
+    chown system system /sys/class/typec/port0/data_role
+    chown system system /sys/class/typec/port0/port_type
     chmod 664 /sys/class/typec/port0/power_role
     chmod 664 /sys/class/typec/port0/data_role
     chmod 664 /sys/class/typec/port0/port_type
-    chmod 664 /sys/class/udc/${sys.usb.controller}/device/mode
-    chmod 664 /sys/class/udc/${sys.usb.controller}/device/saving
+    chown system system /sys/devices/platform/soc/${sys.usb.controller}/mode
+    chown root system /sys/class/udc/${sys.usb.controller}/current_speed
+    chown root system /sys/class/udc/${sys.usb.controller}/soft_connect
+    chmod 444 /sys/class/udc/${sys.usb.controller}/current_speed
+    chmod 220 /sys/class/udc/${sys.usb.controller}/soft_connect
 
 on charger
     mkdir /config/usb_gadget/g1 0770 shell shell
