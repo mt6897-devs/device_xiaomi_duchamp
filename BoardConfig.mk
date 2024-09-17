@@ -160,6 +160,11 @@ VENDOR_SECURITY_PATCH := 2023-10-05
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
+# Touch
+SOONG_CONFIG_NAMESPACES += XIAOMI_TOUCH
+SOONG_CONFIG_XIAOMI_TOUCH := HIGH_TOUCH_POLLING_PATH
+SOONG_CONFIG_XIAOMI_TOUCH_HIGH_TOUCH_POLLING_PATH := /sys/devices/platform/goodix_ts.0/switch_report_rate
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
