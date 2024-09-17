@@ -49,10 +49,6 @@ on post-fs-data
     write /sys/block/dm-4/queue/read_ahead_kb 2048
     write /sys/block/dm-5/queue/read_ahead_kb 2048
 
-    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy6/scaling_governor sugov_ext
-    write /sys/devices/system/cpu/cpufreq/policy7/scaling_governor sugov_ext
     write /proc/sys/kernel/sched_pelt_multiplier 4
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
