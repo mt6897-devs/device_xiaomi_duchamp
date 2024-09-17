@@ -22,6 +22,9 @@ on init
     write /dev/cpuset/system-background/cpus 0-2
     write /dev/cpuset/top-app/cpus 0-7
 
+    write /sys/devices/system/cpu/cpufreq/policy0/schedutil/rate_limit_us 5000 
+    write /sys/devices/system/cpu/cpufreq/policy4/schedutil/rate_limit_us 2000
+
 on post-fs-data
     # Disable watermark boost
     write /proc/sys/vm/watermark_boost_factor 0
