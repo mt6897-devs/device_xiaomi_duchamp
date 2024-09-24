@@ -1,1 +1,2 @@
 vendor_internal_prop(vendor_thermal_engine_prop)
+vendor_internal_prop(vendor_sensors_prop)

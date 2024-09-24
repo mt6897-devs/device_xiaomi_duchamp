@@ -357,6 +357,7 @@ import /vendor/etc/rsc/${ro.boot.rsc}.prop
 persist.vendor.sensor.maxbrightness=8191
 persist.vendor.sensor.powbrightness=400
 ro.vendor.mtk.sensor.support=yes
+ro.vendor.sensors.xiaomi.udfps=true
 
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1
