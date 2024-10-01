@@ -1700,6 +1700,7 @@ vendor/etc/command.csv
 vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/etc/thermalbreakboostconfig.xml
 vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
 vendor/etc/vintf/manifest/power-mediatek.xml
 vendor/lib64/android.hardware.power-service-mediatek.so
@@ -1901,17 +1902,6 @@ odm/etc/thermal-video.conf
 odm/etc/thermal-videochat.conf
 odm/etc/thermal-yuanshen.conf
 vendor/etc/thermal-map.conf
-vendor/etc/thermal/disable_thermal.conf
-vendor/etc/thermal/disable_thermal_temp.conf
-vendor/etc/thermal/thermal.conf
-vendor/etc/thermal/thermal_mtbf.conf
-vendor/etc/thermal/thermal_policy_00.conf
-vendor/etc/thermal/thermal_policy_01.conf
-vendor/etc/thermal/thermal_policy_02.conf
-vendor/etc/thermal/thermal_policy_03.conf
-vendor/etc/thermal/thermal_policy_08.conf
-vendor/etc/thermal/thermal_policy_09.conf
-vendor/etc/thermalbreakboostconfig.xml
 vendor/etc/thermald-devices.conf
 
 # TouchFeature
