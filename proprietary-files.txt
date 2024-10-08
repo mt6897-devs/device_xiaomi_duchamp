@@ -1711,6 +1711,7 @@ vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpower_timer.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so;MODULE_SUFFIX=-vendor
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MODULE_SUFFIX=-vendor
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MODULE_SUFFIX=-vendor
@@ -1774,7 +1775,6 @@ vendor/lib64/libtrm.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libviamipc-ril.so
 vendor/lib64/libwpfa.so
-vendor/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.cap-V1-ndk.so
@@ -1794,12 +1794,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
 
 # Radio (IMS)
-vendor/bin/hw/vtservice_aidl
-vendor/etc/init/init.vtservice_aidl.rc
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
-
-# Radio (System-IMS)
 system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc
 system_ext/framework/mediatek-common.jar:system/framework/mediatek-common.jar
@@ -1817,20 +1811,18 @@ system_ext/lib64/libimsma_rtp.so
 system_ext/lib64/libimsma_socketwrapper.so
 system_ext/lib64/libmtk_vt_service.so
 system_ext/lib64/libmtk_vt_wrapper.so
-system_ext/lib64/libmtkperf_client.so
 system_ext/lib64/libsignal.so
 system_ext/lib64/libsink.so
 system_ext/lib64/libsource.so
 system_ext/lib64/libvcodec_cap.so
 system_ext/lib64/libvcodec_capenc.so
-system_ext/lib64/libvsim-adaptor-client.so
 system_ext/lib64/libvt_avsync.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/bin/hw/vtservice_aidl
+vendor/etc/init/init.vtservice_aidl.rc
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # Radio (IMS-App) - from duchamp_global-user 14 UP1A.230905.011 V816.0.9.0.UNLMIXM release-keys (patched)
 system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|3b57c48253277b273580e80e105e7fc5abd92d0b

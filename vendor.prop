@@ -340,16 +340,18 @@ ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_mcf_support=1
 ro.vendor.mtk_md_world_mode_support=1
 ro.vendor.mtk_mipc_support=1
+ro.vendor.mtk_mobile_management=1
 ro.vendor.mtk_protocol1_rat_config=N/Lf/Lt/W/G
 ro.vendor.mtk_ps1_rat=N/Lf/Lt/W/G
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_rild_read_imsi=1
 ro.vendor.mtk_sim_card_onoff=3
 ro.vendor.mtk_sim_hot_swap_common_slot=1
-ro.vendor.mtk_single_bin_modem_support=1
 ro.vendor.mtk_world_phone_policy=0
 ro.vendor.num_md_protocol=2
+ro.vendor.radio.max.multisim=dsds
 ro.vendor.sim_me_lock_mode=3
+telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
 import /vendor/etc/rsc/${ro.boot.rsc}.prop
 
