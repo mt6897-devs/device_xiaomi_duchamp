@@ -27,11 +27,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.mediatek.hardware.mbrainj</name>
-        <interface>
-            <name>IMBrainJava</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>

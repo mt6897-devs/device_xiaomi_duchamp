@@ -36,6 +36,7 @@ vendor/lib64/libbwc.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libfvaudio.so
 vendor/lib64/libladder.so
+vendor/lib64/libmbrainSDKv.so
 vendor/lib64/libmispowerop.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
@@ -59,6 +60,7 @@ vendor/lib64/libvow_comp_test.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
+vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
 
 # Audio Configs
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
@@ -1526,21 +1528,6 @@ vendor/etc/vintf/manifest/android.hardware.identity@5.0-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
-
-# MBrain
-vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek
-vendor/etc/init/mbrain-mtk-default.rc
-vendor/etc/mbrain/mbrain_runtime_config.bin
-vendor/etc/mbrain/mbrain_runtime_game_config.bin
-vendor/etc/mbrain/mbrain_runtime_pivm_config.bin
-vendor/etc/mbrain/mbrain_runtime_video_config.bin
-vendor/etc/mbrain/mbrain_static_config.bin
-vendor/etc/vintf/manifest/manifest_mbrain.xml
-vendor/lib64/hw/libmbrainImpl.so
-vendor/lib64/libmbrainSDKv.so
-vendor/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
-vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.mbrainj-V1-ndk.so
 
 # Mlipay
 odm/bin/mlipayd_mitee

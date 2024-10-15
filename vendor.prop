@@ -137,7 +137,6 @@ ro.surface_flinger.set_touch_timer_ms=1100
 ro.surface_flinger.supports_background_blur=1
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.composer_version=3.2
-ro.vendor.mbrain.mode=mtk
 ro.vendor.mml.mtk_mml_support=1
 ro.vendor.mtk.gpud.mm.fbc.disable=false
 ro.vendor.mtk_aal_support=1
