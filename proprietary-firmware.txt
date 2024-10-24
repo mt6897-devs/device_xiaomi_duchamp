@@ -9,11 +9,13 @@ connsys_wifi.img;AB
 dpm.img;AB
 gpueb.img;AB
 gz.img;AB
+lk.img;AB
 mcf_ota.img;AB
 mcupm.img;AB
 modem.img;AB
 mvpu_algo.img;AB
 pi_img.img;AB
+preloader_duchamp.bin:preloader_raw.img;AB
 scp.img;AB
 spmfw.img;AB
 sspm.img;AB
