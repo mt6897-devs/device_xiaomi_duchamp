@@ -16,7 +16,6 @@
 #include <thread>
 
 #include <drm/mi_disp.h>
-#include <linux/xiaomi_touch.h>
 
 #include "UdfpsHandler.h"
 
@@ -29,7 +28,6 @@
 #define PARAM_FOD_RELEASED 0
 
 #define DISP_FEATURE_PATH "/dev/mi_display/disp_feature"
-#define TOUCH_DEV_PATH "/dev/xiaomi-touch"
 
 using ::aidl::android::hardware::biometrics::fingerprint::AcquiredInfo;
 
@@ -77,7 +75,6 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
-        touch_fd_ = android::base::unique_fd(open(TOUCH_DEV_PATH, O_RDWR));
         disp_fd_ = android::base::unique_fd(open(DISP_FEATURE_PATH, O_RDWR));
 
         // Thread to listen for fod ui changes
@@ -144,9 +141,6 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
                 .local_hbm_value = LHBM_TARGET_BRIGHTNESS_WHITE_1000NIT,
         };
         ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &displayLhbmRequest);
-
-        // Notify touchscreen about press status
-        setFingerDown(true);
     }
 
     void onFingerUp() {
@@ -161,8 +155,6 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
         };
         ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &displayLhbmRequest);
 
-        // Notify touchscreen about press status
-        setFingerDown(false);
     }
 
     void onAcquired(int32_t result, int32_t vendorCode) {
@@ -183,10 +175,6 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
             default:
                 break;
         }
-
-        if (vendorCode == 21 || vendorCode == 22) {
-            setFingerDown(PARAM_FOD_PRESSED);
-        }
     }
 
     void cancel() {
@@ -196,13 +184,7 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
 
   private:
     fingerprint_device_t* mDevice;
-    android::base::unique_fd touch_fd_;
     android::base::unique_fd disp_fd_;
-
-    void setFingerDown(bool pressed) {
-        int buf[MAX_BUF_SIZE] = {MI_DISP_PRIMARY, Touch_Fod_Enable, pressed ? 1 : 0};
-        ioctl(touch_fd_.get(), TOUCH_IOC_SET_CUR_VALUE, &buf);
-    }
 };
 
 static UdfpsHandler* create() {
