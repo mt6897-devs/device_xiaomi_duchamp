@@ -79,6 +79,8 @@ on boot
     chmod 0664 /sys/class/touch/touch_dev/gesture_double_tap_enabled
     chown system system /sys/class/touch/touch_dev/gesture_double_tap_state
     chmod 0664 /sys/class/touch/touch_dev/gesture_double_tap_state
+    chown system system /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+    chmod 0664 /sys/devices/virtual/touch/touch_dev/bump_sample_rate
 
 # charger
 on boot && property:ro.product.device=duchamp && property:ro.boot.hwc=GL

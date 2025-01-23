@@ -36,6 +36,7 @@
 
 # Touch
 /dev/xiaomi-touch                                                                                      u:object_r:touchfeature_device:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch-service\.xiaomi                                  u:object_r:hal_lineage_touch_default_exec:s0
 
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald                                                                u:object_r:vendor_mi_thermald_exec:s0
