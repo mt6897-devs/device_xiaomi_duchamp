@@ -35,8 +35,8 @@ class NonUiSensorCallback : public IEventQueueCallback {
 
     Return<void> onEvent(const Event& e) {
         struct touch_mode_request request = {
-            .mode = TOUCH_MODE_NONUI_MODE,
-            .value = static_cast<int>(e.u.scalar),
+                .mode = TOUCH_MODE_NONUI_MODE,
+                .value = static_cast<int>(e.u.scalar),
         };
         ioctl(touch_fd_.get(), TOUCH_IOC_SET_CUR_VALUE, &request);
 
