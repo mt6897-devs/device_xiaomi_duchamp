@@ -1,0 +1,28 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+aidl_interface {
+    name: "vendor.xiaomi.hardware.displayfeature_aidl",
+    system_ext_specific: true,
+    vendor_available: true,
+    srcs: ["vendor/xiaomi/hardware/displayfeature_aidl/*.aidl"],
+    stability: "vintf",
+    owner: "xiaomi",
+
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+    versions_with_info: [
+        {
+            version: "2",
+            imports: [],
+        },
+    ],
+}
