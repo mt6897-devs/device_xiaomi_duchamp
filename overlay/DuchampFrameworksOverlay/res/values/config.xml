@@ -71,10 +71,6 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
-    <!-- The maximum range of gamma adjustment possible using the screen
-         auto-brightness adjustment setting. -->
-    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
-
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
