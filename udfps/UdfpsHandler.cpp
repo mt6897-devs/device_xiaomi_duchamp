@@ -193,10 +193,9 @@ class XiaomiDuchampUdfpsHandler : public UdfpsHandler {
         }
     }
 
-    void cancel() {
-        LOG(DEBUG) << __func__;
-        onFingerUp();
-    }
+    void onAuthenticationSucceeded() { onFingerUp(); }
+
+    void onAuthenticationFailed() { onFingerUp(); }
 
   private:
     fingerprint_device_t* mDevice;
