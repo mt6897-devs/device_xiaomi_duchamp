@@ -1,0 +1,17 @@
+type vendor_nonui_notifier, domain;
+type vendor_nonui_notifier_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(vendor_nonui_notifier)
+
+hwbinder_use(vendor_nonui_notifier)
+
+# for sensor callbacks
+binder_use(vendor_nonui_notifier)
+binder_call(vendor_nonui_notifier, system_server)
+binder_call(system_server, vendor_nonui_notifier)
+
+allow vendor_nonui_notifier fwk_sensor_hwservice:hwservice_manager find;
+allow vendor_nonui_notifier touchfeature_device:chr_file rw_file_perms;
+allow vendor_nonui_notifier vendor_sysfs_touch:file r_file_perms;
+
+get_prop(vendor_nonui_notifier, hwservicemanager_prop)
