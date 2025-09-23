@@ -75,6 +75,7 @@ debug.sf.set_idle_timer_ms=1100
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.use_phase_offsets_as_durations=1
 graphics.gpu.profiler.support=true
+persist.sys.sf.native_mode=257
 ro.opengles.version=196610
 ro.hardware.egl=meow
 ro.hardware.hwcomposer=mtk_common
