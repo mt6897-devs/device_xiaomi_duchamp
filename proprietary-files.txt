@@ -59,7 +59,6 @@ vendor/lib64/libvow_ap_test_trip_hh.so
 vendor/lib64/libvow_ap_test_trip_nn.so
 vendor/lib64/libvow_comp_test.so
 vendor/lib64/libxlog.so
-vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
 vendor/lib64/vendor.mediatek.hardware.mbrain-V1-ndk.so
 
