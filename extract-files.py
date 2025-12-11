@@ -38,7 +38,8 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
-        .replace_needed('libalsautils.so', 'libalsautils-v34.so'),
+        .replace_needed('libalsautils.so', 'libalsautils-v34.so')
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 
     'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so': blob_fixup()
         .replace_needed('android.hardware.soundtrigger3-V1-ndk.so', 'android.hardware.soundtrigger3-V3-ndk.so'),
@@ -105,6 +106,16 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc' ): blob_fixup()
         .regex_replace('.*writepid.*\n', ''),
 
+    ('odm/lib64/hw/displayfeature.default.so',
+     'vendor/lib64/hw/mt6897/vendor.mediatek.hardware.pq_aidl-impl.so',
+     'vendor/lib64/libaudiocloudctrl.so',
+     'vendor/lib64/libpqxmlflagparser.so',
+     'vendor/lib64/libpqxmlparser.so',
+     'vendor/lib64/librt_extamp_intf.so',
+     'vendor/lib64/libsilkybrightnesscore.so',
+     'vendor/lib64/mt6897/libmmlpqImpl.so'): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+
     ('odm/lib64/libmt_mitee.so',
      'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee'): blob_fixup()
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
@@ -119,6 +130,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libsink.so', 'libsink-mtk.so'),
 
     'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
         .replace_needed('libui.so', 'libui-v34.so'),
 }  # fmt: skip
 
