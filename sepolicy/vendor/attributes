@@ -2,3 +2,18 @@
 attribute vendor_hal_displayfeature;
 attribute vendor_hal_displayfeature_client;
 attribute vendor_hal_displayfeature_server;
+
+# Mfido
+attribute hal_mfidoca;
+attribute hal_mfidoca_client;
+attribute hal_mfidoca_server;
+
+# Mlipay
+attribute hal_mlipay;
+attribute hal_mlipay_client;
+attribute hal_mlipay_server;
+
+# Mtdservice
+attribute hal_mtdservice;
+attribute hal_mtdservice_client;
+attribute hal_mtdservice_server;

@@ -22,6 +22,15 @@
 /mnt/vendor/persist/fpc(/.*)?                                                                          u:object_r:fingerprint_vendor_data_file:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi              u:object_r:hal_fingerprint_default_exec:s0
 
+# Mfido
+/(odm|vendor/odm|system/vendor)/bin/fidoca_mitee                                                       u:object_r:hal_mfidoca_default_exec:s0
+
+# Mlipay
+/(odm|vendor/odm|system/vendor)/bin/mlipayd_mitee                                                      u:object_r:hal_mlipay_default_exec:s0
+
+# Mtdservice
+/(odm|vendor/odm|system/vendor)/bin/mtd_mitee                                                          u:object_r:hal_mtdservice_default_exec:s0
+
 # Sensors
 /dev/elliptic0                                                                                         u:object_r:sensors_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal                     u:object_r:hal_sensors_default_exec:s0

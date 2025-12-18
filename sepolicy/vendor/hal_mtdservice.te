@@ -1,0 +1,4 @@
+binder_call(hal_mtdservice_client, hal_mtdservice_server)
+binder_call(hal_mtdservice_server, hal_mtdservice_client)
+
+hal_attribute_service(hal_mtdservice, hal_mtdservice_service)

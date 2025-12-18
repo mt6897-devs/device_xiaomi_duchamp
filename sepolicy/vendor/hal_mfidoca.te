@@ -1,0 +1,4 @@
+binder_call(hal_mfidoca_client, hal_mfidoca_server)
+binder_call(hal_mfidoca_server, hal_mfidoca_client)
+
+hal_attribute_service(hal_mfidoca, hal_mfidoca_service)

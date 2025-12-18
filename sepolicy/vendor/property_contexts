@@ -27,6 +27,15 @@ persist.vendor.goodix.                         u:object_r:vendor_fingerprint_pro
 persist.vendor.sys.fp.                         u:object_r:vendor_fingerprint_prop:s0
 ro.hardware.fp.                                u:object_r:vendor_fingerprint_prop:s0
 
+# Mlipay
+persist.vendor.sys.attestation.status          u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.id.status                   u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.pay.                        u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.provision.status            u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.rkp.status                  u:object_r:vendor_payment_security_prop:s0
+vendor.sys.feature_state                       u:object_r:vendor_payment_security_prop:s0
+vendor.sys.rpmb_state                          u:object_r:vendor_payment_security_prop:s0
+
 # Radio
 ro.vendor.oem.                                 u:object_r:vendor_mtk_radio_prop:s0
 

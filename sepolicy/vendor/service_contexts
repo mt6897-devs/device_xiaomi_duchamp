@@ -4,5 +4,14 @@ vendor.xiaomi.hardware.displayfeature_aidl.IDisplayFeature/default       u:objec
 # Fingerprint
 vendor.xiaomi.hardware.fx.tunnel.IMiFxTunnel/default                     u:object_r:hal_fingerprint_service:s0
 
+# Mfido
+vendor.xiaomi.hardware.mfidoca.IFidoService/default                      u:object_r:hal_mfidoca_service:s0
+
+# Mlipay
+vendor.xiaomi.hardware.mlipay.IMlipayService/default                     u:object_r:hal_mlipay_service:s0
+
+# Mtdservice
+vendor.xiaomi.hardware.aidl.mtdservice.IMTService/default                u:object_r:hal_mtdservice_service:s0
+
 # Sensors
 vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default          u:object_r:hal_sensors_service:s0

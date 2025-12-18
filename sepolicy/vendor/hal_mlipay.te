@@ -1,0 +1,4 @@
+binder_call(hal_mlipay_client, hal_mlipay_server)
+binder_call(hal_mlipay_server, hal_mlipay_client)
+
+hal_attribute_service(hal_mlipay, hal_mlipay_service)

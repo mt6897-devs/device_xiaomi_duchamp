@@ -1,0 +1,14 @@
+type hal_mfidoca_default, domain;
+type hal_mfidoca_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_mfidoca_default)
+
+binder_use(hal_mfidoca_default)
+
+hal_server_domain(hal_mfidoca_default, hal_mfidoca)
+
+allow hal_mfidoca_default ion_device:chr_file r_file_perms;
+allow hal_mfidoca_default tee_device:chr_file rw_file_perms;
+allow hal_mfidoca_default mitee_client_device:chr_file rw_file_perms;
+
+set_prop(hal_mfidoca_default, vendor_payment_security_prop);

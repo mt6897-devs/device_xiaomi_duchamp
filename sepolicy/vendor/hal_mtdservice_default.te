@@ -1,0 +1,23 @@
+type hal_mtdservice_default, domain;
+type hal_mtdservice_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_mtdservice_default)
+
+hal_client_domain(hal_mtdservice_default, hal_keymint)
+hal_server_domain(hal_mtdservice_default, hal_mtdservice)
+
+binder_use(hal_mtdservice_default)
+
+allow hal_mtdservice_default ion_device:chr_file r_file_perms;
+allow hal_mtdservice_default tee_device:chr_file rw_file_perms;
+allow hal_mtdservice_default mitee_client_device:chr_file rw_file_perms;
+allow hal_mtdservice_default widevine_drv_device:chr_file rw_file_perms;
+
+# Allow mtdservice to read/write Widevine keybox
+allow hal_mtdservice_default mnt_vendor_file:dir search;
+rw_dir_file(hal_mtdservice_default, persist_data_file)
+
+allow hal_mtdservice_default mediadrm_vendor_data_file:dir create_dir_perms;
+allow hal_mtdservice_default mediadrm_vendor_data_file:file create_file_perms;
+
+set_prop(hal_mtdservice_default, vendor_payment_security_prop)
