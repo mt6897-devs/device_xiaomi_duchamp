@@ -5,19 +5,17 @@ Subject: [PATCH 2/2] ImsService: Switch to shared libs to mtk frameworks
 
 Change-Id: I44ac5f5292d4f2a8241bba145b0c77caf6aa9c27
 ---
- AndroidManifest.xml | 7 +++++++
- 1 file changed, 7 insertions(+)
+ AndroidManifest.xml | 5 ++++++
+ 1 file changed, 5 insertions(+)
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
 index 1c82b5d..5a90ab2 100644
 --- a/AndroidManifest.xml
 +++ b/AndroidManifest.xml
-@@ -52,6 +52,13 @@
+@@ -52,6 +52,11 @@
      <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:extractNativeLibs="false" android:label="ImsApp" android:name="com.mediatek.ims.ImsApp" android:persistent="true" android:usesNonSdkApi="true">
          <uses-library android:name="com.mediatek.ims.oemplugin" android:required="false"/>
          <uses-library android:name="com.mediatek.ims.plugin" android:required="false"/>
-+        <uses-library android:name="mediatek-common" android:required="true"/>
-+        <uses-library android:name="mediatek-framework" android:required="true"/>
 +        <uses-library android:name="mediatek-ims-base" android:required="true"/>
 +        <uses-library android:name="mediatek-ims-common" android:required="true"/>
 +        <uses-library android:name="mediatek-telecom-common" android:required="true"/>

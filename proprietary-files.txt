@@ -1675,8 +1675,6 @@ vendor/lib64/vendor.mediatek.hardware.engineermode-V1-ndk.so
 # Radio (IMS)
 system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc
-system_ext/framework/mediatek-common.jar
-system_ext/framework/mediatek-framework.jar
 system_ext/framework/mediatek-ims-base.jar
 system_ext/framework/mediatek-ims-common.jar
 system_ext/framework/mediatek-ims-extension-plugin.jar
