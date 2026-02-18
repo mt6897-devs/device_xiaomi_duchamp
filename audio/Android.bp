@@ -3,43 +3,12 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-soong_config_module_type {
-    name: "android_hardware_audio_config_default",
-    module_type: "cc_defaults",
-    config_namespace: "android_hardware_audio",
-    bool_variables: [
-        "run_64bit",
-    ],
-    properties: ["compile_multilib"],
-}
-
-android_hardware_audio_config_default {
-    name: "android_hardware_audio_config_defaults",
-
-    soong_config_variables: {
-        run_64bit: {
-            conditions_default: {
-                // Prefer 32 bit as the binary must always be installed at the same
-                // location for init to start it and the build system does not support
-                // having two binaries installable to the same location even if they are
-                // not installed in the same build.
-                compile_multilib: "prefer32",
-            },
-            compile_multilib: "64",
-        },
-    },
-}
-
 cc_binary {
     name: "android.hardware.audio.service.mediatek",
 
     init_rc: ["android.hardware.audio.service.mediatek.rc"],
     relative_install_path: "hw",
     vendor: true,
-
-    defaults: [
-        "android_hardware_audio_config_defaults",
-    ],
 
     srcs: ["service.cpp"],
 
@@ -58,10 +27,4 @@ cc_binary {
         "libutils",
         "libhardware",
     ],
-}
-
-// Legacy service name, use android.hardware.audio.service instead
-phony {
-    name: "android.hardware.audio@2.0-service.mediatek",
-    required: ["android.hardware.audio.service.mediatek"],
 }
