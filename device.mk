@@ -163,6 +163,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Radio
 ENABLE_VENDOR_RIL_SERVICE := true
 
+$(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
+
 PRODUCT_PACKAGES += \
     mdota_symlink
 
