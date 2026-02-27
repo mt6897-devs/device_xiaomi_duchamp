@@ -171,18 +171,17 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
+
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayDuchamp \
    FrameworksResOverlayDuchamp \
    PowerOffAlarmOverlayDuchamp \
-   NetworkStackOverlayDuchamp \
    NfcOverlayDuchamp \
    SettingsProviderOverlayDuchampPOCO \
    SettingsProviderOverlayDuchampRedmi \
    SettingsResOverlayDuchamp \
-   SystemUIOverlayDuchamp \
-   TelephonyResOverlayDuchamp \
-   WifiOverlay
+   SystemUIOverlayDuchamp
 
 PRODUCT_PACKAGES += \
    LineageApertureOverlayDuchamp \
@@ -266,6 +265,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/sku/,$(TARGET_COPY_OUT_ODM)/etc)
 
 # Radio
+ENABLE_VENDOR_RIL_SERVICE := true
+
 PRODUCT_PACKAGES += \
     vendor_mdota_symlink
 
