@@ -200,6 +200,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
