@@ -1596,14 +1596,6 @@ vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/hw/mtkfusionrild
 vendor/etc/ecc_list.xml
-vendor/etc/ecc_list_OP01.xml
-vendor/etc/ecc_list_OP02.xml
-vendor/etc/ecc_list_OP09.xml
-vendor/etc/ecc_list_OP12.xml
-vendor/etc/ecc_list_OP17.xml
-vendor/etc/ecc_list_OP18.xml
-vendor/etc/ecc_list_OP20.xml
-vendor/etc/ecc_list_OP236.xml
 vendor/etc/ecc_list_preference.xml
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
