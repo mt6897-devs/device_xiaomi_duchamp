@@ -381,6 +381,28 @@
       "ResetOnInit": true
     },
     {
+      "Name": "GpuDvfsTimerMargin",
+      "Path": "/sys/kernel/ged/hal/timer_base_dvfs_margin",
+      "Values": [
+        "798",
+        "18743356",
+        "50"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "GpuDvfsLoadingStep",
+      "Path": "/sys/kernel/ged/hal/loading_base_dvfs_step",
+      "Values": [
+        "4",
+        "771",
+        "15"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
       "Name": "PowerHALRenderingState",
       "Path": "vendor.powerhal.rendering",
       "Values": [
@@ -464,6 +486,18 @@
       "Value": "62"
     },
     {
+      "PowerHint": "LAUNCH",
+      "Node": "GpuDvfsTimerMargin",
+      "Duration": 2000,
+      "Value": "18743356"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "GpuDvfsLoadingStep",
+      "Duration": 2000,
+      "Value": "771"
+    },
+    {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "PowerHALRenderingState",
       "Duration": 0,
@@ -492,6 +526,18 @@
       "Node": "GpuPwrLevel",
       "Duration": 0,
       "Value": "38"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GpuDvfsTimerMargin",
+      "Duration": 0,
+      "Value": "50"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GpuDvfsLoadingStep",
+      "Duration": 0,
+      "Value": "15"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
