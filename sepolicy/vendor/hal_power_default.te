@@ -1,3 +1,4 @@
 allow hal_power_default vendor_touchfeature_device:chr_file rw_file_perms;
 
-rw_dir_file(hal_power_default, sysfs_therm)
+allow hal_power_default sysfs_ged:dir r_dir_perms;
+allow hal_power_default sysfs_ged:file rw_file_perms;
