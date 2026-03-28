@@ -761,6 +761,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 
 # Camera Configs
