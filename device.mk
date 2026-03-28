@@ -333,7 +333,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
-    hardware/mediatek/wlan/wifi_hal \
     hardware/xiaomi
 
 # Thermal
@@ -362,6 +361,7 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
+    libwifi-hal-wrapper \
     wpa_supplicant
 
 PRODUCT_PACKAGES += \
