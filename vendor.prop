@@ -227,10 +227,7 @@ persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 persist.vendor.vonr_setting_support=1
 ro.vendor.md_auto_setup_ims=1
-ro.vendor.mtk_cta_set=1
 ro.vendor.mtk_data_config=1
-ro.vendor.mtk_telephony_add_on_policy=0
-ro.vendor.vodata_support=1
 ro.vendor.vt_hevc_support=1
 
 # LMK tuning
@@ -263,8 +260,6 @@ ro.vendor.mediatek.version.release=alps-mp-u0.mp1.tc8sp1-V1
 persist.radio.multisim.config=dsds
 persist.vendor.md_c2k_cap_dep_check=0
 persist.vendor.mims_support=2
-persist.vendor.mtk.vodata.allow_rat=1
-persist.vendor.mtk.vodata.data_mode=1
 persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.radio.dynamic_sar=1
 persist.vendor.radio.flashless.fsm=0
@@ -287,7 +282,6 @@ ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_external_sim_support=1
 ro.vendor.mtk_fd_support=1
 ro.vendor.mtk_gwsd_capability=2
-ro.vendor.mtk_gwsd_support=1
 ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_mcf_support=1
 ro.vendor.mtk_md_world_mode_support=1

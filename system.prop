@@ -1,0 +1,5 @@
+# IMS
+ro.vendor.mtk_cta_set=1
+ro.vendor.mtk_gwsd_support=1
+ro.vendor.mtk_telephony_add_on_policy=0
+ro.vendor.vodata_support=1
