@@ -164,6 +164,9 @@ on property:sys.boot_completed=1
     # Configure DVFS
     write /sys/kernel/ged/hal/dvfs_margin_value 130
 
+    # Set thermal mode to normal
+    write /sys/devices/virtual/thermal/thermal_message/sconfig 0
+
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 

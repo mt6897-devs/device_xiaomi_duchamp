@@ -1,6 +1,3 @@
 # DisplayFeature
 hal_client_domain(system_app, vendor_hal_displayfeature)
 binder_call(system_app, vendor_hal_displayfeature)
-
-# Thermal
-rw_dir_file(system_app, sysfs_therm)
