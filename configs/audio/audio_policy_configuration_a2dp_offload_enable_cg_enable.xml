@@ -113,7 +113,7 @@
                 <mixPort name="voice tx" role="sink" maxOpenCount="1" maxActiveCount="1">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="8000 16000 32000 44100 48000"
-                             channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                             channelMasks="AUDIO_CHANNEL_IN_MONO AUDIO_CHANNEL_IN_STEREO"/>
                 </mixPort>
                 <mixPort name="FM Tuner input" role="sink" maxOpenCount="1" maxActiveCount="1">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
@@ -139,7 +139,7 @@
                 <mixPort name="hifi_input" role="sink"/>
             </mixPorts>
             <devicePorts>
-                <!-- Output devices declaration, i.e. Sink DEVICE PORT -->
+                <!-- Output devices declaration  i.e. Sink DEVICE PORT -->
                 <devicePort tagName="Earpiece" type="AUDIO_DEVICE_OUT_EARPIECE" role="sink">
                    <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
@@ -274,6 +274,36 @@
                               stepValueMB="100"/>
                     </gains>
                 </devicePort>
+                <devicePort tagName="BLE Headset Out" type="AUDIO_DEVICE_OUT_BLE_HEADSET" role="sink">
+                <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                </devicePort>
+                <devicePort tagName="BLE Speaker Out" type="AUDIO_DEVICE_OUT_BLE_SPEAKER" role="sink">
+                <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                </devicePort>
+                <devicePort tagName="BLE BlueTooth In" type="AUDIO_DEVICE_IN_BLUETOOTH_BLE" role="source">
+                <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                </devicePort>
+                <devicePort tagName="BLE Headset In" type="AUDIO_DEVICE_IN_BLE_HEADSET" role="source">
+                <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                </devicePort>
+                <devicePort tagName="BLE Broadcast" type="AUDIO_DEVICE_OUT_BLE_BROADCAST" role="sink">
+                <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                             samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
+                </devicePort>
             </devicePorts>
             <!-- route declaration, i.e. list all available sources for a given sink -->
             <routes>
@@ -303,16 +333,22 @@
                        sources="primary output"/>
                 <route type="mix" sink="HDMI"
                        sources="hdmi_mix_output"/>
+                <route type="mix" sink="BLE Broadcast"
+                       sources="primary output,deep_buffer,fast"/>
                 <route type="mix" sink="BT A2DP Out"
                        sources="primary output,deep_buffer,fast"/>
                 <route type="mix" sink="BT A2DP Headphones"
                        sources="primary output,deep_buffer,fast"/>
                 <route type="mix" sink="BT A2DP Speaker"
                        sources="primary output,deep_buffer,fast"/>
+                <route type="mix" sink="BLE Headset Out"
+                       sources="primary output,deep_buffer,fast,voip_rx,Voice Call In"/>
+                <route type="mix" sink="BLE Speaker Out"
+                       sources="primary output,deep_buffer,fast,voip_rx,Voice Call In"/>
                 <route type="mix" sink="Telephony Tx"
-                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,USB Device In,USB Headset In,incall_music_uplink"/>
+                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,USB Device In,USB Headset In,incall_music_uplink,BLE BlueTooth In,BLE Headset In"/>
                 <route type="mix" sink="primary input"
-                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In"/>
+                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In,BLE BlueTooth In,BLE Headset In"/>
                 <route type="mix" sink="mmap_no_irq_in"
                        sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic"/>
                 <route type="mix" sink="voice tx"
@@ -322,9 +358,9 @@
                 <route type="mix" sink="hifi_input"
                        sources="USB Device In,USB Headset In"/>
                 <route type="mix" sink="voip_tx"
-                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In"/>
+                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In,BLE BlueTooth In,BLE Headset In"/>
                 <route type="mix" sink="fast input"
-                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In"/>
+                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In,BLE BlueTooth In,BLE Headset In"/>
                 <route type="mix" sink="hotword_input"
                        sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic"/>
             </routes>
@@ -332,7 +368,7 @@
         </module>
 
         <!-- BT Audio HAL -->
-        <xi:include href="bluetooth_offload_audio_policy_configuration.xml"/>
+        <xi:include href="bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml"/>
 
         <!-- Usb Audio HAL -->
         <xi:include href="usb_audio_accessory_only_policy_configuration.xml"/>

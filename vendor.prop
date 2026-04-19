@@ -7,7 +7,6 @@ audio.offload.video=true
 persist.vendor.audio.power.save.setting=253
 persist.vendor.audio.usb.offload=false
 ro.audio.monitorRotation=true
-ro.audio.spatializer_enabled=true
 ro.config.media_vol_default=10
 ro.config.vc_call_vol_default=4
 ro.config.vc_call_vol_steps=11
@@ -24,7 +23,9 @@ vendor.audiohal.telephonytx.type=2
 persist.bluetooth.a2dp_offload.coex_buf_count=3
 persist.bluetooth.a2dp_offload.disabled=false
 persist.bluetooth.a2dp_offload.mtk_coex=true
+persist.bluetooth.leaudio_offload.disabled=false
 ro.bluetooth.a2dp_offload.supported=true
+ro.bluetooth.leaudio_offload.supported=true
 ro.vendor.bt.connac3=no
 ro.vendor.bt.platform=6897
 
