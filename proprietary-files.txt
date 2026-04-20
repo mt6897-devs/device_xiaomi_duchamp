@@ -337,9 +337,7 @@ vendor/lib64/libjpegencoder.so:vendor/lib64/libjpegencoder-v34.so;FIX_SONAME
 vendor/lib64/libmiSAT.so
 vendor/lib64/libmiSATTranslate.so
 vendor/lib64/libmialgo_ai_vision.so
-vendor/lib64/libmialgo_aio_seg.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libmialgo_sd.so
-vendor/lib64/libmialgo_utils.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libmialgo_video_seg_depth.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgoenginecustom.so
@@ -1035,11 +1033,9 @@ vendor/etc/camera/af_detect_3rd.dla
 vendor/etc/camera/af_saliency.dla
 vendor/etc/camera/af_track_backbone.dla
 vendor/etc/camera/af_track_head.dla
-vendor/etc/camera/beauty/libTrueSight.so
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/gma_custom.xml:vendor/etc/camera/gma_custom.txt;SYMLINK=vendor/etc/camera/gma_custom.xml
-vendor/etc/camera/ldc/libalLDC.so
 vendor/etc/camera/mimotion_c1b.bin
 vendor/etc/camera/mimotion_c1w.bin
 vendor/etc/camera/mimotion_f3b.bin
