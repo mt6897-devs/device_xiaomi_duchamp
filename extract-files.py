@@ -35,6 +35,10 @@ blob_fixups: blob_fixups_user_type = {
 
     'vendor/lib64/mt6897/libpqconfig.so': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
+
+    ('vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc',
+     'vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc' ): blob_fixup()
+        .regex_replace('.*writepid.*\n', ''),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
