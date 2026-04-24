@@ -1336,6 +1336,7 @@ vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.mitee.xml
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/bin/mnld
 vendor/bin/mtk_agpsd
+vendor/bin/mtk_lbs_service
 vendor/etc/MNL_Config.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_1and1.xml
@@ -1363,17 +1364,21 @@ vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.gps_pwr.rc
 vendor/etc/init/init.gps_scp.rc
 vendor/etc/init/mtk_agpsd_p.rc
+vendor/etc/init/mtk_lbs_service.rc
 vendor/etc/mpe.conf
 vendor/etc/slp_conf
 vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mtk-default.xml
 vendor/etc/vintf/manifest/gnss-mtk.xml
+vendor/etc/vintf/manifest/mtk_lbs_service.xml
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/mtkgeofence.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so
 vendor/lib64/mt6897/libDR.so;SYMLINK=vendor/lib64/libDR.so
 vendor/lib64/mt6897/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
+vendor/lib64/mtk_lbs_service-impl.so
 vendor/lib64/vendor.mediatek.hardware.gnss-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.lbs-V1-ndk.so
 
 # HotwordEnrollment
 product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
