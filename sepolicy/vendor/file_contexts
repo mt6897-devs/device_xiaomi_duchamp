@@ -64,22 +64,11 @@
 /data/vendor/fpdump(/.*)? u:object_r:fingerprint_vendor_data_file:s0
 /mnt/vendor/persist/fpc(/.*)? u:object_r:fingerprint_vendor_data_file:s0
 
-# Gatekeeper
-/(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper-service\.mitee                            u:object_r:hal_gatekeeper_default_exec:s0
-
-# Keymint
-/(vendor|system/vendor)/bin/hw/android.hardware.identity-service.mitee@5.0                             u:object_r:hal_identity_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android.hardware.security.keymint@3.0-service.mitee                     u:object_r:hal_keymint_default_exec:s0
-
 # Mlipay
 /(odm|vendor/odm|system/vendor)/bin/mlipayd_mitee                                                      u:object_r:hal_mlipay_default_exec:s0
 
 # Mtdservice
 /(odm|vendor/odm|system/vendor)/bin/mtd_mitee                                                          u:object_r:hal_mtdservice_default_exec:s0
-
-# NFC
-/dev/nq-nci                                                                                            u:object_r:nfc_device:s0
-/dev/p73                                                                                               u:object_r:nfc_device:s0
 
 # Power
 /dev/xiaomi-touch                                                                                      u:object_r:vendor_touchfeature_device:s0
@@ -88,22 +77,10 @@
 /vendor/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal                                     u:object_r:hal_sensors_default_exec:s0
 /(odm|vendor/odm|system/vendor)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl                      u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
 
-# Secure Element
-/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.secure_element-service                        u:object_r:hal_secure_element_default_exec:s0
-
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald                                                                u:object_r:vendor_mi_thermald_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal-service\.pixel                               u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/thermal_symlinks                                                           u:object_r:init-thermal-symlinks-sh_exec:s0
-
-# Trusted Execution Environment (TEE)
-/(vendor|system/vendor)/bin/tee-supplicant                                                             u:object_r:tee_exec:s0
-/(vendor|system/vendor)/bin/miteelog                                                                   u:object_r:tee_exec:s0
-/dev/0:0:0:49476                                                                                       u:object_r:teei_rpmb_device:s0
-/dev/tee0                                                                                              u:object_r:teei_client_device:s0
-/dev/teepriv0                                                                                          u:object_r:teei_client_device:s0
-/dev/ufs-bsg0                                                                                          u:object_r:teei_client_device:s0
-/data/vendor/mitee(/.*)?                                                                               u:object_r:mitee_data_file:s0
 
 # Vibrator
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.vibrator\.service                                u:object_r:hal_vibrator_default_exec:s0

@@ -9,6 +9,6 @@ hal_server_domain(hal_mfidoca_default, hal_mfidoca)
 
 allow hal_mfidoca_default tee_device:chr_file rw_file_perms;
 allow hal_mfidoca_default ion_device:chr_file r_file_perms;
-allow hal_mfidoca_default teei_client_device:chr_file rw_file_perms;
+allow hal_mfidoca_default mitee_client_device:chr_file rw_file_perms;
 
 set_prop(hal_mfidoca_default, vendor_mlipay_prop);

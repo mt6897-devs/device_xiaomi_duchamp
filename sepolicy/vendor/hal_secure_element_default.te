@@ -1,4 +1,0 @@
-r_dir_file(hal_secure_element_default, nfc_data_vendor_file)
-
-allow hal_secure_element_default nfc_device:chr_file rw_file_perms;
-allow hal_secure_element_default teei_client_device:chr_file rw_file_perms;

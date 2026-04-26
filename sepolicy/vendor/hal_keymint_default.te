@@ -1,3 +1,0 @@
-allow hal_keymint_default kmsg_device:chr_file rw_file_perms;
-allow hal_keymint_default mitee_data_file:dir create_dir_perms;
-allow hal_keymint_default mitee_data_file:file create_file_perms;

@@ -1,1 +1,0 @@
-allow hal_gatekeeper_default teei_client_device:chr_file { ioctl read write open };

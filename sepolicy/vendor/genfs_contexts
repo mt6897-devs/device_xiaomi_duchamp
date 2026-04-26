@@ -33,9 +33,6 @@ genfscon sysfs /devices/platform/charger/power_supply/mtk-slv-hvdiv-chg         
 genfscon sysfs /devices/platform/charger/power_supply/usb                                                 u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/pd-adapter/Charging_Adapter/pd_adapter/                                  u:object_r:sysfs_power_supply:s0
 
-# Trusted Execution Environment (TEE)
-genfscon proc /mitee_log 									 u:object_r:proc_mitee_log:s0
-
 # Wakeup (https://lkml.org/lkml/2019/8/6/1275)
 genfscon sysfs /devices/platform/10001000.consys/wakeup                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11b70000.i2c/i2c-2/2-001a/wakeup                                                       u:object_r:sysfs_wakeup:s0
