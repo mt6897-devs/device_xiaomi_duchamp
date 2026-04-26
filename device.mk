@@ -265,7 +265,7 @@ PRODUCT_COPY_FILES += \
 ENABLE_VENDOR_RIL_SERVICE := true
 
 PRODUCT_PACKAGES += \
-    vendor_mdota_symlink
+    mdota_symlink
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)

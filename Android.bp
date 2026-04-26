@@ -8,10 +8,3 @@ soong_namespace {
         "hardware/xiaomi",
     ],
 }
-
-install_symlink {
-    name: "vendor_mdota_symlink",
-    vendor: true,
-    installed_location: "etc/mdota",
-    symlink_target: "/mnt/vendor/mdota",
-}
