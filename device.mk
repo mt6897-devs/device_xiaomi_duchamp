@@ -30,8 +30,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    com.android.hardware.boot \
-    android.hardware.boot-service.default_recovery
+    android.hardware.boot-service.mediatek \
+    android.hardware.boot-service.mediatek_recovery
 
 PRODUCT_PACKAGES += \
     create_pl_dev \
