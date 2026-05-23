@@ -1,5 +1,11 @@
 # Unpinned blobs from duchamp_global-user 16 BP2A.250605.031.A3 OS3.0.6.0.WNLMIXM release-keys
 
+# AEE
+vendor/lib64/libaedv.so
+
+# Ladder
+vendor/lib64/libladder.so
+
 # Modules
 vendor/bin/init.insmod.sh
 vendor/etc/init.insmod.mt6897.cfg
