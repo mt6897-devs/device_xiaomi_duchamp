@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.full.prebuilt.xml \
     android.hardware.camera.raw.prebuilt.xml
 
+# Chipinfo
+PRODUCT_PACKAGES += \
+    chipinfo
+
 # ConsumerIr
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
