@@ -1657,6 +1657,11 @@ odm/lib64/libclient2slpi.notifier.so
 vendor/lib64/libhfmanagerwrapper.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
 
+# Tether Offload
+vendor/bin/hw/tetheroffloadservice
+vendor/etc/init/android.hardware.tetheroffload-V1-service.rc
+vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml
+
 # Touchscreen firmware
 vendor/firmware/focaltech_ts_fw.bin
 vendor/firmware/goodix_cfg_group_duchamp.bin
