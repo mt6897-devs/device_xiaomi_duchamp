@@ -40,12 +40,20 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2712
+TARGET_SCREEN_WIDTH := 1220
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 34
