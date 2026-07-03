@@ -51,6 +51,20 @@ TARGET_SCREEN_WIDTH := 1220
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.mt6897 \
+    fstab.mt6897.vendor_ramdisk \
+    init.cgroup.rc \
+    init.connectivity.rc \
+    init.mt6897.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    ueventd.mt6897.rc \
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.recovery.mt6897.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6897.rc
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

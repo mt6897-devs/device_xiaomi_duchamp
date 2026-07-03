@@ -1,0 +1,310 @@
+import /vendor/etc/init/hw/init.cgroup.rc
+import /vendor/etc/init/hw/init.connectivity.rc
+import /vendor/etc/init/hw/init.mt6897.usb.rc
+import /vendor/etc/init/hw/init.mtkgki.rc
+import /vendor/etc/init/hw/init.project.rc
+import /vendor/etc/init/hw/init.sensor_2_0.rc
+
+on init
+    # increase sysctl_rmem_max and sysctl_wmem_max values to 2M
+    write /proc/sys/net/core/wmem_max 8388608
+    write /proc/sys/net/core/rmem_max 8388608
+
+# mount different fs start
+
+on charger
+    chmod 0666 /dev/kmsg
+    chmod 0775 /mnt/vendor
+    mkdir /mnt/vendor/nvcfg
+    mount ext4 /dev/block/by-name/nvcfg /mnt/vendor/nvcfg rw wait
+    chown system system /mnt/vendor/nvcfg
+    chmod 0771 /mnt/vendor/nvcfg
+    restorecon_recursive /mnt/vendor/nvcfg
+
+    # Permissions for System Server and daemons.
+    chown system system /sys/power/state
+    chown system system /sys/power/wakeup_count
+    chown radio wakelock /sys/power/wake_lock
+    chown radio wakelock /sys/power/wake_unlock
+    chmod 0660 /sys/power/state
+    chmod 0660 /sys/power/wake_lock
+    chmod 0660 /sys/power/wake_unlock
+    chmod 0660 /sys/power/wakeup_count
+    write /sys/power/pm_freeze_timeout 2000
+
+    start fuelgauged
+    start fuelgauged_nvram
+
+on fs
+    mount_all --early
+
+    # mount rescue
+    mount ext4 /dev/block/by-name/rescue /mnt/rescue noatime
+    restorecon_recursive /mnt/rescue
+
+on late-fs
+    mount_all --late
+
+on post-fs
+    # sensor add start
+    mkdir /mnt/vendor/persist/sensors 0755 system system
+
+    chown system system /mnt/vendor/protect_f
+    chmod 0770 /mnt/vendor/protect_f
+
+    chown system system /mnt/vendor/protect_s
+    chmod 0770 /mnt/vendor/protect_s
+
+on post-fs-data
+    wait_for_prop vendor.all.modules.ready 1
+
+    chown system system /mnt/vendor/nvcfg
+    chmod 0771 /mnt/vendor/nvcfg
+    restorecon_recursive /mnt/vendor/nvcfg
+    chown system system /mnt/vendor/nvcfg/fg
+    chown system system /mnt/vendor/nvcfg/fg/old_fg_data
+    chown system system /mnt/vendor/nvcfg/fg/car_tune_value
+
+    # create basic filesystem structure
+    # We chown/chmod /mnt/vendor/nvdata again so because mount is run as root + defaults
+    chown root system /mnt/vendor/nvdata
+    chmod 0771 /mnt/vendor/nvdata
+    mkdir /mnt/vendor/nvdata/media 0771 media audio
+
+    # Create Audio HAL data directory
+    mkdir /data/vendor/audiohal 0771 system audio
+    mkdir /data/vendor/audio 0771 system audio
+
+    #Create cct mount point
+    mkdir /mnt/vendor/cct
+    chown root system /mnt/vendor/cct
+    chmod 0771 /mnt/vendor/cct
+
+    #Create NDD mount point
+    mkdir /data/vendor/camera_dump
+    chown root system /data/vendor/camera_dump
+    chmod 0771 /data/vendor/camera_dump
+
+    #XIAOMI: Create camera directory for calibration file --start
+    mkdir /data/vendor/camera
+    chown root system /data/vendor/camera
+    chmod 0771 /data/vendor/camera
+
+    mkdir /data/vendor/camera/offlinelog 0777 cameraserver audio
+    # for skynet
+    chmod 0666 /dev/camlog
+    #XIAOMI: Create camera directory for calibration file --end
+
+    #XIAOMI: Create camera directory for calibration file --start
+    mkdir mnt/vendor/persist/camera
+    chown system cameraserver mnt/vendor/persist/camera
+    chmod 755 mnt/vendor/persist/camera
+
+    mkdir /data/vendor/camera
+    chown root system /data/vendor/camera
+    chmod 0771 /data/vendor/camera
+
+    chmod 755 /mnt/vendor/nvcfg/sensor
+    chmod +r /mnt/vendor/nvcfg/sensor/gyro_cali.json
+    chmod +r /mnt/vendor/nvcfg/sensor/gyro_bias.json
+    chmod +r /mnt/vendor/nvcfg/sensor/ois_temp_cali.json
+
+    #Create imgsys mount point
+    mkdir /data/vendor/imgsys_dump
+    chown root system /data/vendor/imgsys_dump
+    chmod 0771 /data/vendor/imgsys_dump
+
+    #Create ulog file mode
+    mkdir /data/vendor/cam_ulog
+    chown root system /data/vendor/cam_ulog
+    chmod 0771 /data/vendor/cam_ulog
+
+    #Create flicker mount point
+    mkdir /data/vendor/flicker
+    chown root system /data/vendor/flicker
+    chmod 0771 /data/vendor/flicker
+
+    # Set SELinux security contexts on upgrade or policy update.
+    restorecon_recursive /mnt/vendor/nvdata
+
+    #give system access to rfkill device node
+    chmod 0660 /dev/rfkill
+
+    # create for muxd pts device node , to operate without root
+    mkdir /dev/radio 0770 radio radio
+
+    # create mdota to mount mcf_ota
+    mkdir /mnt/vendor/mdota
+
+    # SCP log
+    chmod 0660 /sys/class/misc/scp/scp_mobile_log
+    chown root system /sys/class/misc/scp/scp_mobile_log
+    chmod 0440 /dev/scp
+    chown root system /dev/scp
+    chmod 0660 /dev/scp_chre_manager
+    chown system system /dev/scp_chre_manager
+
+    # ADSP log
+    chmod 0660 /sys/class/misc/adsp_0/log_enable
+    chown root system /sys/class/misc/adsp_0/log_enable
+    chmod 0660 /dev/adsp
+    chown root media /dev/adsp
+    chmod 0440 /dev/adsp_0
+    chown system media /dev/adsp_0
+
+    # SSPM log
+    chmod 0620 /sys/class/misc/sspm/sspm_mobile_log
+    chown root system /sys/class/misc/sspm/sspm_mobile_log
+    chmod 0440 /dev/sspm
+    chown root system /dev/sspm
+
+    # VCP log
+    chmod 0440 /dev/vcp
+    chown root system /dev/vcp
+
+    # set ptmx group to non-root
+    chown root radio /dev/ptmx
+
+    # CMDQ
+    chmod 0640 /dev/mtk_mdp
+    chown system system /dev/mtk_mdp
+
+    # MDP SYNC
+    chmod 0640 /dev/mdp_sync
+    chown system system /dev/mdp_sync
+
+    # MML PQ
+    chmod 0640 /dev/mml_pq
+    chown system system /dev/mml_pq
+
+    #Enable MTU adjusting
+    write /proc/sys/net/ipv4/tcp_mtu_probing 1
+
+    #v4l2 codec
+    chmod 0660 /dev/video0
+    chown media system /dev/video0
+    chmod 0660 /dev/video1
+    chown media system /dev/video1
+    mkdir /data/vendor/vcodec 0777 media system
+    mkdir /data/vendor/vcodec/log 0770 media system
+    mkdir /data/vendor/vcodec/in 0770 media system
+    mkdir /data/vendor/vcodec/out 0770 media system
+
+    # Android SEC related device nodes
+    chmod 0660 /dev/sec
+    chown root system /dev/sec
+
+    # FM Radio device node
+    chmod 0660 /dev/fm
+    chown media media /dev/fm
+
+    # JPEG
+    chmod 0666 /proc/mtk_jpeg
+
+    # almk
+    chmod 0440 /dev/mtk_almk
+
+    # gz device
+    chmod 0660 /dev/gz_kree
+    chown system system /dev/gz_kree
+
+    # gz ffa device
+    chmod 0660 /dev/gz_ffa_dev
+    chown system system /dev/gz_ffa_dev
+
+    #Camera
+    chmod 0660 /dev/camera-pda
+    chmod 0660 /dev/flashlight
+    chmod 0666 /dev/apusys
+    chmod 0660 /dev/mtk_ccd
+    write /sys/module/mtk_imgsys_cmdq/parameters/imgsys_fine_grain_dvfs_en 1
+
+    chown system camera /dev/camera-pda
+    chown system camera /dev/flashlight
+    chown system camera /dev/apusys
+    chown system camera /dev/mtk_ccd
+
+    #APU
+    chmod 0644 /dev/apuext
+
+    #VOW
+    chmod 0640 /dev/vow
+    chown media media /dev/vow
+
+    # MMQoS
+    chmod 0660 /sys/devices/platform/interconnect/mmqos_hrt/camera_max_bw
+    chown media media /sys/devices/platform/interconnect/mmqos_hrt/camera_max_bw
+    chmod 0660 /sys/devices/platform/interconnect/mmqos_hrt/mtk_mmqos_scen
+    chown media media /sys/devices/platform/interconnect/mmqos_hrt/mtk_mmqos_scen
+
+    #usip
+    chmod 0660 /dev/usip
+    chown media media /dev/usip
+
+    #Thermal
+    mkdir /data/vendor/thermal/ 0775 system system
+
+    #MCUPM log
+    chmod 0440 /dev/mcupm
+    chown root system /dev/mcupm
+
+    #widevine driver node
+    chmod 0660 /dev/drm_wv
+    chown media system /dev/drm_wv
+
+    # ADD: Audio_DataWhale
+    chown system audio /dev/xlog
+    chmod 0666 /dev/xlog
+    # END Audio_DataWhale
+
+on early-boot
+    chown root log /proc/ccci_sib
+    chown root system /proc/ccci_dump
+    chown root system /proc/ccci_lp_mem
+
+    chmod 0664 /sys/class/leds/lcd-backlight/brightness
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chmod 0644 /sys/class/leds/lcd-backlight/led_type
+    chown system system /sys/class/leds/lcd-backlight/led_type
+    chmod 0644 /sys/class/leds/lcd-backlight/logic_max_brightness
+    chown system system /sys/class/leds/lcd-backlight/logic_max_brightness
+
+on boot
+    chown system system /sys/class/leds/lcd-backlight/trigger
+
+    # gauge symbolic
+    symlink /sys/devices/platform/11f01000.i2c/i2c-5/5-0034/11f01000.i2c:mt6375@34:mtk-gauge /dev/gauge
+
+    # Netlog tool
+    # change permissions about terminal
+    chown root radio /proc/net/vlan/config
+    chmod 0640 /proc/net/vlan/config
+    chown root radio /proc/net/ip6_tables_matches
+    chown root radio /proc/net/ip6_tables_names
+    chown root radio /proc/net/ip6_tables_targets
+    chown root radio /proc/net/arp_tables_targets
+    chown root radio /proc/net/arp_tables_matches
+    chown root radio /proc/net/arp_tables_names
+    chown root radio /proc/net/ip_tables_targets
+    chown root radio /proc/net/ip_tables_matches
+    chown root radio /proc/net/ip_tables_names
+    chown root radio /proc/net/nf_conntrack
+    chown root radio /proc/net/nf_conntrack_expect
+    chown root radio /proc/net/netfilter/nfnetlink_log
+    chown root radio /proc/net/netfilter/nfnetlink_queue
+
+    # Power Manager
+    write /sys/power/pm_freeze_timeout 2000
+
+# Mount mdota
+on property:ro.boot.slot_suffix=_a
+    # Set SELinux security contexts on upgrade or policy update.
+    mount ext4 /dev/block/by-name/mcf_ota_a /mnt/vendor/mdota ro wait noatime
+
+on property:ro.boot.slot_suffix=_b
+    # Set SELinux security contexts on upgrade or policy update.
+    mount ext4 /dev/block/by-name/mcf_ota_b /mnt/vendor/mdota ro wait noatime
+
+# reset mdmode when modem crash happens in ATM
+on property:vendor.mtk.md1.status=reset
+    setprop persist.vendor.atm.mdmode normal

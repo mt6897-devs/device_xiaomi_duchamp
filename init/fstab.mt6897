@@ -1,0 +1,52 @@
+# Android fstab file.
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+#TODO: Add 'check' as fs_mgr_flags with data partition.
+# Currently we dont have e2fsck compiled. So fs check would failed.
+
+#<src>                                              <mnt_point>              <type>   <mnt_flags and options>                                    <fs_mgr_flags>
+system                                              /system                  erofs    ro                                                         wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+system                                              /system                  ext4     noatime,ro                                                 wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+system_dlkm                                         /system_dlkm             erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+system_ext                                          /system_ext              erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+system_ext                                          /system_ext              ext4     noatime,ro                                                 wait,slotselect,avb,logical,first_stage_mount
+product                                             /product                 erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+product                                             /product                 ext4     noatime,ro                                                 wait,slotselect,avb,logical,first_stage_mount
+vendor                                              /vendor                  erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+vendor_dlkm                                         /vendor_dlkm             erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+odm                                                 /odm                     erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+odm_dlkm                                            /odm_dlkm                erofs    ro                                                         wait,slotselect,avb,logical,first_stage_mount
+/dev/block/by-name/boot                             /boot                    emmc     defaults                                                   first_stage_mount,nofail,slotselect
+/dev/block/by-name/dtbo                             /dtbo                    emmc     defaults                                                   defaults
+/dev/block/by-name/init_boot                        /init_boot               emmc     defaults                                                   defaults
+/dev/block/by-name/logo                             /logo                    emmc     defaults                                                   defaults
+/dev/block/by-name/misc                             /misc                    emmc     defaults                                                   defaults
+/dev/block/by-name/nvram                            /nvram                   emmc     defaults                                                   defaults
+/dev/block/by-name/proinfo                          /proinfo                 emmc     defaults                                                   defaults
+/dev/block/by-name/vbmeta                           /vbmeta                  emmc     defaults                                                   defaults
+/dev/block/by-name/vbmeta_system                    /vbmeta_system           emmc     defaults                                                   first_stage_mount,nofail,slotselect,avb=vbmeta
+/dev/block/by-name/vbmeta_vendor                    /vbmeta_vendor           emmc     defaults                                                   first_stage_mount,nofail,slotselect
+/dev/block/by-name/vendor_boot                      /vendor_boot             emmc     defaults                                                   defaults
+/dev/block/by-name/metadata                         /metadata                f2fs     noatime,nosuid,nodev,discard                               wait,check,formattable,first_stage_mount
+/dev/block/by-name/userdata                         /data                    f2fs     noatime,nosuid,nodev,discard,fsync_mode=nobarrier,reserve_root=32768,resgid=1065,checkpoint_merge,compress_cache,compress_extension=apk,compress_extension=so,compress_extension=vdex,compress_extension=odex,inlinecrypt,atgc wait,check,formattable,quota,latemount,reservedsize=128m,fscompress,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,keydirectory=/metadata/vold/metadata_encryption,fsverity,sysfs_path=/sys/devices/platform/soc/112b0000.ufshci
+
+/dev/block/by-name/md_sec                           /mnt/vendor/md_sec       ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/nvcfg                            /mnt/vendor/nvcfg        ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/nvdata                           /mnt/vendor/nvdata       ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/persist                          /mnt/vendor/persist      ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/protect1                         /mnt/vendor/protect_f    ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+/dev/block/by-name/protect2                         /mnt/vendor/protect_s    ext4     noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc   wait,check,formattable
+
+/dev/block/by-name/boot_para                        /boot_para               emmc     defaults                                                   defaults
+/dev/block/by-name/efuse                            /efuse                   emmc     defaults                                                   defaults
+/dev/block/by-name/expdb                            /expdb                   emmc     defaults                                                   defaults
+/dev/block/by-name/frp                              /persistent              emmc     defaults                                                   defaults
+/dev/block/by-name/otp                              /otp                     emmc     defaults                                                   defaults
+/dev/block/by-name/para                             /para                    emmc     defaults                                                   defaults
+/dev/block/by-name/seccfg                           /seccfg                  emmc     defaults                                                   defaults
+
+/devices/platform/soc/11240000.mmc*                 auto                     auto     defaults                                                   voldmanaged=sdcard1:auto,encryptable=userdata
+/devices/platform/soc/11211000.usb1/11210000.xhci*  auto                     vfat     defaults                                                   voldmanaged=usbotg:auto
+/devices/platform/soc/11201000.usb0/11200000.xhci*  auto                     vfat     defaults                                                   voldmanaged=usbotg:auto
+/devices/platform/usb_xhci*                         auto                     vfat     defaults                                                   voldmanaged=usbotg:auto

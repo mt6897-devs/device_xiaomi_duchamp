@@ -1,0 +1,69 @@
+on post-fs-data
+    # NFC
+    mkdir /data/vendor/nfc 0770 nfc nfc
+    chmod 0660 /dev/nq-nci
+    chown nfc nfc /dev/nq-nci
+    chmod 0660 /dev/p73
+    chown nfc nfc /dev/p73
+
+    # smart pa
+    mkdir /mnt/vendor/persist/factory/ 0755 system system
+    mkdir /mnt/vendor/persist/factory/audio 0755 system system
+    mkdir /data/vendor/cit/ 0755 system system
+    chown system system /sys/class/smartpa/re25_calib
+    chmod 0666 /sys/class/smartpa/re25_calib
+
+    # Thermal
+    mkdir /data/vendor/thermal 0771 root system
+    mkdir /data/vendor/thermal/config 0771 root system
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/market_download_limit
+    chown system system /sys/class/thermal/thermal_message/boost
+    chown system system /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/thermal_max_brightness
+    chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
+    chown system system /sys/class/thermal/thermal_message/balance_mode
+    chown system system /sys/class/thermal/thermal_message/connsys_limit
+    chown system system /sys/class/thermal/power_save/powersave_mode
+    chown system system /sys/class/thermal/power_save/power_level
+    chown system system /sys/class/mi_display/disp-DSI-0/thermal_hbm_disabled
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/thermal_hbm_disabled
+    chown system system /sys/class/thermal/thermal_message/charger_temp
+    chown system system /sys/class/power_supply/battery/constant_charge_current
+    chmod 0664 /sys/class/power_supply/battery/constant_charge_current
+
+# smart pa start
+on property:vendor.audio.cit.spkcal.copy=true
+    chmod 644 /data/vendor/cit/aw_cali.bin
+    copy /data/vendor/cit/aw_cali.bin /mnt/vendor/persist/factory/audio/aw_cali.bin
+    chmod 666 /mnt/vendor/persist/factory/audio/aw_cali.bin
+    chmod 666 /data/vendor/cit/aw_cali.bin
+
+on boot
+    # Display feature sysfs node
+    chown system system /sys/class/mi_display/disp-DSI-0/disp_param
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/disp_param
+    chown system system /sys/class/mi_display/disp-DSI-0/mipi_rw
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/mipi_rw
+    chown system system /sys/class/mi_display/disp-DSI-0/panel_info
+    chmod 0444 /sys/class/mi_display/disp-DSI-0/panel_info
+    chown system system /sys/class/mi_display/disp-DSI-0/wp_info
+    chmod 0444 /sys/class/mi_display/disp-DSI-0/wp_info
+    chown system system /sys/class/mi_display/disp-DSI-0/dynamic_fps
+    chmod 0444 /sys/class/mi_display/disp-DSI-0/dynamic_fps
+    chown system system /sys/class/mi_display/disp-DSI-0/doze_brightness
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/doze_brightness
+    chown system system /sys/class/mi_display/disp-DSI-0/disp_count
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/disp_count
+    chown system system /sys/class/mi_display/disp-DSI-0/brightness_clone
+    chmod 0664 /sys/class/mi_display/disp-DSI-0/brightness_clone
+    chown system system /sys/class/mi_display/disp-DSI-0/factory_max_brightness
+    chmod 0444 /sys/class/mi_display/disp-DSI-0/factory_max_brightness
+
+    # camera flash led
+    chown system system /sys/class/flashlight_core/flashlight/torchbrightness
+    chmod 0664 /sys/class/flashlight_core/flashlight/torchbrightness
+
+# charger
+on boot && property:ro.product.device=duchamp && property:ro.boot.hwc=GL
+    setprop persist.vendor.accelerate.charge false
