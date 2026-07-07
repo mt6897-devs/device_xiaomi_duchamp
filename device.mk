@@ -47,6 +47,20 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2712
 TARGET_SCREEN_WIDTH := 1220
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.vulkan.compute-0.prebuilt.xml \
+    android.hardware.vulkan.level-1.prebuilt.xml \
+    android.hardware.vulkan.version-1_3.prebuilt.xml \
+    android.software.opengles.deqp.level-2023-03-01.prebuilt.xml \
+    android.software.vulkan.deqp.level-2023-03-01.prebuilt.xml
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -61,6 +75,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_2_0.rc \
     ueventd.mt6897.rc \
+    ueventd.xiaomi.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.recovery.mt6897.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6897.rc

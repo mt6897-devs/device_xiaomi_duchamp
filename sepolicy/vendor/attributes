@@ -1,0 +1,4 @@
+# Display
+attribute vendor_hal_displayfeature;
+attribute vendor_hal_displayfeature_client;
+attribute vendor_hal_displayfeature_server;

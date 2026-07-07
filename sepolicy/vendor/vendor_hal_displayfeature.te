@@ -1,0 +1,8 @@
+binder_call(vendor_hal_displayfeature_client, vendor_hal_displayfeature_server)
+binder_call(vendor_hal_displayfeature_server, vendor_hal_displayfeature_client)
+
+binder_call(vendor_hal_displayfeature, hal_graphics_composer)
+
+hal_attribute_service(vendor_hal_displayfeature, vendor_hal_displayfeature_service)
+
+vndbinder_use(vendor_hal_displayfeature)

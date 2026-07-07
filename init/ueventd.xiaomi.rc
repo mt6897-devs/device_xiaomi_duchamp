@@ -1,0 +1,6 @@
+# mi display feature
+subsystem mi_display
+    devname uevent_devpath
+    dirname /dev/mi_display
+
+/dev/mi_display/*         0666   root       graphics

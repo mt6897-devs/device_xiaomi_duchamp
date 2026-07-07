@@ -3,4 +3,18 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest version="7.0" type="device" target-level="8">
+    <hal format="hidl">
+        <name>android.hardware.graphics.mapper</name>
+        <transport arch="64">passthrough</transport>
+        <fqname>@4.0::IMapper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.mediatek.hardware.composer_ext</name>
+        <fqname>IComposerExt/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.mediatek.hardware.pq_aidl</name>
+        <version>6</version>
+        <fqname>IPictureQuality_AIDL/default</fqname>
+    </hal>
 </manifest>

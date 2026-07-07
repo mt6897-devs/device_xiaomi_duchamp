@@ -1,0 +1,6 @@
+type vendor_displayfeature, domain;
+type vendor_displayfeature_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(vendor_displayfeature)
+add_service(vendor_displayfeature, vendor_DisplayFeatureControl_service)
+vndbinder_use(vendor_displayfeature)

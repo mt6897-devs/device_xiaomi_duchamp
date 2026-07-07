@@ -51,3 +51,10 @@ prebuilt_etc {
     src: "ueventd.mt6897.rc",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "ueventd.xiaomi.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.xiaomi.rc",
+    device_specific: true,
+}

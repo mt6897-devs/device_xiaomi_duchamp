@@ -1,0 +1,27 @@
+type vendor_hal_displayfeature_default, domain;
+type vendor_hal_displayfeature_default_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(vendor_hal_displayfeature_default)
+
+binder_use(vendor_hal_displayfeature_default)
+
+hal_client_domain(vendor_hal_displayfeature_default, vendor_hal_displayfeature)
+hal_server_domain(vendor_hal_displayfeature_default, vendor_hal_displayfeature)
+
+hal_client_domain(vendor_hal_displayfeature_default, hal_allocator)
+hal_client_domain(vendor_hal_displayfeature_default, hal_mtk_pq)
+
+r_dir_file(vendor_hal_displayfeature_default, mnt_vendor_file)
+rw_dir_file(vendor_hal_displayfeature_default, sysfs_leds)
+rw_dir_file(vendor_hal_displayfeature_default, sysfs_therm)
+rw_dir_file(vendor_hal_displayfeature_default, vendor_sysfs_displayfeature)
+r_dir_file(vendor_hal_displayfeature_default, vendor_persist_display_file)
+
+allow vendor_hal_displayfeature_default vendor_displayfeature_device:chr_file rw_file_perms;
+
+allow vendor_hal_displayfeature_default persist_data_file:dir create_dir_perms;
+allow vendor_hal_displayfeature_default persist_data_file:file create_file_perms;
+allow vendor_hal_displayfeature_default vendor_display_data_file:dir create_dir_perms;
+allow vendor_hal_displayfeature_default vendor_display_data_file:file create_file_perms;
+
+set_prop(vendor_hal_displayfeature_default, vendor_displayfeature_prop)

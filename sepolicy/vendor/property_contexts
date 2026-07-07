@@ -1,0 +1,15 @@
+# Display
+persist.vendor.dc_backlight.enable             u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.max.brightness                  u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.cabc.enable                          u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.all_modes_support_WCG.enable u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.update_gray_by_temperature   u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.displayfeature.dump                  u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.histogram.enable                     u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.localhbm.enable                      u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.mi_sf.hdr_enable_flatmode            u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.mtk.pq.aidl                          u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.mtk.pq.odm                           u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.sre.enable                           u:object_r:vendor_displayfeature_prop:s0
+vendor.display.panel.calibration.status        u:object_r:vendor_displayfeature_prop:s0
+vendor.displayfeature.entry.enable             u:object_r:vendor_displayfeature_prop:s0

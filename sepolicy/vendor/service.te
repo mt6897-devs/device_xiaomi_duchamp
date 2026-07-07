@@ -1,0 +1,2 @@
+# Display
+type vendor_hal_displayfeature_service, protected_service, service_manager_type, hal_service_type;
