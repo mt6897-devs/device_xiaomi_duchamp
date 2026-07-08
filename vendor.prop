@@ -1,3 +1,29 @@
+# Audio
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=2
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+persist.vendor.audio.cinema.support=true
+persist.vendor.audio.power.save.setting=253
+persist.vendor.audio.usb.offload=false
+ro.audio.monitorRotation=true
+ro.config.media_vol_default=10
+ro.config.vc_call_vol_default=4
+ro.config.vc_call_vol_steps=11
+ro.vendor.audio.gain.support=true
+ro.vendor.audio.soundtrigger.record_supported=1
+ro.vendor.audio.soundtrigger.support_record_type=0x0011
+ro.vendor.audio.voiceassist.support_record_type=0x0002
+ro.vendor.soundtrigger.dfs.support=1
+vendor.audio.gamevoice=1
+vendor.audio.powerhal.power.dl=true
+vendor.audio.powerhal.power.ul=true
+vendor.audio.powerop=true
+vendor.audio.usb.iems.period_us=5000
+vendor.audio.usb.super_hifi=true
+vendor.audiohal.telephonytx.type=2
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiagl

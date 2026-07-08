@@ -1,2 +1,8 @@
+# Audio
+genfscon sysfs /class/smartpa/re25_calib                                                                 u:object_r:sysfs_chip_vendor:s0
+
 # Display
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0                                       u:object_r:vendor_sysfs_displayfeature:s0
+
+# Vibrator
+genfscon sysfs /devices/platform/11d00000.i2c/i2c-0/0-005a                                               u:object_r:sysfs_vibrator:s0

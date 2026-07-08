@@ -23,6 +23,15 @@ namespace_imports = [
 
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
+        .replace_needed('libalsautils.so', 'libalsautils-v34.so'),
+
+    'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so': blob_fixup()
+        .replace_needed('android.hardware.soundtrigger3-V1-ndk.so', 'android.hardware.soundtrigger3-V3-ndk.so'),
+
+    'vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so': blob_fixup()
+        .replace_needed('android.hardware.audio.common-V1-ndk.so', 'android.hardware.audio.common-V2-ndk.so'),
+
     ('vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897',
      'vendor/lib64/egl/mt6897/libGLES_mali.so',
      'vendor/lib64/hw/mt6897/android.hardware.graphics.allocator-V2-mediatek.so',

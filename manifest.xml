@@ -4,9 +4,27 @@
 -->
 <manifest version="7.0" type="device" target-level="8">
     <hal format="hidl">
+        <name>android.hardware.audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@7.1::IDevicesFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.audio.effect</name>
+        <transport>hwbinder</transport>
+        <fqname>@7.0::IEffectsFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.graphics.mapper</name>
         <transport arch="64">passthrough</transport>
         <fqname>@4.0::IMapper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.soundtrigger3</name>
+        <fqname>ISoundTriggerHw/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.mediatek.hardware.audio</name>
+        <fqname>IMtkAudio/default</fqname>
     </hal>
     <hal format="aidl">
         <name>vendor.mediatek.hardware.composer_ext</name>

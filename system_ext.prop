@@ -1,0 +1,3 @@
+# Audio
+ro.audio.flinger_standbytime_ms=2000
+ro.audio.usb.period_us=16000

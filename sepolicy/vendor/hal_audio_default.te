@@ -1,0 +1,7 @@
+r_dir_file(hal_audio_default, persist_data_file)
+r_dir_file(hal_audio_default, sysfs_therm)
+rw_dir_file(hal_audio_default, sysfs_vibrator)
+
+allow hal_audio_default sysfs_chip_vendor:file w_file_perms;
+allow hal_audio_default audio_socket:sock_file rw_file_perms;
+allow hal_audio_default hf_manager_device:chr_file rw_file_perms;
