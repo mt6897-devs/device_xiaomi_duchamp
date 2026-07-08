@@ -23,5 +23,5 @@
 package vendor.mediatek.hardware.audio;
 @VintfStability
 interface IAudioParameterChangedCallback {
-  void onAudioParameterChanged(in String keyValuePairs);
+  void audioParameterChangedCallback(in String keyValuePairs);
 }
