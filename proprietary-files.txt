@@ -201,6 +201,12 @@ vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
 vendor/etc/smartpa_param/AW_DSP.bin
 
+# Bluetooth
+vendor/firmware/BT_FW.cfg
+vendor/lib64/libbluetooth_mtk.so
+vendor/lib64/libbluetooth_mtk_pure.so
+vendor/lib64/libbt-vendor.so
+
 # Bluetooth (A2DP)
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so

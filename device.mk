@@ -78,6 +78,14 @@ $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_
 TARGET_SCREEN_HEIGHT := 2712
 TARGET_SCREEN_WIDTH := 1220
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth-service.mediatek
+
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth_le.prebuilt.xml \
+    android.hardware.bluetooth.prebuilt.xml
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek
