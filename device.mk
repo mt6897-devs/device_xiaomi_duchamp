@@ -93,6 +93,13 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.full.prebuilt.xml \
     android.hardware.camera.raw.prebuilt.xml
 
+# ConsumerIr
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.example
+
+PRODUCT_PACKAGES += \
+    android.hardware.consumerir.prebuilt.xml
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek

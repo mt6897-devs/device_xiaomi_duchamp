@@ -1083,6 +1083,9 @@ vendor/firmware/conninfra.cfg
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc
 
+# ConsumerIR
+vendor/lib64/hw/consumerir.common.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
 vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897;SYMLINK=vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
