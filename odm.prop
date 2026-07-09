@@ -1,3 +1,6 @@
+# Charger
+persist.vendor.accelerate.charge=true
+
 # Display
 persist.vendor.dc_backlight.enable=false
 ro.vendor.cabc.enable=false

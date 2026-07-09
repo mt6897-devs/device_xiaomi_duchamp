@@ -212,6 +212,10 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
+# Charger
+vendor/bin/batterysecret
+vendor/etc/init/hw/init.batterysecret.rc
+
 # Display
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
 vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897;SYMLINK=vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
@@ -407,6 +411,13 @@ odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_6.txt
 odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_7.txt
 odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_8.txt
 odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_9.txt
+
+# Health
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/lib64/libfgauge_gm30.so
 
 # Ladder
 vendor/lib64/libladder.so

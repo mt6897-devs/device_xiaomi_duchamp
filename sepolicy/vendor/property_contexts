@@ -1,3 +1,6 @@
+# Batterysecret
+persist.vendor.accelerate.charge               u:object_r:vendor_batterysecret_prop:s0
+
 # Display
 persist.vendor.dc_backlight.enable             u:object_r:vendor_displayfeature_prop:s0
 persist.vendor.max.brightness                  u:object_r:vendor_displayfeature_prop:s0

@@ -3,6 +3,9 @@
 /dev/socket/audio_hw_socket                                                                            u:object_r:audio_socket:s0
 /dev/xlog                                                                                              u:object_r:audio_device:s0
 
+# Batterysecret
+/(vendor|system/vendor)/bin/batterysecret                                                              u:object_r:vendor_batterysecret_exec:s0
+
 # Display
 /(vendor|system/vendor)/bin/displayfeature                                                             u:object_r:vendor_displayfeature_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature_aidl-service                   u:object_r:vendor_hal_displayfeature_default_exec:s0

@@ -1,2 +1,5 @@
+# Batterysecret
+vendor_restricted_prop(vendor_batterysecret_prop)
+
 # Display
 vendor_internal_prop(vendor_displayfeature_prop)
