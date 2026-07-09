@@ -1074,6 +1074,11 @@ odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_r
 odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db;SYMLINK=odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db;MAKE_COPY_RULE_ONLY
 odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db;SYMLINK=odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db;MAKE_COPY_RULE_ONLY
 
+# Connectivity
+vendor/bin/conninfra_loader
+vendor/firmware/connfem.cfg
+vendor/firmware/conninfra.cfg
+
 # Charger
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc

@@ -48,6 +48,14 @@ ro.vendor.jpeg_decode_sw_opt=2
 ro.vendor.mtk_cam_security_support=1
 vendor.camera.sensor.logsystem=3
 
+# Connectivity
+persist.vendor.connsys.chipid=-1
+persist.vendor.connsys.coredump.mode=1
+vendor.connsys.driver.ready=no
+
+# ConsumerIr
+ro.hardware.consumerir=common
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiagl
