@@ -86,6 +86,13 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth_le.prebuilt.xml \
     android.hardware.bluetooth.prebuilt.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.concurrent.prebuilt.xml \
+    android.hardware.camera.flash-autofocus.prebuilt.xml \
+    android.hardware.camera.full.prebuilt.xml \
+    android.hardware.camera.raw.prebuilt.xml
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek

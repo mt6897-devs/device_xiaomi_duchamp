@@ -6,6 +6,9 @@
 # Batterysecret
 /(vendor|system/vendor)/bin/batterysecret                                                              u:object_r:vendor_batterysecret_exec:s0
 
+# Camera
+/odm/bin/crossbuild(/.*)?                                                                              u:object_r:vendor_bin_crossbuild_file:s0
+
 # Display
 /(vendor|system/vendor)/bin/displayfeature                                                             u:object_r:vendor_displayfeature_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature_aidl-service                   u:object_r:vendor_hal_displayfeature_default_exec:s0

@@ -35,11 +35,46 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/init/hw/init.batterysecret.rc': blob_fixup()
         .regex_replace('.*seclabel.*\n', ''),
 
+    'vendor/lib64/mt6897/lib3a.ae.stat.so': blob_fixup()
+        .add_needed('liblog.so'),
+
+    'vendor/lib64/mt6897/libmtkcam_hal_aidl_common.so': blob_fixup()
+        .replace_needed('android.hardware.camera.common-V2-ndk.so', 'android.hardware.camera.common-V1-ndk.so'),
+
+    ('vendor/lib64/mt6897/libmtkcam_grallocutils.so',
+     'vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so'): blob_fixup()
+        .replace_needed('android.hardware.graphics.allocator-V1-ndk.so', 'android.hardware.graphics.allocator-V2-ndk.so')
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
+
+    ('odm/lib64/libTrueSight.so',
+     'odm/lib64/libalLDC.so',
+     'odm/lib64/libalAILDC.so',
+     'odm/lib64/libalhLDC.so',
+     'vendor/lib64/libMiPhotoFilter.so'): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_createFromHandle')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_getNativeHandle')
+        .clear_symbol_version('AHardwareBuffer_isSupported')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_lockPlanes')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+
+    'vendor/lib64/mt6897/libmtkcam_hwnode.jpegnode.so': blob_fixup()
+        .replace_needed('libultrahdr.so', 'libultrahdr-v34.so'),
+
+    'vendor/lib64/libultrahdr-v34.so': blob_fixup()
+        .replace_needed('libjpegencoder.so', 'libjpegencoder-v34.so')
+        .replace_needed('libjpegdecoder.so', 'libjpegdecoder-v34.so'),
+
     ('vendor/bin/hw/mt6897/android.hardware.graphics.allocator-V2-service-mediatek.mt6897',
      'vendor/lib64/egl/mt6897/libGLES_mali.so',
      'vendor/lib64/hw/mt6897/android.hardware.graphics.allocator-V2-mediatek.so',
      'vendor/lib64/hw/mt6897/android.hardware.graphics.mapper@4.0-impl-mediatek.so',
      'vendor/lib64/hw/mt6897/mapper.mediatek.so',
+     'vendor/lib64/libaimemc.so',
+     'vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so',
      'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so',
      'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so',
      'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V6-ndk.so'): blob_fixup()

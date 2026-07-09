@@ -24,6 +24,30 @@ vendor.audio.usb.iems.period_us=5000
 vendor.audio.usb.super_hifi=true
 vendor.audiohal.telephonytx.type=2
 
+# Camera
+persist.vendor.camera3.pipeline.bufnum.base.imgo=6
+persist.vendor.camera3.pipeline.bufnum.base.lcso=4
+persist.vendor.camera3.pipeline.bufnum.base.rrzo=6
+persist.vendor.camera3.pipeline.bufnum.base.rsso=5
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=5
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=7
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.lcso=7
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rrzo=6
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rsso=7
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=5
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
+ro.camera.disableHeicUltraHDR=true
+ro.vendor.afbc.enable=3
+ro.vendor.camera.directfdyuv.support=1
+ro.vendor.camera3.zsl.default=260
+ro.vendor.hdr10plus.enable=1 
+ro.vendor.jpeg_decode_sw_opt=2
+ro.vendor.mtk_cam_security_support=1
+vendor.camera.sensor.logsystem=3
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiagl

@@ -27,6 +27,14 @@
         <fqname>IMtkAudio/default</fqname>
     </hal>
     <hal format="aidl">
+        <name>vendor.mediatek.hardware.camera.atms</name>
+        <fqname>IATMs/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.mediatek.hardware.camera.bgservice</name>
+        <fqname>IBGService/default</fqname>
+    </hal>
+    <hal format="aidl">
         <name>vendor.mediatek.hardware.composer_ext</name>
         <fqname>IComposerExt/default</fqname>
     </hal>

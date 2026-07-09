@@ -1,0 +1,2 @@
+# Camera
+vendor.xiaomi.hardware.bgservice::IBGService   u:object_r:mtk_hal_bgs_hwservice:s0
