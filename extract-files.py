@@ -86,6 +86,9 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc',
      'vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc' ): blob_fixup()
         .regex_replace('.*writepid.*\n', ''),
+
+    'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
+        .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

@@ -1289,6 +1289,20 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib64/libfgauge_gm30.so
 
+# Identity
+vendor/bin/hw/android.hardware.identity-service.mitee@5.0
+vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc
+vendor/etc/permissions/android.hardware.identity_credential.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.identity@5.0-service.mitee.xml
+
+# Keymint
+vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee
+vendor/etc/init/android.hardware.security.keymint.mitee@3.0-service.rc
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
+vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
+vendor/lib64/android.hardware.security.keymint-V3-ndk.so:vendor/lib64/android.hardware.security.keymint-V3-ndk-v34.so;FIX_SONAME
+
 # Ladder
 vendor/lib64/libladder.so
 
