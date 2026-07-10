@@ -118,6 +118,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.location.gps.prebuilt.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \

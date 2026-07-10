@@ -191,3 +191,7 @@ ro.vendor.pq.mtk_silky_brigtness_support=2
 ro.vendor.pq.mtk_ultra_dimming_support=0
 ro.vendor.pq.mtk_ultra_resolution_support=1
 ro.vendor.pq.mtk_video_transition=0
+
+# GNSS
+ro.vendor.gps.chrdev=gps_drv_dl_v051
+ro.vendor.mtk_log_hide_gps=0
