@@ -1510,6 +1510,15 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 
+# NFC
+odm/etc/libnfc-nci.conf
+odm/etc/libnfc-nxp.conf
+odm/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
+vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service
+vendor/etc/init/secure_element-service.rc
+vendor/lib64/libmigpese@2.0.so
+vendor/lib64/libsn100u_fw.so
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
 vendor/bin/nvram_daemon
