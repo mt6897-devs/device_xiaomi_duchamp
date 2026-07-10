@@ -1368,3 +1368,17 @@ vendor/lib64/libladder.so
 vendor/bin/init.insmod.sh
 vendor/etc/init.insmod.mt6897.cfg
 vendor/etc/init/hw/init.mtkgki.rc
+
+# NVRAM
+vendor/bin/hw/vendor.mediatek.hardware.nvram-service
+vendor/bin/nvram_daemon
+vendor/etc/init/nvram_daemon.rc
+vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc
+vendor/lib64/hw/vendor.mediatek.hardware.nvram-impl.so
+vendor/lib64/libconnfem.so
+vendor/lib64/libcustom_nvram.so
+vendor/lib64/libfile_op.so
+vendor/lib64/libhwm.so
+vendor/lib64/libnvram.so
+vendor/lib64/libnvram_sec.so
+vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so

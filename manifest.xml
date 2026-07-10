@@ -39,6 +39,10 @@
         <fqname>IComposerExt/default</fqname>
     </hal>
     <hal format="aidl">
+        <name>vendor.mediatek.hardware.nvram</name>
+        <fqname>INvram/default</fqname>
+    </hal>
+    <hal format="aidl">
         <name>vendor.mediatek.hardware.pq_aidl</name>
         <version>6</version>
         <fqname>IPictureQuality_AIDL/default</fqname>
