@@ -1282,6 +1282,11 @@ odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_7.txt
 odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_8.txt
 odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_9.txt
 
+# DRM
+vendor/apex/com.google.android.widevine.nonupdatable.apex
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libwvkeybox.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
 vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
