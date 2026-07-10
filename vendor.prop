@@ -256,3 +256,6 @@ ro.vendor.vt_hevc_support=1
 
 # Sensors
 ro.vendor.mtk.sensor.support=yes
+
+# TEE
+ro.vendor.mtk_mitee_support=1
