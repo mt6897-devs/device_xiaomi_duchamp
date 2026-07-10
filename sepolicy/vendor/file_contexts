@@ -15,3 +15,8 @@
 /dev/mi_display/disp_feature                                                                           u:object_r:vendor_displayfeature_device:s0
 /data/vendor/display(/.*)?                                                                             u:object_r:vendor_display_data_file:s0
 /mnt/vendor/persist/display(/.*)?                                                                      u:object_r:vendor_persist_display_file:s0
+
+# Sensors
+/dev/elliptic0                                                                                         u:object_r:sensors_device:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal                     u:object_r:hal_sensors_default_exec:s0
+/(odm|vendor/odm|system/vendor)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl                      u:object_r:hal_sensors_default_exec:s0

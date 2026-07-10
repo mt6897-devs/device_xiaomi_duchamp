@@ -1635,6 +1635,28 @@ vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
 vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
 
+# Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/etc/sensors/hals.conf
+vendor/firmware/remoteproc_scp
+vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+vendor/lib64/hw/sensors.elliptic@2.0.so
+vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6897.so
+vendor/lib64/libhfmanager.so
+vendor/lib64/libksensor.so
+vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
+
+# Sensors (Citsensor)
+odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
+odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
+odm/etc/sensors/lightSensorCali.json
+odm/etc/sensors/lightSensorConfig.json
+odm/etc/sensors/lightSensorConfigSec.json
+odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
+odm/lib64/libclient2slpi.notifier.so
+vendor/lib64/libhfmanagerwrapper.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
+
 # Touchscreen firmware
 vendor/firmware/focaltech_ts_fw.bin
 vendor/firmware/goodix_cfg_group_duchamp.bin

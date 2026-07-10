@@ -1,3 +1,4 @@
+hal_client_domain(hal_graphics_composer_default, hal_sensors)
 hal_client_domain(hal_graphics_composer_default, vendor_hal_displayfeature)
 
 rw_dir_file(hal_graphics_composer_default, vendor_sysfs_displayfeature)

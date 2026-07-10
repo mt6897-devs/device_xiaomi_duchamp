@@ -207,6 +207,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Sensors
+PRODUCT_PACKAGES += \
+   android.hardware.sensors-service.xiaomi-multihal
+
+PRODUCT_PACKAGES += \
+   sensors.dynamic_sensor_hal
+
+PRODUCT_PACKAGES += \
+   android.hardware.sensor.dynamic.head_tracker.prebuilt.xml \
+   android.hardware.sensor.gyroscope.prebuilt.xml \
+   android.hardware.sensor.proximity.prebuilt.xml \
+   android.hardware.sensor.stepdetector.prebuilt.xml
+
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_SHIPPING_API_LEVEL := 34
@@ -214,7 +227,8 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/mediatek
+    hardware/mediatek \
+    hardware/xiaomi
 
 # Touchscreen
 PRODUCT_COPY_FILES += \

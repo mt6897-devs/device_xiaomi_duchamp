@@ -23,3 +23,8 @@ vendor.displayfeature.entry.enable             u:object_r:vendor_displayfeature_
 
 # Radio
 ro.vendor.oem.                                 u:object_r:vendor_mtk_radio_prop:s0
+
+# Sensors
+persist.vendor.sensor.mischeck                 u:object_r:vendor_mtk_sensor_prop:s0
+persist.vendor.sensors.used.framebuffer        u:object_r:vendor_mtk_sensor_prop:s0
+vendor.dynamic_sensor.                         u:object_r:vendor_dynamic_sensor_prop:s0

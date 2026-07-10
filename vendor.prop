@@ -253,3 +253,6 @@ ro.vendor.mtk_world_phone_policy=0
 ro.vendor.num_md_protocol=2
 ro.vendor.sim_me_lock_mode=3
 ro.vendor.vt_hevc_support=1
+
+# Sensors
+ro.vendor.mtk.sensor.support=yes

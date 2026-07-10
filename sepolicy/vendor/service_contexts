@@ -1,2 +1,5 @@
 # Display
 vendor.xiaomi.hardware.displayfeature_aidl.IDisplayFeature/default       u:object_r:vendor_hal_displayfeature_service:s0
+
+# Sensors
+vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default          u:object_r:hal_sensors_service:s0
