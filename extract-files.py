@@ -21,6 +21,17 @@ namespace_imports = [
     'device/xiaomi/duchamp',
 ]
 
+def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}-{partition}' if partition == 'vendor' else None
+
+
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+    ('libtflite_mtk',
+     'vendor.mediatek.hardware.apuware.utils-V1-ndk',
+     'vendor.mediatek.hardware.apuware.utils@2.0',): lib_fixup_vendor_suffix,
+}
+
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
@@ -35,7 +46,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/init/hw/init.batterysecret.rc': blob_fixup()
         .regex_replace('.*seclabel.*\n', ''),
 
-    'vendor/lib64/mt6897/lib3a.ae.stat.so': blob_fixup()
+    ('vendor/lib64/libarmnn_ndk.mtk.vndk.so',
+     'vendor/lib64/mt6897/lib3a.ae.stat.so'): blob_fixup()
         .add_needed('liblog.so'),
 
     'vendor/lib64/mt6897/libmtkcam_hal_aidl_common.so': blob_fixup()
@@ -50,7 +62,8 @@ blob_fixups: blob_fixups_user_type = {
      'odm/lib64/libalLDC.so',
      'odm/lib64/libalAILDC.so',
      'odm/lib64/libalhLDC.so',
-     'vendor/lib64/libMiPhotoFilter.so'): blob_fixup()
+     'vendor/lib64/libMiPhotoFilter.so',
+     'vendor/lib64/mt6897/libneuralnetworks_sl_driver_mtk_prebuilt.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_createFromHandle')
         .clear_symbol_version('AHardwareBuffer_describe')
