@@ -15,3 +15,6 @@ ro.vendor.mtk.pq.odm=true
 ro.vendor.sre.enable=false
 sys.displayfeature_hidl=false
 vendor.displayfeature.entry.enable=true
+
+# Radio
+persist.vendor.radio.dynamic_sar=1

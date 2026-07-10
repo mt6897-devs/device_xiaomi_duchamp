@@ -29,7 +29,8 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     ('libtflite_mtk',
      'vendor.mediatek.hardware.apuware.utils-V1-ndk',
-     'vendor.mediatek.hardware.apuware.utils@2.0',): lib_fixup_vendor_suffix,
+     'vendor.mediatek.hardware.apuware.utils@2.0',
+     'vendor.mediatek.hardware.videotelephony-V1-ndk'): lib_fixup_vendor_suffix,
 }
 
 
@@ -102,6 +103,9 @@ blob_fixups: blob_fixups_user_type = {
 
     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
+
+    'system_ext/lib64/libimsma.so': blob_fixup()
+        .replace_needed('libsink.so', 'libsink-mtk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
