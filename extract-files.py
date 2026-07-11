@@ -44,7 +44,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so': blob_fixup()
         .replace_needed('android.hardware.audio.common-V1-ndk.so', 'android.hardware.audio.common-V2-ndk.so'),
 
-    'vendor/etc/init/hw/init.batterysecret.rc': blob_fixup()
+    ('vendor/etc/init/hw/init.batterysecret.rc',
+     'vendor/etc/init/hw/init.mi_thermald.rc'): blob_fixup()
         .regex_replace('.*seclabel.*\n', ''),
 
     ('vendor/lib64/libarmnn_ndk.mtk.vndk.so',

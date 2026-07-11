@@ -1,0 +1,22 @@
+type vendor_mi_thermald, domain, mlstrustedsubject;
+type vendor_mi_thermald_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(vendor_mi_thermald)
+
+r_dir_file(vendor_mi_thermald, sysfs)
+rw_dir_file(vendor_mi_thermald, sysfs_batteryinfo)
+rw_dir_file(vendor_mi_thermald, sysfs_leds)
+rw_dir_file(vendor_mi_thermald, sysfs_power_supply)
+rw_dir_file(vendor_mi_thermald, sysfs_therm)
+r_dir_file(vendor_mi_thermald, sysfs_thermal_sram)
+r_dir_file(vendor_mi_thermald, vendor_sysfs_displayfeature)
+
+set_prop(vendor_mi_thermald, vendor_thermal_prop)
+
+allow vendor_mi_thermald vendor_mi_thermald:capability { chown fowner };
+allow vendor_mi_thermald vendor_mi_thermald:capability2 { block_suspend wake_alarm };
+
+allow vendor_mi_thermald sysfs_devices_system_cpu:file rw_file_perms;
+
+allow vendor_mi_thermald thermal_core_data_file:dir rw_dir_perms;
+allow vendor_mi_thermald thermal_core_data_file:file create_file_perms;

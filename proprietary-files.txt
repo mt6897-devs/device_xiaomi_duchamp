@@ -1685,6 +1685,34 @@ vendor/firmware/goodix_cfg_group_duchamp.bin
 vendor/firmware/goodix_firmware_duchamp.bin
 vendor/firmware/goodix_test_limits_255.csv
 
+# Thermal
+odm/etc/thermal-4k.conf
+odm/etc/thermal-arvr.conf
+odm/etc/thermal-camera.conf
+odm/etc/thermal-cclassvideo.conf
+odm/etc/thermal-cgame.conf
+odm/etc/thermal-chg-only.conf
+odm/etc/thermal-class0.conf
+odm/etc/thermal-hp-mgame.conf
+odm/etc/thermal-hp-normal.conf
+odm/etc/thermal-huanji.conf
+odm/etc/thermal-mgame.conf
+odm/etc/thermal-navigation.conf
+odm/etc/thermal-nolimits.conf
+odm/etc/thermal-normal.conf
+odm/etc/thermal-per-class0.conf
+odm/etc/thermal-per-normal.conf
+odm/etc/thermal-per-video.conf
+odm/etc/thermal-phone.conf
+odm/etc/thermal-tgame.conf
+odm/etc/thermal-video.conf
+odm/etc/thermal-videochat.conf
+odm/etc/thermal-yuanshen.conf
+vendor/bin/mi_thermald
+vendor/etc/init/hw/init.mi_thermald.rc
+vendor/etc/thermal-map.conf
+vendor/etc/thermald-devices.conf
+
 # Trusted Execution Environment (TEE)
 vendor/bin/miteelog
 vendor/bin/tee-supplicant

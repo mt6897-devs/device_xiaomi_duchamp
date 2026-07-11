@@ -1,6 +1,7 @@
 import /vendor/etc/init/hw/init.batterysecret.rc
 import /vendor/etc/init/hw/init.cgroup.rc
 import /vendor/etc/init/hw/init.connectivity.rc
+import /vendor/etc/init/hw/init.mi_thermald.rc
 import /vendor/etc/init/hw/init.mt6897.usb.rc
 import /vendor/etc/init/hw/init.mtkgki.rc
 import /vendor/etc/init/hw/init.project.rc

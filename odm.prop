@@ -24,3 +24,6 @@ persist.vendor.sensor.powbrightness=400
 persist.vendor.sensor.mischeck=true
 persist.vendor.sensor.maxbrightness=8191
 persist.vendor.debug.collision.dfx=true
+
+# Thermal
+persist.vendor.tracking.dfs=true
