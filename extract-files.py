@@ -88,6 +88,7 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/hw/mt6897/android.hardware.graphics.mapper@4.0-impl-mediatek.so',
      'vendor/lib64/hw/mt6897/mapper.mediatek.so',
      'vendor/lib64/libaimemc.so',
+     'vendor/lib64/libcodec2_fsr.so',
      'vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so',
      'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so',
      'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so',
@@ -103,6 +104,9 @@ blob_fixups: blob_fixups_user_type = {
 
     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
+
+    'vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml': blob_fixup()
+        .regex_replace('.+dolby.+\n', ''),
 
     'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
         .apktool_patch('blob-patches/ImsService'),

@@ -200,6 +200,13 @@ ro.netflix.bsp_rev=MTK6897-37606-1
 ro.vendor.gps.chrdev=gps_drv_dl_v051
 ro.vendor.mtk_log_hide_gps=0
 
+# Media
+debug.stagefright.c2inputsurface=-1
+media.c2.dmabuf.padding=3072
+ro.vendor.mtk_sec_video_path_support=1
+vendor.mtk.vdec.decode.error.handle.mode=1
+vendor.mtk.vdec.waitkeyframeforplay=9
+
 # Neural Networks
 ro.vendor.mtk_mvpu_security_support=0
 ro.vendor.mtk_nn.option=A,B,C,D,E,F,G,Z

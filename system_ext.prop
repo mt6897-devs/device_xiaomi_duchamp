@@ -12,6 +12,9 @@ ro.vendor.vodata_support=1
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
 
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
 # Verison
 ro.mi.os.version.code=3
 ro.mi.os.version.incremental=OS3.0.6.0.WNLMIXM
