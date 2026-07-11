@@ -214,6 +214,12 @@ ro.vendor.mtk_nn_baseline_support=1
 ro.vendor.mtk_nn_quant_preferred=1
 ro.vendor.mtk_nn_support=1
 
+# Platform
+ro.vendor.mediatek.platform=MT6897
+ro.vendor.mediatek.version.branch=alps-mp-u0.mp1.tc8sp1
+ro.vendor.mediatek.version.release=alps-mp-u0.mp1.tc8sp1-V1
+ro.vendor.mgk_name=mgk_64_k61
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.ims_support=1
