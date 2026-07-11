@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     init.cgroup.rc \
     init.connectivity.rc \
     init.mt6897.rc \
+    init.mt6897.usb.rc \
     init.project.rc \
     init.sensor_2_0.rc \
     ueventd.mt6897.rc \
@@ -241,6 +242,17 @@ PRODUCT_COPY_FILES += \
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
+
+PRODUCT_PACKAGES += \
+    android.hardware.usb.accessory.prebuilt.xml \
+    android.hardware.usb.host.prebuilt.xml
+
+$(call soong_config_set_bool,android_hardware_mediatek_usb,audio_accessory_supported,true)
 
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
