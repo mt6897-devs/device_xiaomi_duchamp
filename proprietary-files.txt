@@ -1694,6 +1694,10 @@ vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
 vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta
 
+# Vibrator firmware
+vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_rtp_1.bin
+
 # Wifi
 vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc

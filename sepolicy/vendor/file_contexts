@@ -20,3 +20,6 @@
 /dev/elliptic0                                                                                         u:object_r:sensors_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal                     u:object_r:hal_sensors_default_exec:s0
 /(odm|vendor/odm|system/vendor)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl                      u:object_r:hal_sensors_default_exec:s0
+
+# Vibrator
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.vibrator\.service                                u:object_r:hal_vibrator_default_exec:s0
