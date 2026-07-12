@@ -21,6 +21,12 @@ ro.vendor.sre.enable                           u:object_r:vendor_displayfeature_
 vendor.display.panel.calibration.status        u:object_r:vendor_displayfeature_prop:s0
 vendor.displayfeature.entry.enable             u:object_r:vendor_displayfeature_prop:s0
 
+# Fingerprint
+persist.vendor.fpc.                            u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.goodix.                         u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.sys.fp.                         u:object_r:vendor_fingerprint_prop:s0
+ro.hardware.fp.                                u:object_r:vendor_fingerprint_prop:s0
+
 # Radio
 ro.vendor.oem.                                 u:object_r:vendor_mtk_radio_prop:s0
 

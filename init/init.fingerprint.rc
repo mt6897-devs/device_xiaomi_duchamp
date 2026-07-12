@@ -1,0 +1,9 @@
+on boot
+    # xiaomi fingerprint
+    chmod 0666 /dev/xiaomi-fp
+    chown system system /dev/xiaomi-fp
+
+on post-fs-data
+    mkdir /data/vendor/fpc 0770 system system
+    mkdir /data/vendor/fingerprint 0770 system system
+    mkdir /mnt/vendor/persist/fpc 0770 system system

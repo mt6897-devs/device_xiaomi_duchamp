@@ -25,6 +25,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.fingerprint.rc",
+    src: "init.fingerprint.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mt6897.rc",
     src: "init.mt6897.rc",
     relative_install_path: "init/hw",

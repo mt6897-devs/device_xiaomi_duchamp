@@ -166,4 +166,8 @@
         <name>vendor.mediatek.hardware.videotelephony</name>
         <fqname>IVideoTelephony/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.fx.tunnel</name>
+	<fqname>IMiFxTunnel/default</fqname>
+    </hal>
 </manifest>

@@ -125,6 +125,15 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.xiaomi
+
+PRODUCT_PACKAGES += \
+    android.hardware.fingerprint.prebuilt.xml
+
+$(call soong_config_set,XIAOMI_BIOMETRICS_FINGERPRINT,IMPL_VER,V2)
+
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.location.gps.prebuilt.xml
@@ -140,6 +149,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6897.vendor_ramdisk \
     init.cgroup.rc \
     init.connectivity.rc \
+    init.fingerprint.rc \
     init.mt6897.rc \
     init.mt6897.usb.rc \
     init.project.rc \

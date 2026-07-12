@@ -20,6 +20,7 @@ from extract_utils.main import (
 namespace_imports = [
     'device/xiaomi/duchamp',
     'hardware/mediatek',
+    'hardware/xiaomi'
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
