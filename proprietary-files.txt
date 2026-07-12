@@ -1387,6 +1387,27 @@ vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
 
+# Mfido
+odm/bin/fidoca_mitee
+odm/etc/init/vendor.xiaomi.hardware.mfidoca-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
+odm/lib64/libmfido_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.mfidoca-V1-ndk.so
+
+# Mlipay
+odm/bin/mlipayd_mitee
+odm/etc/init/vendor.xiaomi.hardware.mlipay-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+odm/lib64/libmlipay_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk.so
+
+# Mtdservice
+odm/bin/mtd_mitee
+odm/etc/init/vendor.xiaomi.hardware.aidl.mtdservice-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.aidl.mtdservice.xml
+odm/lib64/libmt_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk.so
+
 # Modules
 vendor/bin/init.insmod.sh
 vendor/etc/init.insmod.mt6897.cfg

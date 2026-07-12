@@ -105,7 +105,8 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc' ): blob_fixup()
         .regex_replace('.*writepid.*\n', ''),
 
-    'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
+    ('odm/lib64/libmt_mitee.so',
+     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee'): blob_fixup()
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
 
     'vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml': blob_fixup()
