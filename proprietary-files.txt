@@ -1625,3 +1625,9 @@ vendor/etc/init/volte_clientapi_ua.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
 vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# Touchscreen firmware
+vendor/firmware/focaltech_ts_fw.bin
+vendor/firmware/goodix_cfg_group_duchamp.bin
+vendor/firmware/goodix_firmware_duchamp.bin
+vendor/firmware/goodix_test_limits_255.csv
