@@ -127,7 +127,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint-service.xiaomi
+    android.hardware.biometrics.fingerprint-service.xiaomi \
+    libudfpshandler
 
 PRODUCT_PACKAGES += \
     android.hardware.fingerprint.prebuilt.xml
