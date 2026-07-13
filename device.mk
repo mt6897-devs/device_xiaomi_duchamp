@@ -202,6 +202,12 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
+PRODUCT_PACKAGES += \
+    DuchampCarrierConfigOverlay \
+    DuchampFrameworksOverlay \
+    DuchampSettingsOverlay \
+    DuchampSystemUIOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

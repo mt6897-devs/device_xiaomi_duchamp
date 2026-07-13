@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config_list>
+  <carrier_config mcc="460">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    <boolean name="config_volte_on_by_default_after_ota" value="false" />
+  </carrier_config>
+  <!-- Western Europe-->
+  <!-- FR Orange-->
+  <carrier_config mcc="208" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FR Bouygues-->
+  <carrier_config mcc="208" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FR SFR-->
+  <carrier_config mcc="208" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- France La Poste -->
+  <carrier_config mcc="208" mnc="10" gid1="4C">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FR Free-->
+  <carrier_config mcc="208" mnc="15">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FR Btbd-->
+  <carrier_config mcc="208" mnc="26">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK Vodafone-->
+  <carrier_config mcc="234" mnc="15">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="234" mnc="15" gid1="C1">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK H3G-->
+  <carrier_config mcc="234" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK mobile-->
+  <carrier_config mcc="234" mnc="20" gid1="0X0305">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK Gamma-->
+  <carrier_config mcc="234" mnc="20" gid1="0X030B">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK EE-->
+  <carrier_config mcc="234" mnc="30,33">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK O2-->
+  <carrier_config mcc="234" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK Tesco-->
+  <carrier_config mcc="234" mnc="10" gid1="0AFFFF">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="234" mnc="38">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- UK H3G-->
+  <carrier_config mcc="235" mnc="94">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT TIM-->
+  <carrier_config mcc="222" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Vodafone-->
+  <carrier_config mcc="222" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT WIND TRE-->
+  <carrier_config mcc="222" mnc="88,99">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Lycamobile-->
+  <carrier_config mcc="222" mnc="35">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Coop-->
+  <carrier_config mcc="222" mnc="53">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Plintron-->
+  <carrier_config mcc="222" mnc="54">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Kena-->
+  <carrier_config mcc="222" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Fastweb-->
+  <carrier_config mcc="222" mnc="08">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IT Vianova-->
+  <carrier_config mcc="222" mnc="49">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- ES Vodafone-->
+  <carrier_config mcc="214" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- ES Orange-->
+  <carrier_config mcc="214" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- ES Telefonica (Movistar)-->
+  <carrier_config mcc="214" mnc="07,05,38">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- ES Yoigo-->
+  <carrier_config mcc="214" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PT Vodafone-->
+  <carrier_config mcc="268" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PT MEO-->
+  <carrier_config mcc="268" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- PT NOS-->
+  <carrier_config mcc="268" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DE O2-->
+  <carrier_config mcc="262" mnc="03,07,11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <!-- DE Vodafone-->
+  <carrier_config mcc="262" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DE Vodafone (CTC)-->
+  <carrier_config mcc="262" mnc="09">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DE DT/DT(Constar)-->
+  <carrier_config mcc="262" mnc="01,06,98">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <!-- DE 1&1>-->
+  <carrier_config mcc="262" mnc="23">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BE Orange-->
+  <carrier_config mcc="206" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BE Telenet/Base-->
+  <carrier_config mcc="206" mnc="05,20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BE Proximus-->
+  <carrier_config mcc="206" mnc="00,01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- NL Vodafone-->
+  <carrier_config mcc="204" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- NL KPN-->
+  <carrier_config mcc="204" mnc="08">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- NL DT/DT(Tele2)-->
+  <carrier_config mcc="204" mnc="16">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <!-- IE Vodafone-->
+  <carrier_config mcc="272" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IE H3G-->
+  <carrier_config mcc="272" mnc="05,02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!--EIR -->
+  <carrier_config mcc="272" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- CH Sunrise-->
+  <carrier_config mcc="228" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- CH Swisscom-->
+  <carrier_config mcc="228" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+  </carrier_config>
+  <!-- Salt-->
+  <carrier_config mcc="228" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Luxembourg Orange-->
+  <carrier_config mcc="270" mnc="99">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Luxembourg Proximus-->
+  <carrier_config mcc="270" mnc="77">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Luxembourg Post-->
+  <carrier_config mcc="270" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Andorra (AD) Andorra Telecom-->
+  <carrier_config mcc="213" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Gibraltar Gibtelecom-->
+  <carrier_config mcc="266" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Eastern Europe-->
+  <!-- RU Megafone-->
+  <carrier_config mcc="250" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU MTS-->
+  <carrier_config mcc="250" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU Yota-->
+  <carrier_config mcc="250" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU Beeline-->
+  <carrier_config mcc="250" mnc="99">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU Tele2-->
+  <carrier_config mcc="250" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU Sberbank-->
+  <carrier_config mcc="250" mnc="50">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RU Motiv-->
+  <carrier_config mcc="250" mnc="35">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Ukraine Vodafone-->
+  <carrier_config mcc="255" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Ukraine lifecell-->
+  <carrier_config mcc="255" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Ukraine Kyivstar-->
+  <carrier_config mcc="255" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Belarus A1-->
+  <carrier_config mcc="257" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Belarus MTS-->
+  <carrier_config mcc="257" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- KZ Beeline-->
+  <carrier_config mcc="401" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- KZ Tele2-->
+  <carrier_config mcc="401" mnc="07,77">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PL PLUS-->
+  <carrier_config mcc="260" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- PL DT/DT(heyah)-->
+  <carrier_config mcc="260" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <!-- PL Orange-->
+  <carrier_config mcc="260" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- PL PLAY-->
+  <carrier_config mcc="260" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- CZ O2-->
+  <carrier_config mcc="230" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- CZ DT-->
+  <carrier_config mcc="230" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <!-- CZ Vodafone-->
+  <carrier_config mcc="230" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- HU Vodafone-->
+  <carrier_config mcc="216" mnc="70">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- HU DT-->
+  <carrier_config mcc="216" mnc="30">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- HU Telenor-->
+  <carrier_config mcc="216" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- HU DIGI-->
+  <carrier_config mcc="216" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- GR WIND-->
+  <carrier_config mcc="202" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- GR COSMOTE-->
+  <carrier_config mcc="202" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- GR Vodafone-->
+  <carrier_config mcc="202" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RO DiGi-->
+  <carrier_config mcc="226" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RO Orange-->
+  <carrier_config mcc="226" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- RO Vodafone-->
+  <carrier_config mcc="226" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- RO DT-->
+  <carrier_config mcc="226" mnc="03,06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- ISL Nova-->
+  <carrier_config mcc="274" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SI Telekom Slovenia-->
+  <carrier_config mcc="293" mnc="41">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SI A1-->
+  <carrier_config mcc="293" mnc="40">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- SI Telemach-->
+  <carrier_config mcc="293" mnc="70">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- SK O2-->
+  <carrier_config mcc="231" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SK Orange-->
+  <carrier_config mcc="231" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SK DT-->
+  <carrier_config mcc="231" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- SK 4KA-->
+  <carrier_config mcc="231" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT H3G-->
+  <carrier_config mcc="232" mnc="05,10,14">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <!-- AT DT-->
+  <carrier_config mcc="232" mnc="03,04,07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT A1-->
+  <carrier_config mcc="232" mnc="01,02,11,12">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- HR DT/BB-->
+  <carrier_config mcc="219" mnc="01,20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <!-- HR A1-->
+  <carrier_config mcc="219" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- BG Vivacom-->
+  <carrier_config mcc="284" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BG A1-->
+  <carrier_config mcc="284" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- BG Telenor-->
+  <carrier_config mcc="284" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MD Orange-->
+  <carrier_config mcc="259" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- MD Moldcell-->
+  <carrier_config mcc="259" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MK DT-->
+  <carrier_config mcc="294" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- MK A1-->
+  <carrier_config mcc="294" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Albania Vodafone-->
+  <carrier_config mcc="276" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Serbia A1-->
+  <carrier_config mcc="220" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Serbia MTS-->
+  <carrier_config mcc="220" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Serbia Telenor-->
+  <carrier_config mcc="220" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- CYTA-->
+  <carrier_config mcc="280" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Montenegro Telenor-->
+  <carrier_config mcc="297" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Montenegro DT-->
+  <carrier_config mcc="297" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- （  ） PM SPM Telecom-->
+  <carrier_config mcc="308" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- () Reunion Orange Reunion Mayotte-->
+  <carrier_config mcc="647" mnc="00">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- () Reunion Zeop-->
+  <carrier_config mcc="647" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!--() Caraibes Orange Caraibes-->
+  <carrier_config mcc="340" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BA BH telecom-->
+  <carrier_config mcc="218" mnc="90">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- BA MTEL-->
+  <carrier_config mcc="218" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Cyprus Primetel-->
+  <carrier_config mcc="280" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Cyprus EPIC-->
+  <carrier_config mcc="280" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!--+ Nordics&Baltics-->
+  <!-- SE Telia-->
+  <carrier_config mcc="240" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SE Tele2-->
+  <carrier_config mcc="240" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SE H3G-->
+  <carrier_config mcc="240" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SE Telenor-->
+  <carrier_config mcc="240" mnc="08">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SE Vimla（Telenor MVNO）-->
+  <carrier_config mcc="240" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- NO Telia-->
+  <carrier_config mcc="242" mnc="02,05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- NO ICE-->
+  <carrier_config mcc="242" mnc="14">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- NO Telenor-->
+  <carrier_config mcc="242" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FI Telia-->
+  <carrier_config mcc="244" mnc="91">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FI Elisa-->
+  <carrier_config mcc="244" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- FI Telenor (DNA)-->
+  <carrier_config mcc="244" mnc="12,13">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DK Telia-->
+  <carrier_config mcc="238" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DK Telenor-->
+  <carrier_config mcc="238" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DK H3G-->
+  <carrier_config mcc="238" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- DK TDC-->
+  <carrier_config mcc="238" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- EE Telia-->
+  <carrier_config mcc="248" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- EE Elisa-->
+  <carrier_config mcc="248" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- EE Tele2-->
+  <carrier_config mcc="248" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- LT Telia-->
+  <carrier_config mcc="246" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- LT BITE-->
+  <carrier_config mcc="246" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- LT Tele2-->
+  <carrier_config mcc="246" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- LV BITE-->
+  <carrier_config mcc="247" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- LV LMT-->
+  <carrier_config mcc="247" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- LV Tele2-->
+  <carrier_config mcc="247" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Middle East&Africa-->
+  <!-- TR Vodafone-->
+  <carrier_config mcc="286" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- TR Turkcell-->
+  <carrier_config mcc="286" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- TR Turk Telekom-->
+  <carrier_config mcc="286" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- UAE Etisalat-->
+  <carrier_config mcc="424" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- UAE DU-->
+  <carrier_config mcc="424" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- SA ZAIN-->
+  <carrier_config mcc="420" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SA STC-->
+  <carrier_config mcc="420" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SA Mobily-->
+  <carrier_config mcc="420" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SA Salam-->
+  <carrier_config mcc="420" mnc="09">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- SA Redbull Mobile-->
+  <carrier_config mcc="420" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- QA Vodafone-->
+  <carrier_config mcc="427" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- QA Ooredoo-->
+  <carrier_config mcc="427" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- QA VFQ-Enterprise-->
+  <carrier_config mcc="427" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!--  KW Zain-->
+  <carrier_config mcc="419" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!--  KW Ooredoo-->
+  <carrier_config mcc="419" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!--  KW Stc-->
+  <carrier_config mcc="419" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!--  KW Virgin Mobile-->
+  <carrier_config mcc="419" mnc="09">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- ZA Vodacom-->
+  <carrier_config mcc="655" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- ZA MTN-->
+  <carrier_config mcc="655" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- ZA Telkom-->
+  <carrier_config mcc="655" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- EG Vodafone-->
+  <carrier_config mcc="602" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- EG Orange-->
+  <carrier_config mcc="602" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!--ålat-->
+  <carrier_config mcc="602" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- EG We-->
+  <carrier_config mcc="602" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- AZ Azercell-->
+  <carrier_config mcc="4">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- AZ Bakcell-->
+  <carrier_config mcc="400" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Iraq Asiacell-->
+  <carrier_config mcc="418" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- IL Pelephone-->
+  <carrier_config mcc="425" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IL Cellcom-->
+  <carrier_config mcc="425" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- IL Partner-->
+  <carrier_config mcc="425" mnc="01,10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IL Hotmobile-->
+  <carrier_config mcc="425" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BH Batelco-->
+  <carrier_config mcc="426" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- BH ZAIN-->
+  <carrier_config mcc="426" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PK Jazz-->
+  <carrier_config mcc="410" mnc="01,07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PK Ufone-->
+  <carrier_config mcc="410" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- PK Zong-->
+  <carrier_config mcc="410" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PK Telenor-->
+  <carrier_config mcc="410" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Morocco Orange-->
+  <carrier_config mcc="604" mnc="00">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Morocco Inwi-->
+  <carrier_config mcc="604" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Jordan Orange-->
+  <carrier_config mcc="416" mnc="77">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- OM ooredoo-->
+  <carrier_config mcc="422" mnc="03">
+    <boolean name="caailable_bool" value="true" />
+  </carrier_config>
+  <!-- OM vodafone-->
+  <carrier_config mcc="422" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- OM Omantel-->
+  <carrier_config mcc="422" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Australia-->
+  <!-- AU Vodafone-->
+  <carrier_config mcc="505" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- AU Optus-->
+  <carrier_config mcc="505" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- AU Telstra-->
+  <carrier_config mcc="505" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Latin America-->
+  <!-- MX Telcel-->
+  <carrier_config mcc="334" mnc="020,20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MX AT&T-->
+  <carrier_config mcc="334" mnc="050,090">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="334" mnc="130,140">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- CL Entel-->
+  <carrier_config mcc="730" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- CL Movistar-->
+  <carrier_config mcc="730" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_availa" value="true" />
+  </carrier_config>
+  <!-- CL WOM-->
+  <carrier_config mcc="730" mnc="09">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- CL Claro-->
+  <carrier_config mcc="730" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BR Claro-->
+  <carrier_config mcc="724" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- BR TIM-->
+  <carrier_config mcc="724" mnc="02,03,04,54">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="748" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- UY Movistar-->
+  <carrier_config mcc="748" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_booue" />
+  </carrier_config>
+  <!-- PE Entel-->
+  <carrier_config mcc="716" mnc="17">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- PE Claro-->
+  <carrier_config mcc="716" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!--tar-->
+  <carrier_config mcc="716" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- CO Tigo-->
+  <carrier_config mcc="732" mnc="111,103">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- CO Movistar-->
+  <carrier_config mcc="732" mnc="123">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- CO Claro-->
+  <carrier_config mcc="732" mnc="101">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- CO WOM-->
+  <carrier_config mcc="732" mnc="130,360">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- EC Claro-->
+  <carrier_config mcc="740" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- EC Movistar-->
+  <carrier_config mcc="740" mnc="00">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- DO Altice-->
+  <carrier_config mcc="370" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- DO Claro-->
+  <carrier_config mcc="370" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- GT Tigo-->
+  <carrier_config mcc="704" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- GT Claro-->
+  <carrier_config mcc="704" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SV Claro-->
+  <carrier_config mcc="706" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- HN Claro-->
+  <carrier_config mcc="708" mnc="001">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- NI Claro-->
+  <carrier_config mcc="710" mnc="21">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- CR Claro-->
+  <carrier_config mcc="712" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Liberty PA -->
+  <carrier_config mcc="714" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- PA Claro-->
+  <carrier_config mcc="714" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Argentina Movistar-->
+  <carrier_config mcc="722" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Argentina Claro-->
+  <carrier_config mcc="722" mnc="310">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Argentina Personal-->
+  <carrier_config mcc="722" mnc="34">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!--Bolivia Tigo-->
+  <carrier_config mcc="736" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Guyana Enetworks-->
+  <carrier_config mcc="738" mnc="00">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Guyana Enetworks-->
+  <carrier_config mcc="738" mnc="040">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Southeast Asia-->
+  <!-- ID Smartfren-->
+  <carrier_config mcc="510" mnc="09,28">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- ID Telkomsel-->
+  <carrier_config mcc="510" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- ID Indosat-->
+  <carrier_config mcc="510" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- ID XL-->
+  <carrier_config mcc="510" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- ID Tri-->
+  <carrier_config mcc="510" mnc="89">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- TH AIS-->
+  <carrier_config mcc="520" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- TH DTAC-->
+  <carrier_config mcc="520" mnc="18,05,47">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- TH 1-->
+  <carrier_config mcc="520" mnc="00,04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- TH NT-->
+  <carrier_config mcc="520" mnc="17,15">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- SG M1-->
+  <carrier_config mcc="525" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- SG Starhub-->
+  <carrier_config mcc="525" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- SG Singtel-->
+  <carrier_config mcc="525" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- SG TPG-->
+  <carrier_config mcc="525" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- FR Viti-->
+  <carrier_config mcc="547" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- Nigeria MTN-->
+  <carrier_config mcc="621" mnc="30">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- KE Safaricom-->
+  <carrier_config mcc="639" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- KHM Seatel-->
+  <carrier_config mcc="456" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- KHM Smart-->
+  <carrier_config mcc="456" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- KHM Metfone-->
+  <carrier_config mcc="456" mnc="08">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY YTL-->
+  <carrier_config mcc="502" mnc="152">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY DiGi-->
+  <carrier_config mcc="502" mnc="16">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY Umobile-->
+  <carrier_config mcc="502" mnc="18">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY Unifi/Webe-->
+  <carrier_config mcc="502" mnc="153">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY Maxis-->
+  <carrier_config mcc="502" mnc="12">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MY Celcom-->
+  <carrier_config mcc="502" mnc="19">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- MM Mytel-->
+  <carrier_config mcc="414" mnc="09">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- MM ATOM-->
+  <carrier_config mcc="414" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- UZ Beeline-->
+  <carrier_config mcc="434" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- UZ Ucell-->
+  <carrier_config mcc="434" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- VN Vinaphone-->
+  <carrier_config mcc="452" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- VN Viettel-->
+  <carrier_config mcc="452" mnc="04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- VN Mobifone-->
+  <carrier_config mcc="452" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- VN Vietnamobile-->
+  <carrier_config mcc="452" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PH Globe-->
+  <carrier_config mcc="515" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- PH Smart-->
+  <carrier_config mcc="515" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- PH DITO-->
+  <carrier_config mcc="515" mnc="66">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- HK,Macau,Taiwan-->
+  <!-- TW -->
+  <carrier_config mcc="466" mnc="92,11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- TW  -->
+  <carrier_config mcc="466" mnc="03">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- TW -->
+  <carrier_config mcc="466" mnc="89">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- TW -->
+  <carrier_config mcc="466" mnc="97">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- TW  -->
+  <carrier_config mcc="466" mnc="99">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- TW -->
+  <carrier_config mcc="466" mnc="05,12">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- MO CTM-->
+  <carrier_config mcc="455" mnc="01,04">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- MO China Telecom-->
+  <carrier_config mcc="455" mnc="07">
+    <boolean name="carriervailable_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <!-- HK CUHK-->
+  <carrier_config mcc="454" mnc="07">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- HK CMHK-->
+  <carrier_config mcc="454" mnc="12,13,30">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- HK CSL-->
+  <carrier_config mcc="19,00,02,18">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- HK H3G-->
+  <carrier_config mcc="454" mnc="03">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- HK Smartone-->
+  <carrier_config mcc="454" mnc="06,15,17">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <!-- Japan & Korea-->
+  <!-- KR SKT-->
+  <carrier_config mcc="450" mnc="05">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- KR KT-->
+  <carrier_config mcc="450" mnc="08">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- KR LG U+-->
+  <carrier_config mcc="450" mnc="06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- JP Rakuten-->
+  <carrier_config mcc="440" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- JP KDDI-->
+  <carrier_config mcc="440" mnc="51,54">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- JP Docomo-->
+  <carrier_config mcc="440" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- JP Softbank-->
+  <carrier_config mcc="440" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Nepal-->
+  <!-- NP NTC-->
+  <carrier_config mcc="429" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN Airtel-->
+  <carrier_config mcc="404" mnc="02,03,10,16,31,40,45,49,70,90,92,93,94,95,96,97,98">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN Idea-->
+  <carrier_config mcc="404" mnc="04,07,12,14,19,22,24,44,56,78,82,87,89">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN Vodafone-->
+  <carrier_config mcc="404" mnc="01,05,11,13,15,20,27,30,43,46,60,">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN JIO-->
+  <carrier_config mcc="405" mnc="840,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrvt_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_disable_5g_switch_bool" value="false" />
+  </carrier_config>
+  <!-- IN Airtel-->
+  <carrier_config mcc="405" mnc="51,52,53,54,55,56">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN Vodafone-->
+  <carrier_config mcc="405" mnc="66,67,750,751,752,753,754,755,756">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- IN Idea -->
+  <carrier_config mcc="405" mnc="70,799,845,846,847,848,849,850,851,852,853,908,909,910,911">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <ban name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <!-- Sri lanka-->
+  <!-- Sri lanka Dialog-->
+  <carrier_config mcc="413" mnc="02">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Sri lanka Mobitel-->
+  <carrier_config mcc="413" mnc="01">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT&T-->
+  <carrier_config mcc="310" mnc="530,190">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT&T-->
+  <carrier_config mcc="311" mnc="180">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT&T-->
+  <carrier_config mcc="901" mnc="18">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Verizon-->
+  <carrier_config mcc="310" mnc="590,890">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- AT&T-->
+  <carrier_config mcc="310" mnc="30,70,90,150,170,280,380,410,560,650,680,980">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Verizon-->
+  <carrier_config mcc="311" mnc="480,270">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Verizon-->
+  <carrier_config mcc="312" mnc="770">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- T-Mobile-->
+  <carrier_config mcc="310" mnc="160,200,210,220,230,270,310,490,660,800">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Sprint-->
+  <carrier_config mcc="310" mnc="120">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- Sprint-->
+  <carrier_config mcc="312" mnc="530,190">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config>
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="460" mnc="00,02,04,07,08">
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="460" mnc="03,05,11,12">
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_wfc_disable_sa" value="true" />
+  </carrier_config>
+  <carrier_config mcc="460" mnc="01,06,09">
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="460" mnc="13,15">
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="208" mnc="15,16">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="208" mnc="10">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="false" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="3">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="07,05">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="4">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="6">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="22">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="219" mnc="2">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="222" mnc="53">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="222" mnc="56">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="226" mnc="03,06">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="228" mnc="2">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="228" mnc="71">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="231" mnc="2">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="10" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
+    <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="232" mnc="4">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="232" mnc="17">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="234" mnc="10">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="234" mnc="40">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="244" mnc="5">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="257" mnc="1">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="262" mnc="03,07,11">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="262" mnc="02,09">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="262" mnc="21">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="262" mnc="23">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_allow_transfer_ims_call_bool" value="true" />
+    <boolean name="carrier_allow_transfer_gsm_call_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="274" mnc="1">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="274" mnc="2">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="283" mnc="5">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="284" mnc="1">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="334" mnc="050,090,070,130,140">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="310" mnc="410,280,030">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="334" mnc="020,20">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="334" mnc="03,030">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="400" mnc="1">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="400" mnc="2">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="840,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874">
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="6">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="01,07">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="4">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="413" mnc="5">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="413" mnc="8">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="418" mnc="5">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="418" mnc="20">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="419" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="421" mnc="11">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="422" mnc="2">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="424" mnc="2">
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="424" mnc="3">
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="425" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="434" mnc="5">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="450" mnc="5">
+    <boolean name="carrier_vt_available_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="450" mnc="8">
+    <boolean name="carrier_vt_available_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="450" mnc="6">
+    <boolean name="carrier_vt_available_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="452" mnc="4">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="00,02,10,16,18,19">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="03,04">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="12,13,30">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="31">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="457" mnc="7">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="470" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="470" mnc="3">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="502" mnc="12">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="502" mnc="18">
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="520" mnc="3">
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="547" mnc="5">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="552" mnc="99">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="602" mnc="2">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="603" mnc="3">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="605" mnc="3">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="621" mnc="24">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="621" mnc="30">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="639" mnc="2">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="639" mnc="3">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="639" mnc="10">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="655" mnc="38">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="722" mnc="34">
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="724" mnc="5">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="724" mnc="02,03,04,54">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="724" mnc="06,10,11,23">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="724" mnc="29">
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="724" mnc="77">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="732" mnc="111,103">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="732" mnc="123">
+    <boolean name="carrier_5g_switch_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="515" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="452" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="530" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="530" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="7">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="410" mnc="3">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="429" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="470" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="470" mnc="7">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="208" mnc="20">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="288" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="428" mnc="33">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="276" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="268" mnc="4">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="214" mnc="14">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="255" mnc="3">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="282" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="412" mnc="50">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="255" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="505" mnc="71">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="505" mnc="72">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="437" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="240" mnc="50">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="525" mnc="5">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="515" mnc="3">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="268" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="602" mnc="4">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="250" mnc="16">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="602" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="238" mnc="12">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="240" mnc="12">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="242" mnc="23">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="416" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="840">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="854">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="855">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="856">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="857">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="858">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="859">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="860">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="861">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="862">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="863">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="864">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="865">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="866">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="867">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="868">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="869">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="870">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="871">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="872">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="873">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="405" mnc="874">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="414" mnc="5">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="247" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="268" mnc="6">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="3">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="4">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="5">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="14">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="12">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="13">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="30">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="0">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="10">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="16">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="18">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="19">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="6">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="15">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="17">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="454" mnc="7">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="208" mnc="16">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="525" mnc="10">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="carrier_disable_sa_mode_bool" value="false" />
+    <boolean name="config_vonr_on_by_defalut_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="655" mnc="7">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="655" mnc="8">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="234" mnc="87">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="272" mnc="25">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="502" mnc="16">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="429" mnc="1">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="712" mnc="4">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true" />
+  </carrier_config>
+  <carrier_config mcc="248" mnc="2">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="config_show_vonr_icon_in_statusbar" value="true" />
+    <boolean name="carrier_sa_mode_available_bool" value="true" />
+    <boolean name="config_is_show_vonr_switch" value="true" />
+  </carrier_config>
+  <carrier_config mcc="434" mnc="4">
+    <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+</carrier_config_list>
