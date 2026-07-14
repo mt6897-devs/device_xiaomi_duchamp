@@ -150,6 +150,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.enableswap \
     fstab.mt6897 \
     fstab.mt6897.vendor_ramdisk \
     init.cgroup.rc \

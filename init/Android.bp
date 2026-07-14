@@ -4,6 +4,12 @@
 //
 
 prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "fstab.enableswap",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "fstab.mt6897",
     src: "fstab.mt6897",
     vendor: true,

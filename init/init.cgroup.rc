@@ -23,6 +23,12 @@ on post-fs-data
     write /proc/sys/kernel/sched_pelt_multiplier 4
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
+    # zram
+    write /sys/block/zram0/comp_algorithm lz4
+    write /proc/sys/vm/page-cluster 3
+    write /proc/sys/vm/swappiness 100
+    write /sys/kernel/mm/swap/vma_ra_enabled true
+
     # boot perf. tune
     write /dev/cpuctl/system/cpu.uclamp.min 100
     write /dev/cpuctl/system/cpu.uclamp.latency_sensitive 1
@@ -36,6 +42,10 @@ on post-fs-data
     write /dev/cpuctl/background/cpu.uclamp.latency_sensitive 1
 
 on property:sys.boot_completed=1
+    # zram writeback
+    setprop persist.sys.zram_enabled 1
+    swapon_all /vendor/etc/fstab.enableswap
+
     write /proc/sys/kernel/sched_migration_cost_ns 200000
 
     # restore boot perf. tune
