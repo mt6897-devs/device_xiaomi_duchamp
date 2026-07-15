@@ -1,6 +1,14 @@
 # Audio
 genfscon sysfs /class/smartpa/re25_calib                                                                 u:object_r:sysfs_chip_vendor:s0
 
+# Battery info
+genfscon sysfs /devices/platform/11b72000.i2c/i2c-10/10-0055/power_supply                                u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11b72000.i2c/i2c-10/10-0055/verify_digest                               u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11b72000.i2c/i2c-10/10-006f/power_supply                                u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11f01000.i2c/i2c-5/5-0034/11f01000.i2c:mt6375@34:chg/power_supply       u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11f01000.i2c/i2c-5/5-0034/11f01000.i2c:mt6375@34:mtk-gauge/power_supply u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/pd-adapter/Charging_Adapter                                             u:object_r:sysfs_batteryinfo:s0
+
 # Display
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0                                       u:object_r:vendor_sysfs_displayfeature:s0
 
