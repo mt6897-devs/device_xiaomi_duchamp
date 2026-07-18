@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # A/B
-ifeq ($(WITH_GMS),true)
+ifneq ($(WITH_GMS),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE ?= ext4
 else
