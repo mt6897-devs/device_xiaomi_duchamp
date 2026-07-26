@@ -10,7 +10,7 @@ dpm.img;AB
 gpueb.img;AB
 gz.img;AB
 logo.img;AB
-lk.img;AB
+lk.img;AB|690f3871a613545d40a78ce6f0e237252761bcde
 mcf_ota.img;AB
 mcupm.img;AB
 modem.img;AB
