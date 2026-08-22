@@ -1,8 +1,5 @@
 # Unpinned blobs from duchamp_global-user 16 BP2A.250605.031.A3 OS3.0.6.0.WNLMIXM release-keys
 
-# AEE
-vendor/lib64/libaedv.so
-
 # Audio
 vendor/firmware/aw882xx_acf.bin
 vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so
@@ -1366,9 +1363,6 @@ vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
 vendor/lib64/android.hardware.security.keymint-V3-ndk.so:vendor/lib64/android.hardware.security.keymint-V3-ndk-v34.so;FIX_SONAME
-
-# Ladder
-vendor/lib64/libladder.so
 
 # Media
 system/lib64/libstagefright_bufferqueue_helper.so:vendor/lib64/libstagefright_bufferqueue_helper-v36.so;FIX_SONAME
