@@ -1777,9 +1777,7 @@ vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp_1.bin
 
 # Wifi
-vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc
-vendor/etc/init/wlan_assistant.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
