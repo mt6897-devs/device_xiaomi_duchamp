@@ -250,11 +250,16 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Power
+$(call soong_config_set_bool,libmtkperf_client,powerhalwrap_aidl,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libmtkperf_client_vendor \
     libperfctl_vendor \
     libpowerhalwrap_vendor
+
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower-service.stub
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
