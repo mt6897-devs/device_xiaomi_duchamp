@@ -9,6 +9,3 @@ vendor_public_prop(vendor_fingerprint_prop)
 
 # Mtdservice
 vendor_public_prop(vendor_payment_security_prop)
-
-# Sensors
-vendor_internal_prop(vendor_dynamic_sensor_prop)
