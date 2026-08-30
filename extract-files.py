@@ -44,7 +44,7 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'BTAudiosuspend', b'A2dpSuspended\x00'),
 
     'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so': blob_fixup()
-        .replace_needed('android.hardware.soundtrigger3-V1-ndk.so', 'android.hardware.soundtrigger3-V3-ndk.so'),
+        .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk-v34.so'),
 
     'vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so': blob_fixup()
         .replace_needed('android.hardware.audio.common-V1-ndk.so', 'android.hardware.audio.common-V2-ndk.so'),
