@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.service.mediatek \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.bluetooth.audio-impl
 
 PRODUCT_PACKAGES += \
     audio.primary.default \
