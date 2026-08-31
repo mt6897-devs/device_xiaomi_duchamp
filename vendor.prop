@@ -285,6 +285,9 @@ ro.vendor.vt_hevc_support=1
 
 # Sensors
 ro.vendor.mtk.sensor.support=yes
+ro.vendor.sensors.xiaomi.double_tap=true
+ro.vendor.sensors.xiaomi.single_tap=true
+ro.vendor.sensors.xiaomi.udfps=true
 
 # TEE
 ro.vendor.mtk_mitee_support=1

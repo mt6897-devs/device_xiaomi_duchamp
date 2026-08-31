@@ -281,7 +281,11 @@ PRODUCT_PACKAGES += \
    android.hardware.sensors-service.xiaomi-multihal
 
 PRODUCT_PACKAGES += \
-   sensors.dynamic_sensor_hal
+   sensors.dynamic_sensor_hal \
+   sensors.xiaomi.v2
+
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_ODM)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
    android.hardware.sensor.dynamic.head_tracker.prebuilt.xml \
