@@ -24,6 +24,11 @@ vendor.audio.usb.iems.period_us=5000
 vendor.audio.usb.super_hifi=true
 vendor.audiohal.telephonytx.type=2
 
+# Bluetooth
+persist.bluetooth.a2dp_offload.coex_buf_count=3
+persist.bluetooth.a2dp_offload.disabled=false
+ro.bluetooth.a2dp_offload.supported=true
+
 # Camera
 persist.vendor.camera3.pipeline.bufnum.base.imgo=6
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
