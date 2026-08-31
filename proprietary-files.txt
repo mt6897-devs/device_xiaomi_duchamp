@@ -1372,7 +1372,8 @@ vendor/etc/init/android.hardware.security.keymint.mitee@3.0-service.rc
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
-vendor/lib64/android.hardware.security.keymint-V3-ndk.so:vendor/lib64/android.hardware.security.keymint-V3-ndk-v34.so;FIX_SONAME
+vendor/lib64/libkeymint.so:vendor/lib64/libkeymint_V3.so;FIX_SONAME
+vendor/lib64/libkeymint_remote_prov_support.so:vendor/lib64/libkeymint_remote_prov_support_V3.so;FIX_SONAME
 
 # Media
 system/lib64/libstagefright_bufferqueue_helper.so:vendor/lib64/libstagefright_bufferqueue_helper-v36.so;FIX_SONAME

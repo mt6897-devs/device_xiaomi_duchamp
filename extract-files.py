@@ -117,9 +117,21 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/mt6897/libmmlpqImpl.so'): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 
-    ('odm/lib64/libmt_mitee.so',
-     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee'): blob_fixup()
-        .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v34.so'),
+    'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
+        .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_keymint_utils_V3.so')
+        .replace_needed('libkeymint.so', 'libkeymint_V3.so'),
+
+    'vendor/lib64/libkeymint_V3.so': blob_fixup()
+        .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_keymint_utils_V3.so'),
+
+    'vendor/lib64/libkeymint_remote_prov_support_V3.so': blob_fixup()
+        .replace_needed('libbase.so', 'libbase-v34.so'),
+
+    'odm/lib64/libmt_mitee.so': blob_fixup()
+        .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_keymint_utils_V3.so')
+        .replace_needed('libkeymint.so', 'libkeymint_V3.so')
+        .replace_needed('libkeymint_remote_prov_support.so', 'libkeymint_remote_prov_support_V3.so')
+        .replace_needed('libkeymint_support.so', 'libkeymint_support_V3.so'),
 
     'vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b': blob_fixup()
         .replace_needed('libcodec2_hidl@1.0.so', 'libcodec2_hidl@1.0-v34.so')
