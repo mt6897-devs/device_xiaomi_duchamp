@@ -1665,11 +1665,8 @@ system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc
 system_ext/etc/sysconfig/com.mediatek.ims.config.xml
 system_ext/framework/mediatek-ims-base.jar;BOOT_JAR
-system_ext/framework/mediatek-ims-common.jar;BOOT_JAR
 system_ext/framework/mediatek-ims-extension-plugin.jar
-system_ext/framework/mediatek-telecom-common.jar;BOOT_JAR
 system_ext/framework/mediatek-telephony-base.jar;BOOT_JAR
-system_ext/framework/mediatek-telephony-common.jar;BOOT_JAR
 system_ext/lib64/libcomutils.so
 system_ext/lib64/libimsma.so
 system_ext/lib64/libimsma_adapt.so
