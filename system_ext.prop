@@ -2,6 +2,10 @@
 ro.audio.flinger_standbytime_ms=2000
 ro.audio.usb.period_us=16000
 
+# Bluetooth
+persist.bluetooth.a2dp_offload.coex_buf_count=3
+persist.bluetooth.a2dp_offload.disabled=false
+
 # Radio
 ro.fota.oem=Xiaomi
 ro.mi.os.soc.vendor=mtk
