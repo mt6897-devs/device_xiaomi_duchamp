@@ -117,6 +117,9 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/mt6897/libmmlpqImpl.so'): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 
+    'vendor/bin/mnld' : blob_fixup()
+        .replace_needed('libmnl.so', 'libmnl_mtk.so'),
+
     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee': blob_fixup()
         .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_keymint_utils_V3.so')
         .replace_needed('libkeymint.so', 'libkeymint_V3.so'),
