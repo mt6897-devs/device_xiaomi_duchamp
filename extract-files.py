@@ -180,6 +180,7 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libcodec2_vpp_rs_plugin.so'): blob_fixup()
         .replace_needed('libcodec2_soft_common.so', 'libcodec2_soft_common-v34.so')
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk-v34.so')
+        .replace_needed('libformatter.so', 'libformatter_mtk.so')
         .replace_needed('libsfplugin_ccodec_utils.so', 'libsfplugin_ccodec_utils-v34.so')
         .replace_needed('libui.so', 'libui-v34.so'),
 

@@ -1397,7 +1397,7 @@ vendor/lib64/libcodec2_vpp_fa_plugin.so
 vendor/lib64/libcodec2_vpp_mi_plugin.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
-vendor/lib64/libformatter.so
+vendor/lib64/libformatter.so:vendor/lib64/libformatter_mtk.so;FIX_SONAME
 vendor/lib64/libsfplugin_ccodec_utils.so:vendor/lib64/libsfplugin_ccodec_utils-v34.so;FIX_SONAME
 
 # Mfido
