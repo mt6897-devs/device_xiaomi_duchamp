@@ -125,10 +125,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/configs/linker.config.json
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
