@@ -21,6 +21,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Verison
 ro.mi.os.version.code=3
-ro.mi.os.version.incremental=OS3.0.6.0.WNLMIXM
+ro.mi.os.version.incremental=OS3.0.9.0.WNLMIXM
 ro.miui.build.region=global
 ro.product.marketname=POCO X6 Pro 5G

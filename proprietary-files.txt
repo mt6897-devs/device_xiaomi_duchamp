@@ -1,4 +1,4 @@
-# Unpinned blobs from duchamp_global-user 16 BP2A.250605.031.A3 OS3.0.6.0.WNLMIXM release-keys
+# Unpinned blobs from duchamp_global-user 16 BP2A.250605.031.A3 OS3.0.9.0.WNLMIXM release-keys
 
 # Audio
 vendor/firmware/aw882xx_acf.bin
