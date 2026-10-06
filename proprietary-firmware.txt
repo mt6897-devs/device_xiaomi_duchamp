@@ -17,7 +17,7 @@ modem.img;AB
 mvpu_algo.img;AB
 pi_img.img;AB
 preloader_raw.img;AB
-scp.img;AB
+scp.img;AB|b601a1d68e83f88c1ff324c3ef815fcfbc43ea66
 spmfw.img;AB
 sspm.img;AB
 tee.img;AB
