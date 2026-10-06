@@ -58,6 +58,11 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">5</integer>
 
+    <!-- Whether or not to skip the initial brightness ramps when the display transitions to
+         STATE_ON. Setting this to true will skip the brightness ramp to the last stored active
+         brightness value and will repeat for the following ramp if autobrightness is enabled. -->
+    <bool name="config_skipScreenOnBrightnessRamp">true</bool>
+
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
          when adapting to brighter or darker environments.  This parameter controls how quickly
