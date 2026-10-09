@@ -208,6 +208,9 @@ blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
         .replace_needed('libui.so', 'libui-v34.so'),
+
+    'vendor/etc/init/tee-supplicant.rc': blob_fixup()
+        .regex_replace('chown system system /dev/ufs-bsg0', 'chown root system /dev/ufs-bsg0'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
