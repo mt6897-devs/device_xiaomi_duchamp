@@ -7,5 +7,5 @@
           package="com.android.carrierconfig.overlay.duchamp">
     <overlay android:targetPackage="com.android.carrierconfig"
              android:isStatic="true"
-             android:priority="100" />
+             android:priority="200" />
 </manifest>
