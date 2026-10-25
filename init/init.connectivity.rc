@@ -20,9 +20,3 @@ service mnld /vendor/bin/mnld
     group gps inet misc sdcard_rw sdcard_r media_rw system radio wakelock
     socket mnld stream 660 gps system
 
-# conninfra
-service conninfra_loader /vendor/bin/conninfra_loader
-    class core
-    user system
-    group system
-    oneshot

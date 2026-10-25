@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     chipinfo
 
+# Connectivity
+PRODUCT_PACKAGES += \
+    conninfra_loader
+
 # ConsumerIr
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
